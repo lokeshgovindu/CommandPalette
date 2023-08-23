@@ -1,4 +1,4 @@
 .vs
-bin
+bin/
 *.csproj.user
-obj
+obj/
