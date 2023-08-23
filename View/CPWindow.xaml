@@ -8,8 +8,6 @@
         Foreground="{DynamicResource VsBrush.WindowText}"
         mc:Ignorable="d"
         SnapsToDevicePixels="True"
-        WindowStyle="None"
-        ResizeMode="NoResize"
         ShowInTaskbar="False"
         IsManipulationEnabled="False"
         Loaded="Window_Loaded"
@@ -133,6 +131,14 @@
 
         <Style x:Key="{x:Type TextBox}" TargetType="{x:Type TextBoxBase}">
             <Setter Property="SnapsToDevicePixels" Value="True"/>
+            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
+            <Setter Property="MinHeight" Value="21"/>
+            <Setter Property="AllowDrop" Value="true"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!--<Style x:Key="{x:Type TextBox}" TargetType="{x:Type TextBoxBase}">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
             <Setter Property="OverridesDefaultStyle" Value="True"/>
             <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
             <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
@@ -153,7 +159,7 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
-        </Style>
+        </Style>-->
 
     </Window.Resources>
 

@@ -4,10 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Data;
 
 namespace CommandPalette.ViewModel
@@ -22,13 +24,15 @@ namespace CommandPalette.ViewModel
         private ObservableCollection<VSCommand> _itemsSource;
         private ICollectionView _commandsView;
         private Regex _searchPattern;
+        private Action _postRefresh;
 
         #endregion
 
 
-        public CommandsViewModel(EnvDTE80.DTE2 dte)
+        public CommandsViewModel(EnvDTE80.DTE2 dte, Action postRefresh)
         {
             _applicationObject = dte;
+            _postRefresh = postRefresh;
         }
 
         /// <summary>
@@ -60,6 +64,7 @@ namespace CommandPalette.ViewModel
                 _searchPattern = new Regex(value, RegexOptions.IgnoreCase);
                 SetPropertyValue<string>(() => SearchingString, ref _searchingString, value);
                 _commandsView.Refresh();
+                _postRefresh();
             }
         }
 
@@ -98,6 +103,7 @@ namespace CommandPalette.ViewModel
                     LoadCommands();
                     _commandsView = CollectionViewSource.GetDefaultView(_itemsSource);
                     _commandsView.Filter = CommandFilter;
+                    _postRefresh();
                 }
                 return _itemsSource;
             }

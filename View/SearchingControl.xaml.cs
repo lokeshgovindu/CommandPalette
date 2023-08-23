@@ -31,7 +31,7 @@ namespace CommandPalette
             ThreadHelper.ThrowIfNotOnUIThread();
             InitializeComponent();
             DTE2 dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) as DTE2;
-            _dataContext = new ViewModel.CommandsViewModel(dte);
+            _dataContext = new ViewModel.CommandsViewModel(dte, null);
             this.DataContext = _dataContext;
         }
 

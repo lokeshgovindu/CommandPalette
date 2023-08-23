@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="CommandPalette.9b640180-2285-4fc8-9e27-176bfc537539" Version="2023.1" Language="en-US" Publisher="Lokesh Govindu" />
+        <Identity Id="CommandPalette.9b640180-2285-4fc8-9e27-176bfc537539" Version="2023.1.0.2" Language="en-US" Publisher="Lokesh Govindu" />
         <DisplayName>CommandPalette</DisplayName>
         <Description xml:space="preserve">Command Palette for VisualStudio IDE.</Description>
         <Icon>Resources\Icon.png</Icon>
