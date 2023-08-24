@@ -1,4 +1,5 @@
 ﻿using EnvDTE;
+using Microsoft.VisualStudio;
 using SearchingKeyboardShortcut;
 using System;
 using System.Collections.Generic;
@@ -120,6 +121,8 @@ namespace CommandPalette.ViewModel
             List<EnvDTE.Command> commands = GetCommands();
             foreach (EnvDTE.Command command in commands.OrderBy(c => c.Name))
             {
+                if (!IsAvailable(command)) continue;
+
                 var bindings = command.Bindings as object[];
 
                 if (bindings != null && bindings.Length > 0)
@@ -165,6 +168,27 @@ namespace CommandPalette.ViewModel
             var result = bindings.Select(binding => binding.ToString()).Distinct();
 
             return result;
+        }
+
+        private bool IsAvailable(EnvDTE.Command command)
+        {
+            try
+            {
+                return command.IsAvailable;
+            }
+            catch (Exception e)
+            {
+                if (ErrorHandler.IsCriticalException(e))
+                {
+                    throw;
+                }
+                else
+                {
+                    Debug.WriteLine("Cannot check availability of command: {0}", e);
+                }
+            }
+
+            return false;
         }
     }
 }
