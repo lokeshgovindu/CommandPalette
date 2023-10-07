@@ -29,7 +29,6 @@ namespace CommandPalette.ViewModel
 
         #endregion
 
-
         public CommandsViewModel(EnvDTE80.DTE2 dte, Action postRefresh)
         {
             _applicationObject = dte;
@@ -62,7 +61,7 @@ namespace CommandPalette.ViewModel
             }
             set
             {
-                _searchPattern = new Regex(value, RegexOptions.IgnoreCase);
+                _searchPattern = new Regex(Regex.Replace(value, @"\s+", @".*"), RegexOptions.IgnoreCase);
                 SetPropertyValue<string>(() => SearchingString, ref _searchingString, value);
                 _commandsView.Refresh();
                 _postRefresh();
@@ -74,6 +73,7 @@ namespace CommandPalette.ViewModel
             bool ret = true;
             var command = item as VSCommand;
 
+            
             if (!string.IsNullOrWhiteSpace(this.SearchingString))
             {
                 if (this.SearchByShortcut)

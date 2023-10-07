@@ -28,6 +28,7 @@ namespace CommandPalette.View
         {
             ThreadHelper.ThrowIfNotOnUIThread();
             InitializeComponent();
+
             _dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) as DTE2;
             _dataContext = new ViewModel.CommandsViewModel(_dte, PostRefresh);
             this.DataContext = _dataContext;

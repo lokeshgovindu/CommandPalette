@@ -12,12 +12,10 @@
         IsManipulationEnabled="False"
         Loaded="Window_Loaded"
         Title="Command Palette"
-        Height="450" Width="630"
+        Height="480" Width="690"
         WindowStartupLocation="CenterOwner"
         Name="MyCPWindow" DataContextChanged="CPWindow_DataContextChanged">
-
-    <!--<Border BorderThickness="1" BorderBrush="{DynamicResource MainWindowBorderBrush}"/>-->
-
+    
     <Window.Resources>
 
         <SolidColorBrush x:Key="NormalBrush" Color="#FFF"/>
@@ -110,7 +108,7 @@
         </Style>
 
         <Style TargetType="DataGridRow">
-            <Setter Property="Height" Value="18"/>
+            <!--<Setter Property="Height" Value="18"/>-->
             <Style.Triggers>
                 <Trigger Property="IsSelected" Value="True">
                     <Setter Property="Background" Value="#3498db"/>
@@ -120,12 +118,13 @@
         </Style>
         
         <Style TargetType="{x:Type DataGridColumnHeader}">
-            <Setter Property="Height" Value="21"/>
+            <Setter Property="Height" Value="24"/>
             <Setter Property="BorderThickness" Value="0,0,1,1"/>
             <Setter Property="BorderBrush" Value="{DynamicResource VsBrush.CommandBarMenuSeparator}"/>
             <Setter Property="Background" Value="{DynamicResource VsBrush.Window}"/>
             <Setter Property="Foreground" Value="{DynamicResource VsBrush.WindowText}"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Padding" Value="2"/>
         </Style>
 
@@ -137,30 +136,12 @@
             <Setter Property="VerticalContentAlignment" Value="Center"/>
         </Style>
 
-        <!--<Style x:Key="{x:Type TextBox}" TargetType="{x:Type TextBoxBase}">
-            <Setter Property="SnapsToDevicePixels" Value="True"/>
-            <Setter Property="OverridesDefaultStyle" Value="True"/>
-            <Setter Property="KeyboardNavigation.TabNavigation" Value="None"/>
-            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
-            <Setter Property="MinWidth" Value="120"/>
-            <Setter Property="MinHeight" Value="21"/>
-            <Setter Property="AllowDrop" Value="true"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type TextBoxBase}">
-                        <Border Name="Border"
-                                CornerRadius="0"
-                                Padding="2"
-                                Background="{DynamicResource VsBrush.SearchBoxBackground}"
-                                BorderBrush="{DynamicResource VsBrush.CommandBarMenuSeparator}"
-                                BorderThickness="1">
-                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>-->
-
+        <!-- Define a custom style for the StatusBar -->
+        <Style x:Key="{x:Type StatusBar}" TargetType="{x:Type StatusBar}">
+            <Setter Property="Background" Value="#FF006CBE"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
     </Window.Resources>
 
     <Grid>
@@ -177,15 +158,16 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <TextBox Grid.Column="1"
-                     Margin="1,1,1,1"
+                     Margin="10,10,10,2"
                      Background="{DynamicResource VsBrush.SearchBoxBackground}"
                      BorderBrush="{DynamicResource VsBrush.ActiveBorder}"
                      Text="{Binding Path=SearchingString, UpdateSourceTrigger=PropertyChanged}"
                      x:Name="txtSearch"
                      PreviewKeyDown="txtSearch_PreviewKeyDown"/>
         </Grid>
-        <DataGrid Margin="1"
+        <DataGrid x:Name="dataGrid"
                   Grid.Row="2"
+                  Margin="10,2,10,10"
                   ItemsSource="{Binding Path=ItemsSource}"
                   AutoGenerateColumns="False"
                   IsReadOnly="True"
@@ -193,7 +175,6 @@
                   BorderThickness="1"
                   BorderBrush="{DynamicResource VsBrush.CommandBarMenuSeparator}"
                   RowHeaderWidth="0"
-                  x:Name="dataGrid"
                   HorizontalGridLinesBrush="{DynamicResource ResourceKey=VsBrush.GridLine}"
                   VerticalGridLinesBrush="{DynamicResource ResourceKey=VsBrush.GridLine}"
                   HeadersVisibility="Column"
@@ -201,14 +182,17 @@
                   RowBackground="{DynamicResource VsBrush.CommandBarHover}"
                   Background="{DynamicResource VsBrush.Window}"
                   SelectionMode="Single"
+                  CanUserSortColumns="True"
                   CanUserResizeRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn ClipboardContentBinding="{x:Null}" Header="Command" Binding="{Binding Path=Name}" Width="*"/>
-                <DataGridTextColumn ClipboardContentBinding="{x:Null}" Header="Shortcut" MinWidth="100" Binding="{Binding Path=Shortcut}"/>
+                <DataGridTextColumn ClipboardContentBinding="{x:Null}" Header="Shortcut" MinWidth="150" Binding="{Binding Path=Shortcut}"/>
             </DataGrid.Columns>
         </DataGrid>
 
-        <Grid Grid.Row="3">
+        <!--FontSize="{DynamicResource VsFont.EnvironmentFontSize}"-->
+        
+        <!--<Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
@@ -216,8 +200,20 @@
             <Label Content="{Binding ElementName=dataGrid, Path=SelectedItem}"
                    Foreground="{DynamicResource VsBrush.WindowText}"
                    Height="21"
-                   Padding="2,0,0,0"
+                   Padding="10,0,0,0"
                    VerticalContentAlignment="Stretch"/>
+        </Grid>-->
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <StatusBar VerticalAlignment="Bottom">
+                <StatusBarItem>
+                    <TextBlock Text="{Binding ElementName=dataGrid, Path=SelectedItem}"/>
+                </StatusBarItem>
+            </StatusBar>
         </Grid>
     </Grid>
 

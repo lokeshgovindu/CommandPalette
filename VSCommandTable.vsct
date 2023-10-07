@@ -16,27 +16,27 @@
 		<!--This section defines the elements the user can interact with, like a menu command or a button
         or combo box in a toolbar. -->
 		<Buttons>
-			<Button guid="CommandPalette" id="MyCommand" priority="0x0100" type="Button">
+			<Button guid="CommandPalette" id="RunCmd" priority="0x0100" type="Button">
 				<Parent guid="CommandPalette" id="MyMenuGroup" />
 				<Icon guid="ImageCatalogGuid" id="QuickFind" />
 				<CommandFlag>IconIsMoniker</CommandFlag>
 				<Strings>
 					<ButtonText>Command Palette</ButtonText>
-					<LocCanonicalName>.CommandPalette.MyCommand</LocCanonicalName>
+					<LocCanonicalName>.CommandPalette.RunCmd</LocCanonicalName>
 				</Strings>
 			</Button>
 		</Buttons>
 	</Commands>
 
 	<KeyBindings>
-		<KeyBinding guid="CommandPalette" id="MyCommand"
+		<KeyBinding guid="CommandPalette" id="RunCmd"
 		mod1="Control Shift" key1="P" editor="guidVSStd97" />
 	</KeyBindings>
 
 	<Symbols>
 		<GuidSymbol name="CommandPalette" value="{bd4a52c0-6934-4d82-b560-b3b775c45a0c}">
 			<IDSymbol name="MyMenuGroup" value="0x0001" />
-			<IDSymbol name="MyCommand" value="0x0100" />
+			<IDSymbol name="RunCmd" value="0x0100" />
 		</GuidSymbol>
 	</Symbols>
 </CommandTable>

@@ -4,6 +4,7 @@ global using System;
 global using Task = System.Threading.Tasks.Task;
 using CommandPalette.View;
 using EnvDTE80;
+using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell.Interop;
 using System.ComponentModel.Design;
 using System.Runtime.InteropServices;
@@ -17,26 +18,33 @@ namespace CommandPalette
     [Guid(PackageGuids.CommandPaletteString)]
     public sealed class CommandPalettePackage : ToolkitPackage
     {
-        DTE2 _dte;
+        private static DTE2 _dte;
+        private static IAsyncServiceProvider _serviceProvider;
+
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
             await JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             await this.RegisterCommandsAsync();
 
-            _dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) as DTE2;
+            _serviceProvider = this;
+            _dte = (DTE2)ServiceProvider.GlobalProvider.GetService(typeof(SDTE));
+            if (_dte == null)
+            {
+                throw new Exception("Not able to retrieve DTE2");
+            }
 
             // Add our command handlers for menu (commands must exist in the .vsct file)
-            OleMenuCommandService mcs = await GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
-            if (null != mcs)
-            {
-                // Create the command for the menu item.
-                CommandID menuCommandID = new CommandID(PackageGuids.CommandPalette, PackageIds.MyCommand);
-                MenuCommand menuItem = new MenuCommand(CommandPaletteClick, menuCommandID);
-                mcs.AddCommand(menuItem);
-            }
+            //OleMenuCommandService mcs = await GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
+            //if (null != mcs)
+            //{
+            //    // Create the command for the menu item.
+            //    CommandID menuCommandID = new CommandID(PackageGuids.CommandPalette, PackageIds.RunCmd);
+            //    MenuCommand menuItem = new MenuCommand(CommandPaletteClick, menuCommandID);
+            //    mcs.AddCommand(menuItem);
+            //}
         }
 
-        private async void CommandPaletteClick(object sender, EventArgs e)
+        private void CommandPaletteClick(object sender, EventArgs e)
         {
             CPWindow commandPalette = new CPWindow();
             if ((bool)commandPalette.ShowDialog())
@@ -44,6 +52,10 @@ namespace CommandPalette
                 //await VS.MessageBox.ShowAsync(commandPalette.SelectedVSCommand.ToString());
                 _dte.ExecuteCommand(commandPalette.SelectedVSCommand.Name);
             }
+        }
+        internal static DTE2 GetDTE()
+        {
+            return _dte;
         }
     }
 }
