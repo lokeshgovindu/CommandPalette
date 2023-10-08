@@ -30,11 +30,9 @@ namespace CommandPalette.ViewModel
 
         #endregion
 
-        public CommandsViewModel(EnvDTE80.DTE2 dte, string searchingString, Action postRefresh)
+        public CommandsViewModel(EnvDTE80.DTE2 dte, Action postRefresh)
         {
             _applicationObject = dte;
-            _searchingString   = searchingString;
-            _searchPattern = new Regex(Regex.Replace(_searchingString, @"\s+", @".*"), RegexOptions.IgnoreCase);
             _postRefresh = postRefresh;
         }
 

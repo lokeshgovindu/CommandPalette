@@ -33,20 +33,22 @@ namespace CommandPalette.View
         {
             InitializeComponent();
 
-            _settings = CPSettings.Load();
-
 #if __CommandPalette
             ThreadHelper.ThrowIfNotOnUIThread();
             _dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) as DTE2;
-            _dataContext = new ViewModel.CommandsViewModel(_dte, _settings.PreviousCommand, PostRefresh);
+            _dataContext = new ViewModel.CommandsViewModel(_dte, PostRefresh);
             this.DataContext = _dataContext;
+
+            this._settings = CommandPalettePackage.GetSettings();
 
             // To avoid showing in Alt+Tab
             this.Owner = Application.Current.MainWindow;
 #else
             this.Background = System.Windows.Media.Brushes.White;
-            _dataContext = new ViewModel.CommandsViewModel(_dte, _settings.PreviousCommand, PostRefresh);
+            _dataContext = new ViewModel.CommandsViewModel(_dte, PostRefresh);
             this.DataContext = _dataContext;
+
+            this._settings = Options.Settings.Load();
 #endif
 
             // Remove minimize and maximize icons in title bar
@@ -54,7 +56,8 @@ namespace CommandPalette.View
             this.PreviewKeyDown += CPWindow_PreviewKeyDown;
             this.MouseDoubleClick += CPWindow_MouseDoubleClick;
 
-            //_dataContext.SearchingString = _settings.PreviousCommand;
+            // Set the previous command
+            _dataContext.SearchingString = _settings.PreviousCommand;
         }
 
         private void UpdateWindowTitle()
@@ -77,7 +80,11 @@ namespace CommandPalette.View
             Debug.WriteLine(dataGrid.SelectedItem.ToString());
             SelectedVSCommand = dataGrid.SelectedItem as VSCommand;
             _settings.PreviousCommand = _dataContext.SearchingString;
+
+#if !__CommandPalette
             _settings.Save();
+#endif
+
             this.DialogResult = true;
             this.Close();
         }
@@ -225,8 +232,11 @@ namespace CommandPalette.View
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             FocusSearchingBox();
-            dataGrid.SelectedIndex = 0;
-            dataGrid.ScrollIntoView(dataGrid.SelectedItem);
+            if (dataGrid.Items.Count > 0)
+            {
+                dataGrid.SelectedIndex = 0;
+                dataGrid.ScrollIntoView(dataGrid.SelectedItem);
+            }
             UpdateWindowTitle();
         }
 

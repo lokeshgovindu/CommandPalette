@@ -13,16 +13,8 @@ namespace CommandPalette.Options
     internal class Settings
     {
         [DataMember(Order = 0)]
-        private string _previousCommand = "";
+        public string PreviousCommand { get; set; } = string.Empty;
 
-        public string PreviousCommand
-        {
-            get { return _previousCommand; }
-            set {
-                if (value == null) value = "";
-                _previousCommand = value;
-            }
-        }
         private static readonly string ProgramDataFolder =
             Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "CommandPalette");
 
