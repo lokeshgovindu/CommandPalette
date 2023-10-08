@@ -18,8 +18,9 @@ namespace CommandPalette
     [Guid(PackageGuids.CommandPaletteString)]
     public sealed class CommandPalettePackage : ToolkitPackage
     {
-        private static DTE2 _dte;
+        private static DTE2                  _dte;
         private static IAsyncServiceProvider _serviceProvider;
+        private static Options.Settings      _settings;
 
         protected override async Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)
         {
@@ -27,11 +28,15 @@ namespace CommandPalette
             await this.RegisterCommandsAsync();
 
             _serviceProvider = this;
-            _dte = (DTE2)ServiceProvider.GlobalProvider.GetService(typeof(SDTE));
+            var dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) ?? throw new Exception("Not able to retrieve SDTE");
+
+            _dte = (DTE2)dte;
             if (_dte == null)
             {
                 throw new Exception("Not able to retrieve DTE2");
             }
+
+            _settings = Options.Settings.Load();
 
             // Add our command handlers for menu (commands must exist in the .vsct file)
             //OleMenuCommandService mcs = await GetServiceAsync(typeof(IMenuCommandService)) as OleMenuCommandService;
@@ -44,6 +49,14 @@ namespace CommandPalette
             //}
         }
 
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _settings.Save();
+            }
+        }
+
         private void CommandPaletteClick(object sender, EventArgs e)
         {
             CPWindow commandPalette = new CPWindow();
@@ -53,9 +66,15 @@ namespace CommandPalette
                 _dte.ExecuteCommand(commandPalette.SelectedVSCommand.Name);
             }
         }
+
         internal static DTE2 GetDTE()
         {
             return _dte;
+        }
+
+        internal static Options.Settings GetSettings()
+        {
+            return _settings ?? (_settings = Options.Settings.Load());
         }
     }
 }

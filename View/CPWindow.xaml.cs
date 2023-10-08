@@ -1,4 +1,6 @@
-﻿using EnvDTE80;
+﻿using CommandPalette;
+using CommandPalette.ViewModel;
+using EnvDTE80;
 using Microsoft.VisualStudio.Shell.Interop;
 using SearchingKeyboardShortcut;
 using System.ComponentModel;
@@ -10,6 +12,7 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Input;
 using System.Windows.Media;
+using CPSettings = CommandPalette.Options.Settings;
 
 namespace CommandPalette.View
 {
@@ -18,28 +21,43 @@ namespace CommandPalette.View
     /// </summary>
     public partial class CPWindow : Window
     {
-        private HotKeyEditorHelper _hotKeyEditor = new HotKeyEditorHelper();
-        private ViewModel.CommandsViewModel _dataContext;
-        private DTE2 _dte;
-        public VSCommand SelectedVSCommand { get; private set; }
-        private const string _applicationName = "Command Palette";
+        private HotKeyEditorHelper  _hotKeyEditor = new HotKeyEditorHelper();
+        private CommandsViewModel   _dataContext;
+        private DTE2                _dte;
+        private const string        _applicationName = "Command Palette";
+        private Options.Settings    _settings;
+
+        public  VSCommand           SelectedVSCommand { get; private set; }
 
         public CPWindow()
         {
-            ThreadHelper.ThrowIfNotOnUIThread();
             InitializeComponent();
 
+#if __CommandPalette
+            ThreadHelper.ThrowIfNotOnUIThread();
             _dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE)) as DTE2;
             _dataContext = new ViewModel.CommandsViewModel(_dte, PostRefresh);
             this.DataContext = _dataContext;
 
+            this._settings = CommandPalettePackage.GetSettings();
+
             // To avoid showing in Alt+Tab
             this.Owner = Application.Current.MainWindow;
+#else
+            this.Background = System.Windows.Media.Brushes.White;
+            _dataContext = new ViewModel.CommandsViewModel(_dte, PostRefresh);
+            this.DataContext = _dataContext;
+
+            this._settings = Options.Settings.Load();
+#endif
 
             // Remove minimize and maximize icons in title bar
             this.SourceInitialized += (x, y) => { this.HideMinimizeAndMaximizeButtons(); };
             this.PreviewKeyDown += CPWindow_PreviewKeyDown;
             this.MouseDoubleClick += CPWindow_MouseDoubleClick;
+
+            // Set the previous command
+            _dataContext.SearchingString = _settings.PreviousCommand;
         }
 
         private void UpdateWindowTitle()
@@ -61,6 +79,12 @@ namespace CommandPalette.View
         {
             Debug.WriteLine(dataGrid.SelectedItem.ToString());
             SelectedVSCommand = dataGrid.SelectedItem as VSCommand;
+            _settings.PreviousCommand = _dataContext.SearchingString;
+
+#if !__CommandPalette
+            _settings.Save();
+#endif
+
             this.DialogResult = true;
             this.Close();
         }
@@ -98,6 +122,8 @@ namespace CommandPalette.View
         public void FocusSearchingBox()
         {
             txtSearch.Focus();
+            txtSearch.SelectionStart = 0;
+            txtSearch.SelectionLength = _dataContext.SearchingString.Length;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -206,8 +232,11 @@ namespace CommandPalette.View
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             FocusSearchingBox();
-            dataGrid.SelectedIndex = 0;
-            dataGrid.ScrollIntoView(dataGrid.SelectedItem);
+            if (dataGrid.Items.Count > 0)
+            {
+                dataGrid.SelectedIndex = 0;
+                dataGrid.ScrollIntoView(dataGrid.SelectedItem);
+            }
             UpdateWindowTitle();
         }
 

@@ -137,6 +137,7 @@ namespace CommandPalette.ViewModel
 
         private List<EnvDTE.Command> GetCommands()
         {
+            ThreadHelper.ThrowIfNotOnUIThread();
             List<EnvDTE.Command> commands = new List<EnvDTE.Command>();
 
             foreach (EnvDTE.Command command in _applicationObject.Commands)

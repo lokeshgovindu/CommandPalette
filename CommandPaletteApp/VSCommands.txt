@@ -1,0 +1,4157 @@
+Format.AlignBottoms | VC Dialog Editor::Ctrl+Shift+Down Arrow
+Format.AlignMiddles | VC Dialog Editor::F9
+Format.AlignLefts | VC Dialog Editor::Ctrl+Shift+Left Arrow
+Format.AlignRights | VC Dialog Editor::Ctrl+Shift+Right Arrow
+Format.AligntoGrid
+Format.AlignTops | VC Dialog Editor::Ctrl+Shift+Up Arrow
+Format.AlignCenters | VC Dialog Editor::Shift+F9
+Format.BringtoFront
+Format.CenterHorizontally
+Format.CenterVertically
+OtherContextMenus.MenuDesigner.ViewCode
+Edit.Copy | Global::Ctrl+C
+Edit.Copy | Global::Ctrl+Ins
+Edit.Cut | Global::Ctrl+X
+Edit.Cut | Global::Shift+Del
+Edit.Delete | Dependency Validation Diagram::Shift+Del
+Edit.Delete | Global::Del
+Edit.Delete | Team Explorer::Del
+Format.RemoveHorizontalSpacing
+Format.DecreaseHorizontalSpacing
+Format.IncreaseHorizontalSpacing
+Format.MakeHorizontalSpacingEqual
+Edit.Paste | Global::Ctrl+V
+Edit.Paste | Global::Shift+Ins
+File.Print | Global::Ctrl+P
+Edit.Redo | Global::Ctrl+Y
+Edit.Redo | Global::Ctrl+Shift+Z
+Edit.Redo | Global::Shift+Alt+Bkspce
+Edit.SelectAll | Global::Ctrl+A
+Format.SendtoBack
+Format.MakeSameSize
+Format.MakeSameHeight
+Format.MakeSameWidth
+Format.SizetoGrid
+View.TabOrder
+View.Toolbox | Global::Ctrl+Alt+X
+Edit.Undo | Global::Ctrl+Z
+Edit.Undo | Global::Alt+Bkspce
+Format.RemoveVerticalSpacing
+Format.DecreaseVerticalSpacing
+Format.IncreaseVerticalSpacing
+Format.MakeVerticalSpacingEqual
+Format.BackgroundColor
+Format.Bold | HTML Editor Design View::Ctrl+B
+Format.ForegroundColor
+Format.Italic | HTML Editor Design View::Ctrl+I
+Format.JustifyCenter
+Format.Justify
+Format.JustifyLeft
+Format.JustifyRight
+Format.Underline | HTML Editor Design View::Ctrl+U
+Edit.Find | Global::Ctrl+F
+OtherContextMenus.DatabaseDesigner.NewTable
+QueryDesigner.VerifySQLSyntax
+TableDesigner.SetPrimaryKey
+QueryDesigner.SortAscending
+QueryDesigner.SortDescending
+QueryDesigner.InsertResults
+QueryDesigner.Delete
+QueryDesigner.MakeTable
+QueryDesigner.Select
+QueryDesigner.Update
+QueryDesigner.AddGroupBy
+TableDesigner.NameOnly
+TableDesigner.ColumnNames
+TableDesigner.Keys
+TableDesigner.Standard
+QueryDesigner.SQL | Query Designer::Ctrl+3
+QueryDesigner.SQL | View Designer::Ctrl+3
+QueryDesigner.Diagram | Query Designer::Ctrl+1
+QueryDesigner.Diagram | View Designer::Ctrl+1
+QueryDesigner.Results | Query Designer::Ctrl+4
+QueryDesigner.Results | View Designer::Ctrl+4
+QueryDesigner.Criteria | Query Designer::Ctrl+2
+QueryDesigner.Criteria | View Designer::Ctrl+2
+OtherContextMenus.QueryDiagramTable.SelectAllColumns
+File.Rename | Solution Explorer::F2
+File.Rename | Team Explorer::F2
+File.Rename | Global::F2
+QueryDesigner.RemoveFilter
+Edit.Remove | Managed Resources Editor::Del
+QueryDesigner.SelectAllRowsFromTableA
+QueryDesigner.SelectAllRowsFromTableB
+QueryDesigner.AddtoSelect
+TableDesigner.GenerateChangeScript
+File.SaveSelection
+Debug.StopDebugging | Global::Shift+F5
+Debug.BreakAll | Global::Ctrl+Alt+Break
+View.Refresh | Team Foundation Build Detail Editor::F5
+View.Refresh | Team Explorer::F5
+View.OpenWith
+QueryDesigner.ExecuteSQL | Query Designer::Ctrl+R
+QueryDesigner.ExecuteSQL | View Designer::Ctrl+R
+QueryDesigner.ClearResults
+QueryDesigner.GotoRow | Query Designer::Ctrl+G
+QueryDesigner.GotoRow | View Designer::Ctrl+G
+Edit.InsertNew
+Edit.InsertSeparator
+Edit.EditNames
+Debug.AttachtoProcess | Global::Ctrl+Alt+P
+Debug.Threads | Global::Ctrl+Alt+H
+File.NewProject | Global::Ctrl+Shift+N
+File.OpenProject | Global::Ctrl+Shift+O
+File.CloseSolution
+Project.AddNewItem | Global::Ctrl+Shift+A
+File.NewFile | Global::Ctrl+N
+File.OpenFile | Global::Ctrl+O
+File.Close
+File.SaveAll | Global::Ctrl+Shift+S
+File.SaveSelectedItemsAs
+File.PageSetup
+File.PrintPreview
+File.Exit | Global::Alt+F4
+Edit.Replace | Global::Ctrl+H
+Edit.GoTo | Global::Ctrl+G
+View.PropertyPages
+View.FullScreen | Global::Shift+Alt+Enter
+View.SolutionExplorer | Global::Ctrl+Alt+L
+View.PropertiesWindow | Global::Alt+Enter
+View.TaskList | Global::Ctrl+\, T
+View.TaskList | Global::Ctrl+\, Ctrl+T
+View.Output | Global::Ctrl+Alt+O
+View.Output | Global::Alt+2
+View.ObjectBrowser | Global::Ctrl+Alt+J
+View.DocumentOutline | Global::Ctrl+Alt+D
+Debug.Immediate | Global::Ctrl+Alt+I
+Debug.Locals | Global::Ctrl+Alt+V, L
+Debug.Locals | Global::Alt+4
+Debug.CallStack | Global::Ctrl+Alt+C
+Debug.CallStack | Global::Alt+7
+Project.AddExistingItem | Global::Shift+Alt+A
+Project.NewFolder
+Project.SetasStartupProject
+Debug.StepInto | Global::F11
+Debug.StepOver | Global::F10
+Debug.StepOut | Global::Shift+F11
+Debug.RunToCursor | Global::Ctrl+F10
+Debug.AddWatch
+Debug.QuickWatch | Global::Shift+F9
+Debug.QuickWatch | Global::Ctrl+Alt+Q
+Debug.ToggleBreakpoint | Global::F9
+Debug.DeleteAllBreakpoints | Global::Ctrl+Shift+F9
+Debug.SetNextStatement | Global::Ctrl+Shift+F10
+Debug.ShowNextStatement | Global::Alt+Num *
+View.Open
+Debug.DetachAll
+Tools.CustomizeKeyboard
+Tools.Options
+Window.NewWindow
+Window.Split
+Window.Cascade
+Window.NewHorizontalTabGroup
+Window.NewVerticalTabGroup
+Help.TechnicalSupport
+Help.About
+DebuggerContextMenus.AutosWindow.DeleteWatch
+DebuggerContextMenus.AutosWindow.CollapseParent
+Edit.FindinFiles | Global::Ctrl+Shift+F
+Edit.ReplaceinFiles | Global::Ctrl+Shift+H
+Edit.GoToNextLocation | Global::F8
+Edit.GoToNextLocation | Global::F4
+Edit.GoToPrevLocation | Global::Shift+F8
+Edit.GoToPrevLocation | Global::Shift+F4
+Window.Dock
+Window.Close | Global::Shift+Esc
+Window.NextTab | Global::Ctrl+Alt+PgDn
+Window.NextTab | Text Editor::Ctrl+PgDn
+Window.PreviousTab | Global::Ctrl+Alt+PgUp
+Window.PreviousTab | Global::Ctrl+PgUp
+Window.PreviousTab | HTML Editor Design View::Ctrl+PgUp
+Window.PreviousTab | HTML Editor Source View::Ctrl+PgUp
+Window.PreviousTab | Text Editor::Ctrl+PgUp
+Window.CloseToolWindow
+Window.ActivateDocumentWindow | Global::Esc
+Window.ActivateDocumentWindow | Global::Alt+0
+Window.DockasTabbedDocument
+Window.Float
+Window.AutoHide
+Window.MovetoNavigationBar | Global::Ctrl+F8
+Debug.Start | Global::F5
+Debug.Restart | Global::Ctrl+Shift+F5
+Tools.AddTab
+Tools.DeleteTab
+Tools.RenameTab
+Tools.MoveUp
+Tools.MoveDown
+OtherContextMenus.Toolbox.RenameItem
+Tools.ListView
+QueryDesigner.InsertValues
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.Freeze
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.Thaw
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.SwitchToThread
+Debug.HexadecimalDisplay
+Window.NextPane | Global::Alt+F6
+Window.PreviousPane | Global::Shift+Alt+F6
+Edit.ClearAll | Unknown Editor::Ctrl+Alt+C
+OtherContextMenus.ResultsList.GoToLocation
+View.ErrorList | Global::Ctrl+\, E
+View.ErrorList | Global::Ctrl+\, Ctrl+E
+OtherContextMenus.EasyMDIDragging.Cancel
+Help.DebugHelpContext
+Tools.AddRemoveToolboxItems
+Tools.ResetToolbox
+File.SaveSelectedItems | Global::Ctrl+S
+View.ViewDesigner | HTML Editor Source View::Shift+F7
+View.ViewDesigner | Global::Shift+F7
+View.ViewCode | Settings Designer::F7
+View.ViewCode | Global::Ctrl+Alt+0
+File.ViewinBrowser | Global::Ctrl+Shift+W
+File.BrowseWith
+View.EditLabel
+Debug.ExceptionSettings | Global::Ctrl+Alt+E
+DebuggerContextMenus.AutosWindow.Elasticcolumn
+View.ToggleDesigner
+View.Zoom
+Edit.StopSearch | Global::Alt+F3, S
+Debug.StartWithoutDebugging | Global::Ctrl+F5
+Format.LockControls
+Edit.FindNext | Global::F3
+Edit.FindPrevious | Global::Shift+F3
+Edit.FindNextSelected | Global::Ctrl+F3
+Edit.FindPreviousSelected | Global::Ctrl+Shift+F3
+EditorContextMenus.CodeWindow.Breakpoint.InsertBreakpoint
+Debug.EnableBreakpoint | Global::Ctrl+F9
+Help.F1Help | Global::F1
+Window.MovetoNextTabGroup
+Window.MovetoPreviousTabGroup
+Project.Properties | Global::Alt+F7
+ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.Properties
+Project.ReloadProject
+Project.UnloadProject
+File.SelectProjectTemplate
+OtherContextMenus.NoCommandsAvailable.NoCommandsAvailable
+Tools.Alias
+Tools.GoToCommandLine | Global::Ctrl+/
+Debug.Print
+Tools.ImmediateMode
+Debug.EvaluateStatement
+View.FindResults1
+View.FindResults2
+Window.Windows
+Window.AutoHideAll
+View.ClassView | Global::Ctrl+Shift+C
+Window.NextSplitPane | Global::F6
+Window.PreviousSplitPane | Global::Shift+F6
+Window.CloseAllDocuments
+Window.NextDocumentWindow | Global::Ctrl+F6
+Window.NextDocumentWindow | Global::Ctrl+PgDn
+Window.PreviousDocumentWindow | Global::Ctrl+Shift+F6
+Tools.ExternalCommand1
+Tools.ExternalCommand2
+Tools.ExternalCommand3
+Tools.ExternalCommand4
+Tools.ExternalCommand5
+Tools.ExternalCommand6
+Tools.ExternalCommand7
+Tools.ExternalCommand8
+Tools.ExternalCommand9
+Tools.ExternalCommand10
+Tools.ExternalCommand11
+Tools.ExternalCommand12
+Tools.ExternalCommand13
+Tools.ExternalCommand14
+Tools.ExternalCommand15
+Tools.ExternalCommand16
+Tools.ExternalCommand17
+Tools.ExternalCommand18
+Tools.ExternalCommand19
+Tools.ExternalCommand20
+Tools.ExternalCommand21
+Tools.ExternalCommand22
+Tools.ExternalCommand23
+Tools.ExternalCommand24
+Tools.ExternalTools
+Edit.CycleClipboardRing
+Tools.ShowAll
+Project.ProjectDependencies
+Window.CloseDocumentWindow | Global::Ctrl+F4
+Tools.SortItemsAlphabetically
+View.CommandWindow | Global::Ctrl+Alt+A
+Tools.LogCommandWindowOutput
+Tools.Shell
+OtherContextMenus.FindRegularExpressionBuilder.Matchanysinglecharacterexceptalinebreak
+OtherContextMenus.FindRegularExpressionBuilder.Matchanycharacterzeroormoretimes
+OtherContextMenus.FindRegularExpressionBuilder.Matchanycharacteroneormoretimes
+OtherContextMenus.FindRegularExpressionBuilder.Matchatbeginningofline
+OtherContextMenus.FindRegularExpressionBuilder.Matchawordcharacteratendofline
+OtherContextMenus.FindRegularExpressionBuilder.Matchatbeginningorendofword
+OtherContextMenus.FindRegularExpressionBuilder.Matchanycharacterinthesetabc
+OtherContextMenus.FindRegularExpressionBuilder.MatchanycharacterNOTinthesetabc
+OtherContextMenus.FindRegularExpressionBuilder.Captureandimplicitlynumberthesubexpressiondogorcat
+OtherContextMenus.FindRegularExpressionBuilder.Capturesubexpressiondogorcatandnameitpet
+OtherContextMenus.FindRegularExpressionBuilder.RegularExpressionHelp
+Debug.Autos | Global::Ctrl+Alt+V, A
+Build.ConfigurationManager
+File.AddNewProject
+File.AddExistingProject
+View.NavigateBackward | Global::Ctrl+-
+View.NavigateForward | Global::Ctrl+Shift+-
+Build.BuildSolution | Global::Ctrl+Shift+B
+Build.BuildSolution | Global::F7
+Build.RebuildSolution | Global::Ctrl+Alt+F7
+Build.DeploySolution
+Build.CleanSolution
+Build.BuildSelection | Global::Ctrl+B
+Build.RebuildSelection
+Build.DeploySelection
+Build.CleanSelection
+Build.Cancel | Global::Ctrl+Break
+Build.BatchBuild
+ClassViewContextMenus.ClassViewProject.Build
+ClassViewContextMenus.ClassViewProject.Rebuild
+ClassViewContextMenus.ClassViewProject.Deploy
+ClassViewContextMenus.ClassViewProject.Clean
+Tools.ItemPath
+Tools.ItemDirectory
+Tools.ItemFileName
+Tools.ItemExtension
+Tools.ProjectDirectory
+Tools.ProjectFileName
+Tools.SolutionDirectory
+Tools.SolutionFileName
+Edit.GoToDefinition | Global::F12
+Edit.GoToDeclaration | Global::Ctrl+F12
+Edit.GoToDeclaration | Global::Ctrl+Alt+F12
+View.BrowseDefinition
+View.SynchronizeClassView
+View.ShowReferences
+Project.AddClass
+Project.AddNestedClass
+Project.AddInterface
+Project.AddMethod
+Project.AddProperty
+Project.AddEvent
+Project.AddVariable
+Project.ImplementInterface
+Project.Override | Global::Ctrl+Alt+Ins
+Project.AddFunction
+Project.AddConnectionPoint
+Project.AddIndexer
+Project.ProjectBuildOrder
+File.AdvancedSaveOptions
+View.ClassViewNewFolder
+Edit.FindSymbol | Global::Ctrl+Shift+Y
+View.FindSymbolResults | Global::Ctrl+Alt+Y
+Build.ProjectPickerBuild
+Build.ProjectPickerRebuild
+View.ResourceView | Global::Ctrl+Shift+E
+Edit.EditIDs
+OtherContextMenus.FindRegularExpressionBuilder.Matchanylinebreak
+OtherContextMenus.FindRegularExpressionBuilder.Matchanywhitespacecharacter
+OtherContextMenus.FindRegularExpressionBuilder.Matchanynumericcharacter
+Tools.Customize
+ClassViewContextMenus.ClassViewFolder.MoveToTop
+Help.WindowHelp | Global::Shift+F1
+View.NextView | HTML Editor Design View::Ctrl+PgDn
+View.NextView | HTML Editor Source View::Ctrl+PgDn
+Tools.Open
+Tools.OpenWith
+Window.NextSubpane
+Window.PreviousSubpane
+File.ProjectPickerMoveInto
+Tools.EditCustomComponentSet
+View.PopBrowseContext | Global::Ctrl+Num *
+Edit.GoToReference | Global::Shift+F12
+Tools.TargetPath
+Tools.TargetDirectory
+Tools.TargetName
+Tools.TargetExtension
+Tools.CurrentLine
+Tools.CurrentColumn
+Tools.CurrentText
+View.BrowseNext | Global::Ctrl+Shift+1
+View.BrowseNext | Global::Ctrl+Num +
+View.BrowsePrevious | Global::Ctrl+Shift+2
+View.BrowsePrevious | Global::Ctrl+Num -
+Tools.UnloadSourceBrowserFiles
+Edit.QuickFindSymbol | Global::Shift+Alt+F12
+View.ExpandAll
+Tools.BinaryDirectory
+View.BookmarkWindow | Global::Ctrl+K, Ctrl+W
+Tools.CodeSnippetsManager | Global::Ctrl+K, Ctrl+B
+Window.NextDocumentWindowNav | Global::Ctrl+Tab
+Window.PreviousDocumentWindowNav | Global::Ctrl+Shift+Tab
+View.ForwardBrowseContext | Global::Ctrl+Shift+7
+Extensions.Customize
+OtherContextMenus.ResourceView.Properties
+Window.ResetWindowLayout
+View.ClassViewShowHiddenTypesAndMembers
+View.ClassViewBack
+View.ClassViewForward
+View.ClassViewSortObjectsAlphabetically
+View.ClassViewSortObjectsByType
+View.ClassViewSortObjectsByAccess
+View.ClassViewGroupObjectsByType
+View.ClassViewSortMembersAlphabetically
+View.ClassViewSortMembersByType
+View.ClassViewSortMembersByAccess
+View.ObjectBrowserShowHiddenTypesAndMembers
+View.ObjectBrowserBack
+View.ObjectBrowserForward
+View.ObjectBrowserSortObjectsAlphabetically
+View.ObjectBrowserSortObjectsByType
+View.ObjectBrowserSortObjectsByAccess
+View.ObjectBrowserGroupObjectsByType
+View.ObjectBrowserSortMembersAlphabetically
+View.ObjectBrowserSortMembersByType
+View.ObjectBrowserSortMembersByAccess
+Edit.FindAllReferences
+View.QuickActions | Text Editor::Alt+Enter
+View.QuickActions | Text Editor::Ctrl+.
+View.QuickActions | XAML Designer::Alt+Enter
+View.QuickActions | XAML Designer::Ctrl+.
+Edit.SmartBreakLine | Global::Shift+Enter
+Window.ManageWindowLayouts
+Window.SaveWindowLayout
+EditorContextMenus.CodeWindow.QuickActionsForPosition | Global::Ctrl+.
+View.QuickActionsForPosition | Text Editor::Ctrl+\, Ctrl+.
+ClearAllFilters
+Window.ApplyWindowLayout1 | Global::Ctrl+Alt+1
+Window.ApplyWindowLayout2 | Global::Ctrl+Alt+2
+Window.ApplyWindowLayout3 | Global::Ctrl+Alt+3
+Window.ApplyWindowLayout4 | Global::Ctrl+Alt+4
+Window.ApplyWindowLayout5 | Global::Ctrl+Alt+5
+Window.ApplyWindowLayout6 | Global::Ctrl+Alt+6
+Window.ApplyWindowLayout7 | Global::Ctrl+Alt+7
+Window.ApplyWindowLayout8 | Global::Ctrl+Alt+8
+Window.ApplyWindowLayout9 | Global::Ctrl+Alt+9
+Window.ApplyWindowLayout10
+KeepResults
+ListView
+Tools.GetToolsandFeatures
+EditorContextMenus.CodeWindow.Annotation.ShowLineAnnotations | Global::Ctrl+K, Ctrl+M
+Window.ShowSidebarTabs
+View.RestoreDocumentsOnSolutionLoad
+View.SkipRestoreDocumentsOnSolutionLoad
+Window.CloseAllButToolWindows
+ProjectandSolutionContextMenus.WebProjectFolder.SaveAsSolutionFilter
+ProjectandSolutionContextMenus.WebProjectFolder.LoadAllProjects
+ProjectandSolutionContextMenus.WebProjectFolder.ShowUnloadedProjects
+ProjectandSolutionContextMenus.WebProjectFolder.HideUnloadedProjects
+ProjectandSolutionContextMenus.WebProjectFolder.ShowSolutionFilterPanel
+View.NextError | Global::Ctrl+Shift+F12
+View.PreviousError
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column1
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column2
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column3
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column4
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column5
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column6
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column7
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column8
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column9
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column10
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column11
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column12
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column13
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column14
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column15
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column16
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column17
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column18
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column19
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column20
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column21
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column22
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column23
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column24
+OtherContextMenus.XAMLBindingFailuresContextMenu.ShowColumns.Column25
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column1
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column2
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column3
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column4
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column5
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column6
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column7
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column8
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column9
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column10
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column11
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column12
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column13
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column14
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column15
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column16
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column17
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column18
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column19
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column20
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column21
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column22
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column23
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column24
+OtherContextMenus.XAMLBindingFailuresContextMenu.SortBy.Column25
+View.NextTask
+View.PreviousTask
+View.FindResults1
+View.FindResults2
+View.FindResults3
+View.FindResults4
+FindResults5
+View.FindReferences1
+View.FindReferences2
+View.FindReferences3
+View.FindReferences4
+View.FindReferences5
+Help.ShowTaskHelp
+Edit.DeleteBackwards | Text Editor::Bkspce
+Edit.DeleteBackwards | Text Editor::Shift+Bkspce
+Edit.BreakLine | Text Editor::Enter
+Edit.BreakLine | Unknown Editor::Enter
+Edit.InsertTab | Text Editor::Tab
+Edit.InsertTab | Unknown Editor::Tab
+Edit.TabLeft | Text Editor::Shift+Tab
+Edit.TabLeft | Unknown Editor::Shift+Tab
+Edit.CharLeft | Text Editor::Left Arrow
+Edit.CharLeft | Unknown Editor::Left Arrow
+Edit.CharLeftExtend | Text Editor::Shift+Left Arrow
+Edit.CharLeftExtend | Unknown Editor::Shift+Left Arrow
+Edit.CharRight | Text Editor::Right Arrow
+Edit.CharRight | Unknown Editor::Right Arrow
+Edit.CharRightExtend | Text Editor::Shift+Right Arrow
+Edit.CharRightExtend | Unknown Editor::Shift+Right Arrow
+Edit.LineUp | Text Editor::Up Arrow
+Edit.LineUp | Unknown Editor::Up Arrow
+Edit.LineUpExtend | Text Editor::Shift+Up Arrow
+Edit.LineUpExtend | Unknown Editor::Shift+Down Arrow
+Edit.LineDown | Text Editor::Down Arrow
+Edit.LineDown | Unknown Editor::Down Arrow
+Edit.LineDownExtend | Text Editor::Shift+Down Arrow
+Edit.LineDownExtend | Unknown Editor::Shift+Up Arrow
+Edit.DocumentStart | Text Editor::Ctrl+Home
+Edit.DocumentStart | Unknown Editor::Home
+Edit.DocumentStartExtend | Text Editor::Ctrl+Shift+Home
+Edit.DocumentStartExtend | Unknown Editor::Shift+Home
+Edit.DocumentEnd | Text Editor::Ctrl+End
+Edit.DocumentEnd | Unknown Editor::End
+Edit.DocumentEndExtend | Text Editor::Ctrl+Shift+End
+Edit.DocumentEndExtend | Unknown Editor::Shift+End
+Edit.LineStart | Text Editor::Home
+Edit.LineStartExtend | Text Editor::Shift+Home
+Edit.LineStartAfterIndentation
+Edit.LineStartAfterIndentationExtend
+Edit.LineEnd | Text Editor::End
+Edit.LineEndExtend | Text Editor::Shift+End
+Edit.LineLastChar
+Edit.LineLastCharExtend
+Edit.PageUp | Text Editor::PgUp
+Edit.PageUpExtend | Text Editor::Shift+PgUp
+Edit.PageDown | Text Editor::PgDn
+Edit.PageDownExtend | Text Editor::Shift+PgDn
+Edit.ViewTop
+Edit.ViewTopExtend | Text Editor::Ctrl+Shift+PgUp
+Edit.ViewBottom
+Edit.ViewBottomExtend | Text Editor::Ctrl+Shift+PgDn
+Edit.ScrollLineUp | Text Editor::Ctrl+Up Arrow
+Edit.ScrollLineUp | VC Dialog Editor::Ctrl+Up Arrow
+Edit.ScrollLineDown | Text Editor::Ctrl+Down Arrow
+Edit.ScrollLineDown | VC Dialog Editor::Ctrl+Down Arrow
+Edit.ScrollPageUp
+Edit.ScrollPageDown
+Edit.ScrollColumnLeft | VC Dialog Editor::Ctrl+Left Arrow
+Edit.ScrollColumnRight | VC Dialog Editor::Ctrl+Right Arrow
+Edit.ScrollLineBottom
+Edit.ScrollLineCenter
+Edit.ScrollLineTop
+Edit.TabifySelectedLines
+Edit.UntabifySelectedLines
+Edit.MakeLowercase | Text Editor::Ctrl+U
+Edit.MakeUppercase | Text Editor::Ctrl+Shift+U
+Edit.ToggleCase
+Edit.Capitalize
+Edit.SwapAnchor | Text Editor::Ctrl+K, Ctrl+A
+Edit.GotoBrace | Text Editor::Ctrl+]
+Edit.GotoBraceExtend | Text Editor::Ctrl+Shift+]
+Edit.OvertypeMode | Text Editor::Ins
+Edit.LineCut | Text Editor::Ctrl+L
+Edit.LineCut | Global::Shift+Alt+L
+Edit.LineDelete | Text Editor::Ctrl+Shift+L
+Edit.DeleteBlankLines
+Edit.DeleteHorizontalWhiteSpace | Text Editor::Ctrl+K, Ctrl+\
+Edit.DeleteToEOL
+Edit.DeleteToBOL
+Edit.LineOpenAbove
+Edit.LineOpenBelow | Text Editor::Ctrl+Shift+Enter
+Edit.IncreaseLineIndent
+Edit.DecreaseLineIndent
+Edit.ClearBookmarks | Text Editor::Ctrl+K, Ctrl+L
+Edit.ClearBookmarks | Global::Ctrl+Shift+F2
+Edit.ToggleBookmark | Text Editor::Ctrl+K, Ctrl+K
+Edit.ToggleBookmark | Global::Ctrl+F2
+Edit.NextBookmark | Global::Ctrl+K, Ctrl+N
+Edit.NextBookmark | Text Editor::F2
+Edit.PreviousBookmark | Global::Ctrl+K, Ctrl+P
+Edit.PreviousBookmark | Global::Shift+F2
+Edit.CharTranspose
+Edit.WordTranspose
+Edit.LineTranspose | Text Editor::Shift+Alt+T
+Edit.SelectCurrentWord | Text Editor::Ctrl+W
+Edit.WordDeleteToEnd | Text Editor::Ctrl+Del
+Edit.WordDeleteToStart | Text Editor::Ctrl+Bkspce
+Edit.WordPrevious | Text Editor::Ctrl+Left Arrow
+Edit.WordPreviousExtend | Text Editor::Ctrl+Shift+Left Arrow
+Edit.WordNext | Text Editor::Ctrl+Right Arrow
+Edit.WordNextExtend | Text Editor::Ctrl+Shift+Right Arrow
+Edit.SelectionCancel | Text Editor::Esc
+Edit.SelectionCancel | Managed Resources Editor::Esc
+Edit.SelectionCancel | Settings Designer::Esc
+Edit.SelectionCancel | Unknown Editor::Esc
+Edit.ParameterInfo | Text Editor::Ctrl+Shift+Space
+Edit.ViewWhiteSpace | Text Editor::Ctrl+R, Ctrl+W
+Edit.ViewWhiteSpace | Global::Ctrl+Shift+8
+Edit.PasteMovesCaret
+Edit.CompleteWord | Text Editor::Ctrl+Space
+Edit.CompleteWord | Text Editor::Alt+Right Arrow
+Edit.ListMembers | Text Editor::Ctrl+J
+Edit.ListMembers | Global::Ctrl+Alt+T
+Edit.LineStartAfterIndentationPrev
+Edit.LineStartAfterIndentationNext
+Edit.FormatSelection | Text Editor::Ctrl+K, Ctrl+F
+Edit.FormatSelection | Global::Alt+F8
+EditorContextMenus.CodeWindow.OpenURL
+Edit.InsertFileAsText
+Edit.ToggleTaskListShortcut | Text Editor::Ctrl+K, Ctrl+H
+Edit.QuickInfo | Text Editor::Ctrl+K, Ctrl+I
+Edit.QuickInfo | Find All References Tool Window::Ctrl+K, Ctrl+I
+Edit.CharLeftExtendColumn | Text Editor::Shift+Alt+Left Arrow
+Edit.CharRightExtendColumn | Text Editor::Shift+Alt+Right Arrow
+Edit.LineUpExtendColumn | Text Editor::Shift+Alt+Up Arrow
+Edit.LineDownExtendColumn | Text Editor::Shift+Alt+Down Arrow
+Edit.ToggleWordWrap | Text Editor::Ctrl+E, Ctrl+W
+Edit.IncrementalSearch | Text Editor::Ctrl+I
+Edit.ReverseIncrementalSearch | Text Editor::Ctrl+Shift+I
+Edit.LineStartExtendColumn | Text Editor::Shift+Alt+Home
+Edit.LineEndExtendColumn | Text Editor::Shift+Alt+End
+Edit.WordPreviousExtendColumn
+Edit.WordNextExtendColumn
+Edit.HideSelection | Text Editor::Ctrl+M, Ctrl+H
+Edit.ToggleOutliningExpansion | Text Editor::Ctrl+M, Ctrl+M
+Edit.ToggleAllOutlining | Text Editor::Ctrl+M, Ctrl+L
+Edit.StopOutlining | Text Editor::Ctrl+M, Ctrl+P
+Edit.StopHidingCurrent | Text Editor::Ctrl+M, Ctrl+U
+Edit.CollapsetoDefinitions | Text Editor::Ctrl+M, Ctrl+O
+Edit.DoubleClick
+Edit.CommentSelection | Text Editor::Ctrl+K, Ctrl+C
+Edit.UncommentSelection | Text Editor::Ctrl+K, Ctrl+U
+Edit.OpenFile | Global::Ctrl+Shift+G
+EditorContextMenus.CodeWindow.OpenURL
+Edit.SelectToLastGoBack | Text Editor::Ctrl+=
+Edit.HideAdvancedCompletionMembers
+Edit.FormatDocument | Text Editor::Ctrl+K, Ctrl+D
+Edit.StartAutomaticOutlining
+Edit.IncreaseFilterLevel
+Edit.DecreaseFilterLevel
+View.ShowSmartTag | Global::Shift+Alt+F10
+View.ShowSmartTag | HTML Editor Design View::Shift+Alt+F10
+View.ShowSmartTag | CSS Editor::Ctrl+.
+View.ShowSmartTag | HTML Editor::Ctrl+.
+Edit.CopyParameterTip | Text Editor::Ctrl+Shift+Alt+C
+Edit.PasteParameterTip | Text Editor::Ctrl+Shift+Alt+P
+Edit.NextBookmarkInDocument
+Edit.PreviousBookmarkInDocument
+Edit.InvokeSnippetFromShortcut
+Edit.ClearAllBookmarksInDocument
+Edit.ConvertTabsToSpaces
+Edit.ConvertSpacesToTabs
+View.Stop
+Edit.ReverseCancel
+SolutionExplorer.Refresh
+File.SaveCopyofSelectedItemsAs
+Format.IncreaseIndent
+Format.DecreaseIndent
+Edit.RemoveTagHandler
+Edit.EditTagHandler
+Edit.AddTagHandler
+View.Details
+Layout.MergeCells
+Format.InsertBookmark | HTML Editor Design View::Ctrl+Shift+L
+Format.ConverttoHyperlink | HTML Editor Design View::Ctrl+L
+Edit.SwitchtoQuickFind
+Edit.SwitchtoFindinFiles
+SwitchtoFindSymbol
+Edit.SwitchtoQuickReplace
+Edit.SwitchtoReplaceinFiles
+OtherContextMenus.Context.ViewCode
+Format.Superscript
+Format.Subscript
+Edit.ValidateDocument
+View.EditMaster | HTML Editor Design View::Ctrl+M, Ctrl+M
+Edit.InsertSnippet | Global::Ctrl+K, Ctrl+X
+OtherContextMenus.HTMLContext.FormattingandValidation
+Edit.CollapseTag | Text Editor::Ctrl+M, Ctrl+T
+Tools.CheckAccessibility
+Edit.StopOutliningTag
+Tools.GenerateLocalResource
+Layout.Static
+OtherContextMenus.Context.EditImage
+Build.Compile | Global::Ctrl+F7
+Build.Link
+ClassViewContextMenus.ClassViewProject.Debug.StartNewInstance
+ClassViewContextMenus.ClassViewProject.Debug.StepIntoNewInstance
+Project.UpdateManagedResources
+ClassViewContextMenus.ClassViewProject.Debug.StartWithoutDebugging
+Project.AddResource
+Project.ToolBuildOrder
+Project.BuildCustomizations
+Build.Instrument
+Build.Optimize
+Build.Update
+Build.RunInstrumentedOptimizedApplication
+File.NewProjectFromExistingCode
+Project.AddHTMLPage
+Project.AddModule
+Project.AddFormWindowsForms
+Project.AddWebForm
+Project.AddMasterPage
+Project.AddUserControlWindowsForms
+Project.AddContentPage | HTML Editor Design View::Ctrl+M, Ctrl+C
+Project.AddWebUserControl
+Project.AddComponent
+Project.AddWebService
+Project.AddStyleSheet
+ProjectandSolutionContextMenus.CrossProjectMultiItem.RefreshFolder
+View.ViewMarkup | HTML Editor Design View::Shift+F7
+Edit.NextMethod | Text Editor::Ctrl+Shift+Alt+Down Arrow
+Edit.PreviousMethod | Text Editor::Ctrl+Shift+Alt+Up Arrow
+Edit.InsertComment
+View.ViewComponentDesigner
+Edit.GoToTypeDefinition | Global::Ctrl+K, Ctrl+Shift+T
+Edit.ShowSnippetHighlighting
+Edit.HideSnippetHighlighting
+OtherContextMenus.BookmarkWindow.Rename
+Edit.EnableBookmark
+OtherContextMenus.BookmarkWindow.DeleteBookmark
+Edit.EnableAllBookmarks
+Edit.NextBookmarkInFolder | Global::Ctrl+Shift+K, Ctrl+Shift+N
+Edit.PreviousBookmarkInFolder | Global::Ctrl+Shift+K, Ctrl+Shift+P
+Project.ShowAllFiles
+View.AddRemoveColumns
+View.Sort
+Project.SetAsStartPage
+Project.RecalculateLinks
+Project.WebPermissions
+Project.SynchronizeFolder
+Project.SynchronizeAllFolders
+Project.CopyProject
+Project.IncludeInProject
+Project.ExcludeFromProject
+View.BrokenLinksReport
+Project.AddProjectOutputs
+Project.AddReference
+Project.AddWebReference
+ProjectandSolutionContextMenus.Folder.AddWebReference
+Project.UpdateWebReference
+Project.RunCustomTool
+ClassViewContextMenus.ClassViewProjectReference.ViewinObjectBrowser
+Project.StartOptions
+ProjectandSolutionContextMenus.References.AddReference
+ProjectandSolutionContextMenus.WebProjectFolder.StartOptions
+ProjectandSolutionContextMenus.CrossProjectMultiItem.Detach
+Project.AddServiceReference
+ProjectandSolutionContextMenus.Folder.AddServiceReference
+Project.UpdateServiceReference
+Project.ConfigureServiceReference
+OtherContextMenus.DragandDrop.MoveHere
+OtherContextMenus.DragandDrop.CopyHere
+OtherContextMenus.DragandDrop.Cancel
+Format.TestDialog | VC Dialog Editor::Ctrl+T
+Format.SpaceAcross | VC Dialog Editor::Alt+Right Arrow
+Format.SpaceAcross | VC Dialog Editor::Alt+Left Arrow
+Format.SpaceDown | VC Dialog Editor::Alt+Up Arrow
+Format.SpaceDown | VC Dialog Editor::Alt+Down Arrow
+Format.ToggleGuides | VC Dialog Editor::Ctrl+G
+Format.SizetoContent | VC Dialog Editor::Shift+F7
+Format.CenterVertical | VC Dialog Editor::Ctrl+F9
+Format.CenterHorizontal | VC Dialog Editor::Ctrl+Shift+F9
+Format.Flip
+Format.TabOrder | VC Dialog Editor::Ctrl+D
+Format.ButtonRight | VC Dialog Editor::Ctrl+R
+Format.ButtonBottom | VC Dialog Editor::Ctrl+B
+Format.Stretch
+Format.FixedWidth
+Format.Optimize
+Format.GuideSettings
+Edit.ResourceIncludes
+Edit.ResourceSymbols
+OtherContextMenus.ResourceView.OpenBinaryData
+OtherContextMenus.ResourceView.Open
+Edit.AddResource
+OtherContextMenus.ResourceView.InsertCopy
+OtherContextMenus.ResourceView.Insert
+OtherContextMenus.ResourceView.Export
+Edit.MoveControlLeft | Global::Ctrl+Left Arrow
+Edit.MoveControlLeft | VC Dialog Editor::Left Arrow
+Edit.MoveControlLeft | Unknown Editor::Ctrl+Left Arrow
+Edit.MoveControlDown | Global::Ctrl+Down Arrow
+Edit.MoveControlDown | HTML Editor Design View::Ctrl+Down Arrow
+Edit.MoveControlDown | VC Dialog Editor::Down Arrow
+Edit.MoveControlDown | Unknown Editor::Ctrl+Down Arrow
+Edit.MoveControlRight | Global::Ctrl+Right Arrow
+Edit.MoveControlRight | VC Dialog Editor::Right Arrow
+Edit.MoveControlRight | Unknown Editor::Ctrl+Right Arrow
+Edit.MoveControlUp | Global::Ctrl+Up Arrow
+Edit.MoveControlUp | HTML Editor Design View::Ctrl+Up Arrow
+Edit.MoveControlUp | VC Dialog Editor::Up Arrow
+Edit.MoveControlUp | Unknown Editor::Ctrl+Up Arrow
+Edit.SizeControlDown | VC Dialog Editor::Shift+Down Arrow
+Edit.SizeControlDown | Unknown Editor::Ctrl+Shift+Down Arrow
+Edit.SizeControlUp | VC Dialog Editor::Shift+Up Arrow
+Edit.SizeControlUp | Unknown Editor::Ctrl+Shift+Up Arrow
+Edit.SizeControlLeft | Global::Ctrl+Shift+Left Arrow
+Edit.SizeControlLeft | VC Dialog Editor::Shift+Left Arrow
+Edit.SizeControlLeft | Unknown Editor::Ctrl+Shift+Left Arrow
+Edit.SizeControlRight | Global::Ctrl+Shift+Right Arrow
+Edit.SizeControlRight | VC Dialog Editor::Shift+Right Arrow
+Edit.SizeControlRight | Unknown Editor::Ctrl+Shift+Right Arrow
+Edit.NewAccelerator | VC Accelerator Editor::Ins
+Edit.NextKeyTyped | VC Accelerator Editor::Ctrl+W
+OtherContextMenus.ResourceDialogEditors.InsertActiveXControl
+Image.InvertColors
+Image.FlipHorizontal | VC Image Editor::Ctrl+H
+Image.FlipVertical | VC Image Editor::Shift+Alt+H
+Image.Rotate90Degrees | VC Image Editor::Ctrl+Shift+H
+Image.ShowColorsWindow
+Edit.NewString | VC String Editor::Ins
+Edit.NewVersionInfoBlock
+Edit.DeleteVersionInfoBlock
+Image.AdjustColors
+Image.LoadPalette
+Image.SavePalette
+Format.CheckMnemonics | VC Dialog Editor::Ctrl+M
+Image.DrawOpaque | VC Image Editor::Ctrl+J
+Image.ToolbarEditor
+Image.GridSettings
+Image.NewImageType | VC Image Editor::Ins
+Image.DeleteImageType
+Edit.ViewAsPopup
+Edit.CheckMnemonics
+Image.ShowGrid | VC Image Editor::Ctrl+Alt+S
+Image.ShowTileGrid | VC Image Editor::Ctrl+Shift+Alt+S
+Image.Magnify | VC Image Editor::Ctrl+Shift+M
+Image.OpenExternalEditor
+Image.RectangleSelectionTool | VC Image Editor::Shift+Alt+S
+Image.IrregularSelectionTool
+Image.ColorSelectionTool
+Image.EraseTool | VC Image Editor::Ctrl+Shift+I
+Image.FillTool | VC Image Editor::Ctrl+F
+Image.PencilTool | VC Image Editor::Ctrl+I
+Image.BrushTool | VC Image Editor::Ctrl+B
+Image.AirbrushTool | VC Image Editor::Ctrl+A
+Image.LineTool | VC Image Editor::Ctrl+L
+Image.CurveTool
+Image.TextTool | VC Image Editor::Ctrl+T
+Image.RectangleTool | VC Image Editor::Alt+R
+Image.OutlinedRectangleTool | VC Image Editor::Shift+Alt+R
+Image.FilledRectangleTool
+Image.RoundedRectangleTool | VC Image Editor::Alt+W
+Image.OutlinedRoundedRectangleTool | VC Image Editor::Shift+Alt+W
+Image.FilledRoundedRectangleTool | VC Image Editor::Ctrl+Shift+Alt+W
+Image.EllipseTool | VC Image Editor::Alt+P
+Image.OutlinedEllipseTool | VC Image Editor::Shift+Alt+P
+Image.FilledEllipseTool | VC Image Editor::Ctrl+Shift+Alt+P
+Image.MagnificationTool | VC Image Editor::Ctrl+M
+Image.LargerBrush | VC Image Editor::Ctrl+=
+Image.SmallBrush | VC Image Editor::Ctrl+.
+Image.SmallerBrush | VC Image Editor::Ctrl+-
+Image.ZoomIn | VC Image Editor::Ctrl+Shift+.
+Image.ZoomIn | VC Image Editor::Ctrl+Up Arrow
+Image.ZoomOut | VC Image Editor::Ctrl+Shift+,
+Image.ZoomOut | VC Image Editor::Ctrl+Down Arrow
+Image.PreviousColor | VC Image Editor::Ctrl+[
+Image.PreviousColor | VC Image Editor::Ctrl+Left Arrow
+Image.PreviousRightColor | VC Image Editor::Ctrl+Shift+[
+Image.PreviousRightColor | VC Image Editor::Ctrl+Shift+Left Arrow
+Image.NextColor | VC Image Editor::Ctrl+]
+Image.NextColor | VC Image Editor::Ctrl+Right Arrow
+Image.NextRightColor | VC Image Editor::Ctrl+Shift+]
+Image.NextRightColor | VC Image Editor::Ctrl+Shift+Right Arrow
+Project.NestRelatedFiles
+Edit.ShowGrid
+Edit.ShowTileGrid | Global::Enter
+Edit.MoveControlUpGrid | Global::Up Arrow
+Edit.MoveControlDownGrid | Global::Down Arrow
+Edit.MoveControlLeftGrid | Global::Left Arrow
+Edit.MoveControlRightGrid | Global::Right Arrow
+Edit.SizeControlRightGrid | Global::Shift+Right Arrow
+Edit.SizeControlUpGrid | Global::Shift+Up Arrow
+Edit.SizeControlLeftGrid | Global::Shift+Left Arrow
+Edit.SizeControlDownGrid | Global::Shift+Down Arrow
+Edit.SelectNextControl | Global::Tab
+Edit.SelectPreviousControl | Global::Shift+Tab
+Refactor.Rename | Global::Ctrl+R, Ctrl+R
+Refactor.ExtractMethod | Global::Ctrl+R, Ctrl+M
+Refactor.EncapsulateField | Global::Ctrl+R, Ctrl+E
+Refactor.ExtractInterface | Global::Ctrl+R, Ctrl+I
+Refactor.RemoveParameters | Global::Ctrl+R, Ctrl+V
+Refactor.ReorderParameters | Global::Ctrl+R, Ctrl+O
+Edit.SurroundWith | Global::Ctrl+K, Ctrl+S
+ToggleOutputWindowWordWrap
+Build.BuildOnlyProject | Global::Alt+B, Alt+O
+Build.RebuildOnlyProject
+Build.CleanOnlyProject
+View.BuildStartupProjectsOnlyOnRun
+Project.HideFolder
+Project.UnhideFolders
+File.CopyFullPath
+Tools.ImportandExportSettings
+Project.AddNewSolutionFolder
+View.TrackActivityinSolutionExplorer
+Edit.ClearOutputWindow
+Edit.GoToOutputWindowLocation
+Edit.GoToOutputWindowNextLocation
+Edit.GoToOutputWindowPrevLocation
+Edit.ClearFindResults1
+Edit.GoToFindResults1Location
+Edit.GoToFindResults1NextLocation
+Edit.GoToFindResults1PrevLocation
+Edit.ClearFindResults2
+Edit.GoToFindResults2Location
+Edit.GoToFindResults2NextLocation
+Edit.GoToFindResults2PrevLocation
+Project.EditProjectFile
+OtherContextMenus.SchemaExplorer.ViewCode
+ProjectandSolutionContextMenus.Project.OpenFolderinFileExplorer
+Window.NextToolWindow
+Window.PreviousToolWindow
+File.OpenContainingFolder
+Window.ShowEzMDIFileList | Global::Ctrl+Alt+Down Arrow
+Window.NextToolWindowNav
+Window.PreviousToolWindowNav
+Build.RunCodeAnalysisonProject
+Build.RunCodeAnalysisonSelection
+Build.RunCodeAnalysisonSelection
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.RunCodeAnalysis
+Build.RunCodeAnalysisonFile | Global::Ctrl+Shift+Alt+F7
+File.CloseAllButThis
+View.ClassViewShowInheritedMembers
+View.ClassViewShowBaseTypes
+View.ClassViewShowDerivedTypes
+ClassViewSearch
+View.ClassViewShowPrivateMembers
+View.ClassViewShowProtectedMembers
+View.ClassViewShowPublicMembers
+View.ClassViewShowProjectReferences
+View.ClassViewGroupMembersByType
+View.ClassViewClearSearch
+View.ClassViewFilterToType
+View.ClassViewSortByBestMatch
+View.ClassViewShowOtherMembers
+View.ClassViewSearch
+View.ClassViewGoToSearchCombo | Global::Ctrl+K, Ctrl+V
+ShowOutputWindowTimestamp
+View.ObjectBrowserShowInheritedMembers
+View.ObjectBrowserShowBaseTypes
+View.ObjectBrowserShowDerivedTypes
+View.ObjectBrowserShowPrivateMembers
+View.ObjectBrowserShowProtectedMembers
+View.ObjectBrowserShowPublicMembers
+View.ObjectBrowserViewObjectsbyNamespace
+View.ObjectBrowserViewObjectsbyPhysicalContainer
+View.ObjectBrowserGroupMembersByType
+View.ObjectBrowserClearSearch
+View.ObjectBrowserFilterToType
+View.ObjectBrowserSortByBestMatch
+View.ObjectBrowserShowOtherMembers
+View.ObjectBrowserSearch
+View.ObjectBrowserGoToSearchCombo | Global::Ctrl+K, Ctrl+R
+View.ObjectBrowserShowExtensionMembers
+View.Backward | Global::Alt+Left Arrow
+View.Forward | Global::Alt+Right Arrow
+OtherContextMenus.ErrorCorrection.Correction1
+OtherContextMenus.ErrorCorrection.Correction2
+OtherContextMenus.ErrorCorrection.Correction3
+OtherContextMenus.ErrorCorrection.Correction4
+OtherContextMenus.ErrorCorrection.Correction5
+OtherContextMenus.ErrorCorrection.Correction6
+OtherContextMenus.ErrorCorrection.Correction7
+OtherContextMenus.ErrorCorrection.Correction8
+OtherContextMenus.ErrorCorrection.Correction9
+OtherContextMenus.ErrorCorrection.Correction10
+View.ObjectBrowserAddReference
+View.CodeDefinitionWindow | Global::Ctrl+\, D
+View.CodeDefinitionWindow | Global::Ctrl+\, Ctrl+D
+View.CodeDefinitionWindow | Global::Ctrl+Shift+V
+EditorContextMenus.CodeWindow.GoToPrevious
+EditorContextMenus.CodeWindow.GoToNext
+View.EditDefinition
+View.ChooseEncoding
+ClassViewContextMenus.ClassViewProject.View.ViewClassDiagram
+OtherContextMenus.DataSourceContext.PreviewData
+OtherContextMenus.ColumnContext.Editkey
+OtherContextMenus.ColumnContext.Deletekey
+OtherContextMenus.RelationContext.EditRelation
+File.CloseProject
+OtherContextMenus.DataSourceContext.Add.TableAdapter
+OtherContextMenus.DataSourceContext.Add.Query
+OtherContextMenus.FunctionContext.AddQuery
+Build.PublishSelection
+ClassViewContextMenus.ClassViewProject.Publish
+ClassViewContextMenus.ClassViewMember.CallBrowser.CallBrowserShowCallersGraph
+ClassViewContextMenus.ClassViewMember.CallBrowser.CallBrowserShowCallGraph
+ClassViewContextMenus.ClassViewMember.CallBrowser.CallBrowserShowCallersGraphInNewWindow
+ClassViewContextMenus.ClassViewMember.CallBrowser.CallBrowserShowCallGraphInNewWindow
+Edit.UndoLastGlobalAction
+Edit.RedoLastGlobalAction
+View.CallBrowserCallersGraph
+View.CallBrowserCallGraph
+View.CallBrowserCallersGraphNewWindow
+View.CallBrowserCallGraphNewWindow
+CreateUserTask
+Errors
+Warnings
+Messages
+Edit.LineFirstColumn
+Edit.LineFirstColumnExtend
+View.ServerExplorer | Global::Ctrl+Alt+S
+OtherContextMenus.EasyMDIDocumentWindow.Float
+EditorContextMenus.CodeWindow.ViewCallHierarchy | Global::Ctrl+K, Ctrl+T
+EditorContextMenus.CodeWindow.ViewCallHierarchy | Global::Ctrl+K, T
+Edit.SwitchbetweenautomaticandtabonlyIntelliSensecompletion | Text Editor::Ctrl+Alt+Space
+Edit.NextHighlightedReference | Text Editor::Ctrl+Shift+Down Arrow
+Edit.PreviousHighlightedReference | Text Editor::Ctrl+Shift+Up Arrow
+OtherContextMenus.ResourceRibbonEditors.Items
+OtherContextMenus.ResourceRibbonEditors.Buttons
+OtherContextMenus.FindRegularExpressionBuilder.Matchanywordcharacter
+OtherContextMenus.FindRegularExpressionBuilder.Matchanycharacterintherangeatof
+OtherContextMenus.FindRegularExpressionBuilder.Matchprecedingcharacterzerooronetimes
+OtherContextMenus.FindRegularExpressionBuilder.Matchprecedingcharacterzeroormoretimes
+OtherContextMenus.FindRegularExpressionBuilder.Matchprecedingcharacteroneormoretimes
+OtherContextMenus.FindRegularExpressionBuilder.Matchthreeconsecutivedecimaldigits
+OtherContextMenus.FindRegularExpressionBuilder.Backreferencethefirstcapturedsubexpression
+OtherContextMenus.FindRegularExpressionBuilder.Backreferencethecapturedsubexpressionnamedpet
+OtherContextMenus.ReplaceRegularExpressionBuilder.Substitutethesubstringmatchedbycapturedgroupnumber1
+OtherContextMenus.ReplaceRegularExpressionBuilder.Substitutethesubstringmatchedbythenamedgrouppet
+OtherContextMenus.ReplaceRegularExpressionBuilder.Substitutealiteraldollar
+OtherContextMenus.ReplaceRegularExpressionBuilder.Substituteacopyofthewholematch
+OtherContextMenus.ReplaceRegularExpressionBuilder.Substitutethelastgroupthatwascaptured
+OtherContextMenus.FindRegularExpressionBuilder.Matchastringinsidequotes
+OtherContextMenus.FindRegularExpressionBuilder.Matchahexadecimalnumber
+OtherContextMenus.FindRegularExpressionBuilder.Matchintegersanddecimals
+Build.Buildfullprogramdatabasefile
+Build.Buildfullprogramdatabasefileforsolution
+Window.FloatAll
+Window.MoveAllToNextTabGroup
+Window.MoveAllToPreviousTabGroup
+Window.AddTabtoSelection | Global::Ctrl+Shift+Alt+Space
+Window.NextTabandAddtoSelection | Global::Ctrl+Shift+Alt+PgDn
+Window.PreviousTabandAddtoSelection | Global::Ctrl+Shift+Alt+PgUp
+Window.PinTab
+View.AllWindows | Global::Shift+Alt+M
+Window.KeepTabOpen | Global::Ctrl+Alt+Home
+Window.MoveToMainDocumentGroup
+Window.ActivateWindowSearch | Global::Alt+`
+Window.ActivateQuickLaunch | Global::Ctrl+Q
+Window.ActivateQuickLaunchPreviousCategory | Global::Ctrl+Shift+Q
+Window.ActivateSolutionExplorerSearch | Global::Ctrl+;
+Window.CloseAllButPinned
+ProjectandSolutionContextMenus.Solution.ResolveErrors
+ProjectandSolutionContextMenus.Project.SolutionExplorer.NewScopedWindow
+File.NewProjectFromTemplate
+ProjectandSolutionContextMenus.Project.SolutionExplorer.ScopeToThis
+Edit.PasteAsLink
+File.AddtoSourceControl
+Edit.PeekDefinition | Text Editor::Alt+F12
+Edit.PeekForward | Text Editor::Ctrl+Alt+=
+Edit.PeekBackward | Text Editor::Ctrl+Alt+-
+Project.RetargetProject
+Project.InstallMissingFeatures
+ProjectandSolutionContextMenus.Project.Add.AddReference
+ProjectandSolutionContextMenus.Project.Add.AddWebReference
+ProjectandSolutionContextMenus.Project.Add.AddServiceReference
+ProjectandSolutionContextMenus.WebProjectFolder.AddReference
+ProjectandSolutionContextMenus.WebProjectFolder.AddWebReference
+ProjectandSolutionContextMenus.WebProjectFolder.AddServiceReference
+Edit.MoveSelectedLinesUp | Text Editor::Alt+Up Arrow
+Edit.MoveSelectedLinesDown | Text Editor::Alt+Down Arrow
+Window.ShowDockMenu | Global::Alt+-
+Tools.ForceGC | Global::Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12
+View.ZoomIn | Global::Ctrl+Shift+.
+View.ZoomOut | Global::Ctrl+Shift+,
+Edit.ExpandAllOutlining | Text Editor::Ctrl+M, Ctrl+X
+Edit.CollapseAllOutlining | Text Editor::Ctrl+M, Ctrl+A
+Edit.ExpandCurrentRegion | Text Editor::Ctrl+M, Ctrl+E
+Edit.CollapseCurrentRegion | Text Editor::Ctrl+M, Ctrl+S
+ManageExtensions
+OtherContextMenus.EasyMDIToolWindow.SetTabLayout.PlaceTabsontheLeft
+OtherContextMenus.EasyMDIToolWindow.SetTabLayout.PlaceTabsontheTop
+OtherContextMenus.EasyMDIToolWindow.SetTabLayout.PlaceTabsontheRight
+OtherContextMenus.EasyMDIToolWindow.SetTabLayout.Options
+OtherContextMenus.DocumentTabWellSettings.GroupbyProject
+OtherContextMenus.DocumentTabWellSettings.NoGrouping
+OtherContextMenus.DocumentTabWellSettings.SortAlphabetically
+OtherContextMenus.DocumentTabWellSettings.SortbyRecentlyOpenedFirst
+OtherContextMenus.DocumentTabWellSettings.SortbyRecentlyOpenedLast
+RepeatFind
+File.CopyRelativePath
+View.EnableRestoreProjectHierarchy
+View.DisableRestoreProjectHierarchy
+Project.AddAssemblyReference
+Project.AddCOMReference
+Project.AddProjectReference
+Project.AddSharedProjectReference
+Project.AddSDKReference
+ProjectandSolutionContextMenus.Project.LoadProjectDependencies
+ProjectandSolutionContextMenus.Project.LoadAllProjectDependencies
+ProjectandSolutionContextMenus.Project.LoadProjectWithDependencies
+Project.AddNewPlatform
+Window.None
+Window.RestoreClosedTab | Global::Ctrl+K, Ctrl+Z
+OtherContextMenus.EasyMDIToolWindow.ShowTabsinMultipleRows
+Window.ShowLastClosedToolWindow
+Window.HideShowAllToolWindows
+Project.ConfigureStartupProjects
+Edit.EmacsCharLeft
+Edit.EmacsCharRight
+Edit.EmacsLineUp
+Edit.EmacsLineDown
+Edit.EmacsLineEnd
+Edit.EmacsLineStart
+Edit.EmacsDocumentEnd
+Edit.EmacsDocumentStart
+Edit.EmacsWordPrevious
+Edit.EmacsWordNext
+Edit.EmacsGoToLine
+Edit.EmacsScrollPageUp
+Edit.EmacsScrollPageDown
+Edit.EmacsScrollLineCenter
+Edit.EmacsTopOfWindow
+Edit.EmacsBottomOfWindow
+Edit.EmacsScrollLineTop
+Edit.EmacsSplitVertical
+Edit.EmacsOtherWindow
+Edit.EmacsCloseOtherWindow
+Edit.EmacsBreakLine
+Edit.EmacsBreakLineIndent
+Edit.EmacsLineOpen
+Edit.EmacsCharTranspose
+Edit.EmacsWordTranspose
+Edit.EmacsWordUppercase
+Edit.EmacsWordLowercase
+Edit.EmacsWordCapitalize
+Edit.EmacsWordDeleteToEnd
+Edit.EmacsWordDeleteToStart
+Edit.EmacsDeleteToEOL
+Edit.EmacsPasteRotate
+Edit.EmacsSetMark
+Edit.EmacsPopMark
+Edit.EmacsSwapPointAndMark
+Edit.EmacsDeleteSelection
+Edit.EmacsFileSaveDirty
+Edit.EmacsFindReplace
+Edit.EmacsQuit
+Edit.EmacsUniversalArgument
+Edit.EmacsExtendedCommand
+Edit.EmacsQuotedInsert
+Edit.EmacsActivateRegion
+Edit.BriefSelectColumn
+Edit.BriefLineIndent
+Edit.BriefBookmarks
+Edit.BriefSelectLine
+Edit.BriefSelectChar
+Edit.BriefSelectCharInclusive
+Edit.BriefLineUnindent
+Edit.BriefFilePrint
+Edit.BriefSelectSwapAnchor
+Edit.BriefInsertFile
+Edit.BriefGoTo
+Edit.BriefWindowLeftEdge
+Edit.BriefWordRight
+Edit.BriefWordLeft
+Edit.BriefWindowRightEdge
+Edit.BriefWindowScrollUp
+Edit.BriefWindowScrollDown
+Edit.BriefLineDelete
+Edit.BriefWordDeleteToEnd
+Edit.BriefWordDeleteToStart
+Edit.BriefLineDeleteToStart
+Edit.BriefLineDeleteToEnd
+Edit.BriefLineOpenBelow
+Edit.BriefQuotedInsert
+Edit.BriefFileExit
+Edit.BriefFindToggleCaseSensitivity
+Edit.BriefFindToggleRegExpr
+Edit.BriefFindRepeat
+Edit.BriefFindPrev
+Edit.BriefFind
+Edit.BriefFindReplace
+Edit.BriefBrowse | Global::Alt+G
+Edit.BriefGoToNextErrorTag
+Edit.BriefSetRepeatCount
+Edit.BriefWindowScrollToCenter
+Edit.BriefWindowSwitchPane
+Edit.BriefWindowSplit
+Edit.BriefWindowScrollToBottom
+Edit.BriefWindowScrollToTop
+Edit.BriefWindowMaximize
+Edit.BriefBreakLine
+Edit.BriefBookmarkDrop0
+Edit.BriefBookmarkDrop1
+Edit.BriefBookmarkDrop2
+Edit.BriefBookmarkDrop3
+Edit.BriefBookmarkDrop4
+Edit.BriefBookmarkDrop5
+Edit.BriefBookmarkDrop6
+Edit.BriefBookmarkDrop7
+Edit.BriefBookmarkDrop8
+Edit.BriefBookmarkDrop9
+OtherContextMenus.DefaultContext.Properties
+WebBrowserBack
+WebBrowserForward
+WebBrowserStop
+OtherContextMenus.DefaultContext.WebBrowserRefresh
+WebBrowserBack
+WebBrowserForward
+OtherContextMenus.DefaultContext.TextSize.Smallest
+OtherContextMenus.DefaultContext.TextSize.Smaller
+OtherContextMenus.DefaultContext.TextSize.Medium
+OtherContextMenus.DefaultContext.TextSize.Larger
+OtherContextMenus.DefaultContext.TextSize.Largest
+OtherContextMenus.ImageContext.OpenLinkinNewWindow
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicASMO708
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicDOS
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ArabicWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.BalticISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.BalticWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanDOS
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CentralEuropeanWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseSimplifiedGB2312
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseTraditional
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicDOS
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicKOI8R
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.CyrillicWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.GreekISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.GreekWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewDOS
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.HebrewWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseAutoSelect
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseEUC
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.JapaneseShiftJIS
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.KoreanAutoSelect
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ThaiWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.TurkishWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.TurkishISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UkrainianKOI8RU
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UnicodeUTF8
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.VietnameseWindows
+OtherContextMenus.DefaultContext.Encoding.WesternEuropeanWindows
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.WesternEuropeanISO
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.UserDefined
+OtherContextMenus.DefaultContext.Encoding.Moreencoding.ChineseSimplifiedGB18030
+OtherContextMenus.DefaultContext.Encoding.CpMRU1
+OtherContextMenus.DefaultContext.Encoding.CpMRU2
+OtherContextMenus.DefaultContext.Encoding.CpMRU3
+OtherContextMenus.DefaultContext.Encoding.CpMRU4
+OtherContextMenus.ImageContext.OpenLink
+OtherContextMenus.ImageContext.OpenLinkinExternalWindow
+OtherContextMenus.DefaultContext.ViewSource
+OtherContextMenus.DefaultContext.SaveBackgroundAs
+OtherContextMenus.DefaultContext.CopyBackground
+OtherContextMenus.ImageContext.SaveTargetAs
+OtherContextMenus.ImageContext.ShowPicture
+OtherContextMenus.ImageContext.SavePictureAs
+OtherContextMenus.ImageContext.PrintTarget
+OtherContextMenus.DefaultContext.Encoding.AutoSelect
+Help.ViewHelp | Global::Ctrl+F1
+Help.AddandRemoveHelpContent | Global::Ctrl+Alt+F1
+Help.LaunchinBrowser
+Help.LaunchinHelpViewer
+File.PrintSubtopics
+OtherContextMenus.ResListContext.SortBy.Column1
+OtherContextMenus.ResListContext.SortBy.Column2
+OtherContextMenus.ResListContext.SortBy.Column3
+OtherContextMenus.ResListContext.SortBy.Column4
+OtherContextMenus.ResListContext.SortBy.Column5
+OtherContextMenus.ResListContext.SortBy.Column6
+OtherContextMenus.ResListContext.SortBy.Column7
+OtherContextMenus.ResListContext.SortBy.Column8
+OtherContextMenus.ResListContext.SortBy.Column9
+OtherContextMenus.ResListContext.SortBy.Column10
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.UnflagAllThreads
+EditorContextMenus.CodeWindow.Breakpoint.InsertTracepoint
+EditorContextMenus.CodeWindow.Breakpoint.InsertTemporaryBreakpoint | Global::Shift+Alt+F9, T
+EditorContextMenus.CodeWindow.Breakpoint.InsertConditionalBreakpoint
+EditorContextMenus.CodeWindow.Breakpoint.DeleteBreakpoint
+EditorContextMenus.CodeWindow.Breakpoint.InsertDependentBreakpoint | Global::Shift+Alt+F9, D
+Debug.Breakpoints | Global::Ctrl+Alt+B
+Debug.Breakpoints | Global::Alt+F9
+Debug.Disassembly | Global::Alt+8
+Debug.Registers | Global::Ctrl+Alt+G
+Debug.Registers | Global::Alt+5
+Debug.Modules | Global::Ctrl+Alt+U
+Debug.ApplyCodeChanges | Global::Alt+F10
+Debug.StopApplyingCodeChanges
+Debug.GoToDisassembly | Global::Ctrl+K, G
+Debug.Output
+Debug.StepByLine
+Debug.StepByStatement
+Debug.StepByInstruction
+Debug.SaveDumpAs
+Debug.DisableAllBreakpoints
+Debug.EnableAllBreakpoints
+Debug.TerminateAll
+DebuggerContextMenus.AutosWindow.SymbolSettings
+DebuggerContextMenus.AutosWindow.LoadSymbols
+DebuggerContextMenus.AutosWindow.SymbolLoadInformation
+Debug.StopEvaluation
+Debug.Processes | Global::Ctrl+Alt+Z
+Debug.Processes | Global::Ctrl+Shift+Alt+P
+Debug.LocationToolbar.ToggleFlaggedThreads | Global::Ctrl+9
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.Flag
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.Unflag
+Debug.ToggleJustMyCode
+Debug.FunctionBreakpoint | Global::Ctrl+K, B
+Debug.BreakAtAddress
+Debug.DataBreakpoint
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointSettings | Breakpoints Window::F2
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointConditions
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointActions
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointQuickSettings
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointFilter
+DebuggerContextMenus.AutosWindow.MakeObjectID
+DebuggerContextMenus.DataTipWindow.CopyExpression
+DebuggerContextMenus.AutosWindow.CopyValue
+DebuggerContextMenus.AutosWindow.DeleteObjectID
+DebuggerContextMenus.OutputWindow.ExceptionMessages
+DebuggerContextMenus.OutputWindow.ModuleLoadMessages
+DebuggerContextMenus.OutputWindow.ModuleUnloadMessages
+DebuggerContextMenus.OutputWindow.ProcessExitMessages
+DebuggerContextMenus.OutputWindow.ThreadExitMessages
+DebuggerContextMenus.OutputWindow.ProgramOutput
+Debug.StepIntoCurrentProcess | Global::Ctrl+Alt+F11
+Debug.StepOverCurrentProcess | Global::Ctrl+Alt+F10
+Debug.StepOutCurrentProcess | Global::Ctrl+Shift+Alt+F11
+Debug.LocationToolbar.ToggleCurrentThreadFlaggedState | Global::Ctrl+8
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.Debug.LocationToolbar.ShowThreadIpIndicators
+DebuggerContextMenus.OutputWindow.StepFilteringMessages
+Debug.Stepoverpropertiesandoperators
+Debug.StepIntoSpecific | Global::Shift+Alt+F11
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointEditlabels
+EditorContextMenus.CodeWindow.Breakpoint.BreakpointExport
+Debug.Options
+Debug.RunFlaggedThreadsToCursor
+Debug.LocationToolbar.ToggleShowCurrentProcessOnly
+Debug.RunCurrentTileToCursor
+Debug.AddParallelWatch
+Debug.DebugInstalledAppPackage
+Debug.TriggerWindowsStoreAppPrefetch
+DebuggerContextMenus.AutosWindow.BreakWhenValueChanges
+DebuggerContextMenus.AutosWindow.PinMemberAsFavorite
+DebuggerContextMenus.AutosWindow.ShowOnlyPinnedMembers
+DebuggerContextMenus.AutosWindow.ShowPinnedMemberNamesinValues
+DebuggerContextMenus.AutosWindow.AllowFunctionCallsInValueFormatting
+DebuggerContextMenus.ModulesWindow.DecompileSourcetoSymbolFile
+DebuggerContextMenus.ModulesWindow.ExtractSourceCode
+Debug.ForceRunToCursor
+Debug.Breakpointgroup
+Debug.DebugUniversalWindowsAppPrelaunch
+Debug.DebugAppforAccessibility
+DebuggerContextMenus.ModulesWindow.CopyValue.CopyName
+DebuggerContextMenus.ModulesWindow.CopyValue.CopyPath
+DebuggerContextMenus.ModulesWindow.CopyValue.CopyDirectoryPath
+DebuggerContextMenus.ModulesWindow.CopyValue.CopySymbolFilePath
+DebuggerContextMenus.ModulesWindow.CopyValue.CopyVersion
+DebuggerContextMenus.ModulesWindow.CopyValue.CopyBaseAddress
+DebuggerContextMenus.ModulesWindow.OpenFileLocation.DummyModuleName
+DebuggerContextMenus.ModulesWindow.OpenFileLocation.DummySymbolsName
+DebuggerContextMenus.BreakpointsWindow.Delete
+DebuggerContextMenus.BreakpointsWindow.GoToSourceCode
+DebuggerContextMenus.BreakpointsWindow.GoToDisassembly
+DebuggerContextMenus.BreakpointsWindow.Exportselected
+Debug.BreakpointsWindow.Search
+DebuggerContextMenus.BreakpointsWindow.SortBy.Name
+DebuggerContextMenus.BreakpointsWindow.SortBy.Condition
+DebuggerContextMenus.BreakpointsWindow.SortBy.HitCount
+DebuggerContextMenus.BreakpointsWindow.SortBy.Language
+DebuggerContextMenus.BreakpointsWindow.SortBy.Function
+DebuggerContextMenus.BreakpointsWindow.SortBy.File
+DebuggerContextMenus.BreakpointsWindow.SortBy.Address
+DebuggerContextMenus.BreakpointsWindow.SortBy.Data
+DebuggerContextMenus.BreakpointsWindow.SortBy.Process
+DebuggerContextMenus.BreakpointsWindow.SortBy.Filter
+DebuggerContextMenus.BreakpointsWindow.SortBy.WhenHit
+DebuggerContextMenus.BreakpointsWindow.SortBy.Label
+DebuggerContextMenus.BreakpointsWindow.SortBy.Disablesorting
+DebuggerContextMenus.BreakpointsWindow.SortBy.SortAscending
+DebuggerContextMenus.BreakpointsWindow.SortBy.SortDescending
+DebuggerContextMenus.AutosWindow.GoToSourceCode
+DebuggerContextMenus.DisassemblyWindow.ShowAddress
+DebuggerContextMenus.DisassemblyWindow.ShowSourceCode
+DebuggerContextMenus.DisassemblyWindow.ShowCodeBytes
+DebuggerContextMenus.DisassemblyWindow.ShowSymbolNames
+DebuggerContextMenus.DisassemblyWindow.ShowLineNumbers
+DebuggerContextMenus.DisassemblyWindow.ShowToolbar
+Debug.ToggleDisassembly | Global::Ctrl+F11
+DebuggerContextMenus.MemoryWindow.ReevaluateAutomatically
+DebuggerContextMenus.MemoryWindow.NoData
+DebuggerContextMenus.MemoryWindow.1byteInteger
+DebuggerContextMenus.MemoryWindow.2byteInteger
+DebuggerContextMenus.MemoryWindow.4byteInteger
+DebuggerContextMenus.MemoryWindow.8byteInteger
+DebuggerContextMenus.MemoryWindow.32bitFloatingPoint
+DebuggerContextMenus.MemoryWindow.64bitFloatingPoint
+DebuggerContextMenus.MemoryWindow.HexadecimalDisplay
+DebuggerContextMenus.MemoryWindow.SignedDisplay
+DebuggerContextMenus.MemoryWindow.UnsignedDisplay
+DebuggerContextMenus.MemoryWindow.BigEndian
+DebuggerContextMenus.MemoryWindow.NoText
+DebuggerContextMenus.MemoryWindow.ANSIText
+DebuggerContextMenus.MemoryWindow.UnicodeText
+DebuggerContextMenus.AutosWindow.EditValue
+DebuggerContextMenus.MemoryWindow.ShowToolbar
+DebuggerContextMenus.ModulesWindow.ShowModulesforallProcesses
+Debug.ModulesWindow.Search
+DebuggerContextMenus.CallStackWindow.SwitchToFrame
+DebuggerContextMenus.CallStackWindow.ShowParameterValues
+DebuggerContextMenus.CallStackWindow.ShowParameterTypes
+DebuggerContextMenus.CallStackWindow.ShowParameterNames
+DebuggerContextMenus.CallStackWindow.ShowModuleNames
+DebuggerContextMenus.CallStackWindow.ShowLineNumbers
+DebuggerContextMenus.CallStackWindow.ShowByteOffsets
+DebuggerContextMenus.CallStackWindow.IncludeCallsToFromOtherThreads
+DebuggerContextMenus.StacksWindowShortcutMenu.ShowExternalCode
+DebuggerContextMenus.CallStackWindow.UnwindToThisFrame
+DebuggerContextMenus.CallStackWindow.ShowFrameStatus
+DebuggerContextMenus.CallStackWindow.CopyWithSourcePaths
+DebuggerContextMenus.CallStackWindow.GoToModule
+DebuggerContextMenus.CallStackWindow.ShowTemplateArgumentsC++
+Debug.CallStack.FindNext | Call Stack Window::F3
+Debug.CallStack.FindPrevious | Call Stack Window::Shift+F3
+Debug.CallStack.Search
+DebuggerContextMenus.ProcessesWindow.ContinueProcess
+DebuggerContextMenus.ProcessesWindow.BreakProcess
+DebuggerContextMenus.ProcessesWindow.DetachProcess
+DebuggerContextMenus.ProcessesWindow.TerminateProcess
+DebuggerContextMenus.ProcessesWindow.Detachwhendebuggingstopped
+DebuggerContextMenus.ThreadIPMarker.SwitchtoThreadX
+DebuggerContextMenus.AutosWindow.PropagateSideEffects
+Debug.Autos.FindNext
+Debug.Autos.FindPrevious
+Debug.Autos.Search
+Debug.Autos.ShowOnlyPinnedMembers
+Debug.Autos.ShowPinnedMemberNamesInValues
+DebuggerContextMenus.LocalsWindow.PropagateSideEffects
+Debug.Locals.FindNext
+Debug.Locals.FindPrevious
+Debug.Locals.Search
+Debug.Locals.ShowOnlyPinnedMembers
+Debug.Locals.ShowPinnedMemberNamesInValues
+DebuggerContextMenus.WatchWindow.PropagateSideEffects
+Debug.Watch.Search
+Debug.ListMemory
+Debug.ListCallStack
+Debug.ListDisassembly
+Debug.ListRegisters
+Debug.ListThreads
+Debug.SetRadix
+Debug.SetCurrentThread
+Debug.SetCurrentStackFrame
+Debug.ListSource
+Debug.SymbolPath
+Debug.ListModules
+Debug.ListProcesses
+Debug.SetCurrentProcess
+Debug.ReattachtoProcess | Global::Shift+Alt+P
+Debug.StepBackInto | Global::Ctrl+R, F11
+Debug.StepBackOver | Global::Ctrl+R, F10
+Debug.StepBackOut | Global::Ctrl+R, Shift+F11
+Debug.ReverseContinue | Global::Ctrl+R, F5
+Debug.Memory1 | Global::Ctrl+Alt+M, 1
+Debug.Memory1 | Global::Alt+6
+Debug.Watch1 | Global::Ctrl+Alt+W, 1
+Debug.Watch1.FindNext
+Debug.Watch1.FindPrevious
+Debug.Watch1.ShowOnlyPinnedMembers
+Debug.Watch1.ShowPinnedMemberNamesInValues
+Debug.Memory2 | Global::Ctrl+Alt+M, 2
+Debug.Watch2 | Global::Ctrl+Alt+W, 2
+Debug.Watch2.FindNext
+Debug.Watch2.FindPrevious
+Debug.Watch2.ShowOnlyPinnedMembers
+Debug.Watch2.ShowPinnedMemberNamesInValues
+Debug.Memory3 | Global::Ctrl+Alt+M, 3
+Debug.Watch3 | Global::Ctrl+Alt+W, 3
+Debug.Watch3.FindNext
+Debug.Watch3.FindPrevious
+Debug.Watch3.ShowOnlyPinnedMembers
+Debug.Watch3.ShowPinnedMemberNamesInValues
+Debug.Memory4 | Global::Ctrl+Alt+M, 4
+Debug.Watch4 | Global::Ctrl+Alt+W, 4
+Debug.Watch4.FindNext
+Debug.Watch4.FindPrevious
+Debug.Watch4.ShowOnlyPinnedMembers
+Debug.Watch4.ShowPinnedMemberNamesInValues
+Project.AddWindowWPF
+Project.AddPageWPF
+Project.AddUserControlWPF
+Project.AddResourceDictionaryWPF
+ProjectandSolutionContextMenus.Project.Add.AddWindowWPF
+ProjectandSolutionContextMenus.Project.Add.AddPageWPF
+ProjectandSolutionContextMenus.Project.Add.AddUserControlWPF
+ProjectandSolutionContextMenus.Project.Add.AddResourceDictionaryWPF
+View.ViewCodeGenFile
+Project.ConverttoWebApplication
+Edit.AddEventHandler
+OtherContextMenus.ResourceView.Import
+OtherContextMenus.ResourceEditors.EditControl
+Image.CopyandOutlineSelection | VC Image Editor::Ctrl+Shift+U
+Image.UseSelectionasBrush | VC Image Editor::Ctrl+U
+View.BrowserLinkDashboard
+OtherContextMenus.HTMLContext.Unminify
+OtherContextMenus.HTMLContext.WrapWithdiv | HTML Editor::Shift+Alt+W
+OtherContextMenus.JSONContext.Unminify
+OtherContextMenus.JSONContext.ReloadSchemas | JSON Editor::Ctrl+Shift+J
+OtherContextMenus.JSONContext.SortProperties
+FocusSchemaSelection | JSON Editor::F4
+OtherContextMenus.RestContext.SendRequest | Rest Api Editor::Ctrl+Alt+S
+FocusAllRequestsComboBox | Rest Api Editor::F4
+ProjectandSolutionContextMenus.Project.Add.View
+ProjectandSolutionContextMenus.Project.Add.Area
+ProjectandSolutionContextMenus.Project.Add.Controller
+ProjectandSolutionContextMenus.Project.Add.RazorPage
+OtherContextMenus.ObjectNode.Design
+OtherContextMenus.StaticNode.Refresh
+OtherContextMenus.ServerExplorer.ModifyConnection
+OtherContextMenus.ServerExplorer.CloseConnection
+EditorContextMenus.CodeWindow.InsertSQL
+Project.RunSelection
+OtherContextMenus.ObjectNode.RetrieveData
+OtherContextMenus.ObjectNode.Edit
+EditorContextMenus.CodeWindow.Execute | Global::Ctrl+Alt+F5
+EditorContextMenus.CodeWindow.RunSelection
+EditorContextMenus.CodeWindow.DesignSQLBlock
+OtherContextMenus.ServerExplorer.DetachDatabase
+OtherContextMenus.ServerExplorer.BrowseInSQLServerObjectExplorer
+OtherContextMenus.StaticNode.AddNewTable
+OtherContextMenus.StaticNode.AddNewView
+OtherContextMenus.StaticNode.AddNewStoredProcedure
+OtherContextMenus.StaticNode.AddNew.InlineFunction
+OtherContextMenus.StaticNode.AddNew.TablevaluedFunction
+OtherContextMenus.StaticNode.AddNew.ScalarvaluedFunction
+OtherContextMenus.StaticNode.AddNewTrigger
+OtherContextMenus.StaticNode.NewQuery
+OtherContextMenus.StaticNode.AddNewDiagram
+OtherContextMenus.DatabaseDesignerTable.AddRelatedTables
+OtherContextMenus.DatabaseDesigner.ArrangeTables
+OtherContextMenus.DatabaseDesignerTable.ArrangeSelection
+TableDesigner.InsertColumn
+TableDesigner.DeleteColumn
+OtherContextMenus.DatabaseDesigner.NewTextAnnotation
+OtherContextMenus.DatabaseDesigner.ShowRelationshipLabels
+OtherContextMenus.DatabaseDesigner.ViewPageBreaks
+OtherContextMenus.DatabaseDesigner.RecalculatePageBreaks
+TableDesigner.Custom
+Edit.DeletefromDatabase
+OtherContextMenus.DatabaseDesignerTable.AutosizeSelectedTables
+TableDesigner.ModifyCustom
+OtherContextMenus.TextAnnotation.SetFont
+OtherContextMenus.DatabaseDesigner.Zoom.200
+OtherContextMenus.DatabaseDesigner.Zoom.150
+OtherContextMenus.DatabaseDesigner.Zoom.100
+OtherContextMenus.DatabaseDesigner.Zoom.75
+OtherContextMenus.DatabaseDesigner.Zoom.50
+OtherContextMenus.DatabaseDesigner.Zoom.25
+OtherContextMenus.DatabaseDesigner.Zoom.10
+OtherContextMenus.DatabaseDesigner.Zoom.ToFit
+OtherContextMenus.DatabaseDesigner.AddTable
+QueryDesigner.AddTable
+QueryDesigner.ColumnNames
+QueryDesigner.NameOnly
+Edit.CopyDiagramtoClipboard
+OtherContextMenus.DatabaseDesignerTable.RemovefromDiagram
+TableDesigner.IndexesandKeys
+TableDesigner.Relationships
+TableDesigner.CheckConstraints
+Build.RunCodeAnalysisonSolution | Global::Alt+F11
+Analyze.ForSolution
+ShowApplicationCapabilitiesDesigner
+OtherContextMenus.WorkspaceContextMenu.Add.NewItem
+Format.BringForward
+Format.EditCurrent
+Format.EditaCopy
+Format.CreateEmpty
+Format.EditCurrent
+Format.EditaCopy
+Format.CreateEmpty
+Format.EditCurrent
+Format.EditaCopy
+MoveLeftEdgetotheleft | XAML Designer::Ctrl+Shift+,
+MoveLeftEdgetotheright | XAML Designer::Ctrl+Shift+.
+MoveRightEdgetotheleft | XAML Designer::Ctrl+Shift+Alt+,
+MoveRightEdgetotheright | XAML Designer::Ctrl+Shift+Alt+.
+ProjectandSolutionContextMenus.Item.MergeintoActiveDocument
+Window.ToggleSplitView
+Window.SwapPanes
+Window.PopOutXAML
+View.DesigninBlend
+Edit.PeekDifference | Text Editor::Alt+F8
+Diagnostics.ServerCommand
+Diagnostics.ServerDump
+Git.CodeLens.LogAuthorsDoubleClick
+Git.CodeLens.LogChangesDoubleClick
+Git.CodeLens.LogWorkItemsDoubleClick
+CodeLens.LogAuthorsDoubleClick
+CodeLens.LogChangesDoubleClick
+CodeLens.LogBugsDoubleClick
+CodeLens.LogWorkItemsDoubleClick
+CodeLens.LogCodeReviewsDoubleClick
+CodeLens.LogIncomingChangesDoubleClick
+CodeLens.LogShowOnCodeMap
+Team.TeamExplorerSearch | Global::Ctrl+'
+OtherContextMenus.StackTraceExplorer.PasteStackTraceExplorer
+OtherContextMenus.StackTraceExplorer.ClearStackTraceExplorer
+View.PropertyManager
+Edit.ConditionalDown
+Edit.ConditionalUp
+ClassViewContextMenus.ClassViewMultiselectProjectreferencesItems.GoToDialog
+Project.RescanSolution
+Project.DisplayBrowsingDatabaseErrors
+Project.ClearBrowsingDatabaseErrors
+Cpp.CollectCppIntelliSenseRepro
+OtherContextMenus.FindSymbol.StopResolution
+OtherContextMenus.FindSymbol.NextConfirmed
+OtherContextMenus.FindSymbol.PreviousConfirmed
+DebuggerContextMenus.ExceptionSettingsWindow.Add
+DebuggerContextMenus.ExceptionSettingsWindow.Delete
+DebuggerContextMenus.ExceptionSettingsWindow.RestoreDefaults
+DebuggerContextMenus.ExceptionSettingsWindow.ContinueWhenUnhandledinUserCode
+DebuggerContextMenus.ExceptionSettingsWindow.ShowColumns.AdditionalActions
+DebuggerContextMenus.ExceptionSettingsWindow.EditConditions
+Debug.ClearAllDataTips
+Debug.ManagedMemory
+Debug.DiagnosticAnalysis | Global::Ctrl+Shift+Alt+D
+Debug.ParallelStacks.Search
+Debug.ParallelStacks.ExportToXml
+Debug.ParallelWatch1 | Global::Ctrl+Shift+D, 1
+ProjectandSolutionContextMenus.WebProjectFolder.UpdateProjectDependencies
+SolutionExplorer.PivotListStart
+Window.Loading
+ConfigureConnectedServicesProvider
+TestExplorer.RunAllTests | Global::Ctrl+R, A
+EditorContextMenus.CodeWindow.GoToView | Global::Ctrl+M, Ctrl+G
+Debug.ManagedMemory
+Window.Loading
+OtherContextMenus.HTMLContext.GoToController | HTML Editor Source View::Ctrl+M, Ctrl+G
+OtherContextMenus.HTMLContext.GoToController | HTML Editor::Ctrl+M, Ctrl+G
+Window.Loading
+Window.Loading
+Window.Loading
+TestExplorer.DebugAllTests | Global::Ctrl+R, Ctrl+A
+Window.Loading
+Window.Loading
+TestExplorer.ClearResultsForAllTests | Global::Ctrl+R, Del
+Window.Loading
+Window.Loading
+Window.Loading
+Window.Loading
+Window.Loading
+Window.Loading
+Window.Loading
+Window.Loading
+Help.PrivacyStatement
+EditorContextMenus.CodeWindow.Annotation.MoveToNextAnnotation | Global::Ctrl+K, Ctrl+Right Arrow
+Window.Loading
+DGML
+EditorContextMenus.CodeWindow.AddView
+Format.PinActiveContainer
+SolutionExplorer.Folder.ToggleViewPicker
+Debug.ClearDatatipsOnCurrentFile
+Format.SetDesigntimeDataContext
+EditorContextMenus.CodeWindow.Annotation.MoveToPreviousAnnotation | Global::Ctrl+K, Ctrl+Left Arrow
+EditorContextMenus.CodeWindow.Annotation.ShowStructure | Global::Ctrl+K, Ctrl+G
+Format.SendBackward
+OtherContextMenus.WorkspaceContextMenu.Add.ExistingItem
+OtherContextMenus.WorkspaceContextMenu.Add.NewModule
+OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation | Unknown Editor::Ctrl+Break
+File.AccountSettings
+Debug.StartDebugTarget
+Project.Retargetsolution
+DebuggerContextMenus.Breakpoint.InsertConditionalBreakpoint
+DebuggerContextMenus.ThreadIPMarker.FlagUnflagThreadX
+DebuggerContextMenus.BreakpointsWindow.RemovefromBreakpointGroup
+View.CallHierarchy | Global::Ctrl+Alt+K
+OtherContextMenus.CallHierarchyContextMenu.AddAsNewRoot
+DebugAdapterHost.Logging
+DebugAdapterHost.Launch
+SolutionExplorer.Folder.Back
+OtherContextMenus.WorkspaceContextMenu.Add.NewFile
+SolutionExplorer.Folder.ToggleSingleClickPreview
+LiveShare.JoinWorkspace
+LiveShare.ShareWorkspace
+LiveShare.CloseSession
+LiveShare.CopyLink
+LiveShare.SignIn
+LiveShare.Options
+LiveShare.PinToRemoteUser
+LiveShare.ShareServer
+LiveShare.UnshareServer
+LiveShare.ListSharedServers
+LiveShare.JumpTo
+LiveShare.ConfigureAccount
+LiveShare.ShareTerminal
+LiveShare.ShowSharedTerminals
+LiveShare.ShareReadonlyTerminal
+LiveShare.SummonParticipants
+LiveShare.ToggleUserReadOnly
+LiveShare.RemoveUser
+LiveShare.ViewWindow
+LiveShare.BlockUser
+LiveShare.OpenChatWindow
+LiveShare.AcceptGuest
+LiveShare.RejectGuest
+LiveShare.FollowUser
+LiveShare.JoinCall
+LiveShare.AlwaysJoinActiveCalls
+LiveShare.AcceptInvite
+LiveShare.DismissInvite
+TestExplorer.RunTestsFromCodeLens
+TestExplorer.NavigateToTest
+Project.ClassWizard | Global::Ctrl+Shift+X
+ProjectandSolutionContextMenus.Item.RestorePackages
+ClassViewContextMenus.ClassViewProject.View.TaskRunnerExplorer
+OtherContextMenus.WorkspaceContextMenu.Add.Class
+File.CMake
+EditorContextMenus.FileHealthIndicator.RunDefaultCodeCleanup | Text Editor::Ctrl+K, Ctrl+E
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.RunDefaultCodeCleanup
+Analyze.RunDefaultCodeCleanupOnSolution
+OtherContextMenus.FSIConsoleContext.StartDebugging | Unknown Editor::Ctrl+Alt+D
+Debug.KofeLaunch
+Debug.MIDebugLaunch
+Debug.MIDebugExec
+Debug.MIDebugLog
+View.PackageManagerConsole
+DebuggerContextMenus.DataTipsContext.Clear
+OtherContextMenus.TasksWindowShortcutMenu.GroupBy
+OtherContextMenus.ParallelWatchWindowShortcutMenu.SwitchToFrame
+Debug.ParallelWatch2 | Global::Ctrl+Shift+D, 2
+ClassViewContextMenus.ClassViewProject.View.ConfigureExternalTools
+EditorContextMenus.FileHealthIndicator.RunCustomCodeCleanup
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.RunCustomCodeCleanup
+Analyze.RunCustomCodeCleanupOnSolution
+OtherContextMenus.FSIConsoleContext.StopDebugging | Unknown Editor::Ctrl+Shift+D
+OtherContextMenus.FSIConsoleContext.QuitF#InteractiveProcess | Unknown Editor::Ctrl+Alt+Q
+InteractiveConsole.CopyToInteractive | Text Editor::Ctrl+K, Ctrl+Enter
+OtherContextMenus.FSIConsoleContext.ResetInteractiveSession | Unknown Editor::Ctrl+Alt+R
+LiveShare.SignInAndRejoin
+LiveShare.StartAudioCall
+LiveShare.EndAudioCall
+LiveShare.AudioCallSettings
+LiveShare.AudioMuteYourself
+LiveShare.AudioUnmuteYourself
+OtherContextMenus.WorkspaceContextMenu.ConfigureCache
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.SetAsStartupItem
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.SetAsStartupProject
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.UnloadProject
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.LoadProject
+OtherContextMenus.WorkspaceContextMenu.SaveAsSolutionFilter
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.Build
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.Rebuild
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.Clean
+SolutionExplorer.Folder.CustomBuildContextAction
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.CustomizeLaunch
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.OpenDebugAndLaunchSettings
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.CustomizeTask
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.Debug
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.RunCustomTool
+OtherContextMenus.WorkspaceContextMenu.ConfigureCachewithCMakeDebugging
+OtherContextMenus.WorkspaceContextMenu.CancelCMakeCacheGeneration
+OtherContextMenus.WorkspaceContextMenu.DeleteCacheandReconfigure
+OtherContextMenus.WorkspaceContextMenu.Cut
+OtherContextMenus.WorkspaceContextMenu.ViewCMakeCache.txt
+OtherContextMenus.WorkspaceContextMenu.ScopetoThis
+OtherContextMenus.WorkspaceContextMenu.Copy
+OtherContextMenus.WorkspaceContextMenu.CMake.EditSettings
+OtherContextMenus.WorkspaceContextMenu.CMake.CancelBuild
+OtherContextMenus.WorkspaceContextMenu.CMake.Diagnose
+OtherContextMenus.WorkspaceContextMenu.CancelCodeAnalysis
+OtherContextMenus.WorkspaceContextMenu.Paste
+OtherContextMenus.WorkspaceContextMenu.ExcludeFromProject
+OtherContextMenus.WorkspaceContextMenu.Delete
+OtherContextMenus.WorkspaceContextMenu.Rename
+OtherContextMenus.WorkspaceContextMenu.Add.AddNewItem
+OtherContextMenus.WorkspaceContextMenu.OpenFolderinFileExplorer
+OtherContextMenus.WorkspaceContextMenu.Openinterminal
+OtherContextMenus.WorkspaceContextMenu.Copypath
+OtherContextMenus.WorkspaceContextMenu.CMake.Install
+OtherContextMenus.WorkspaceContextMenu.CMake.CleanAll
+OtherContextMenus.WorkspaceContextMenu.CMake.RebuildAll
+OtherContextMenus.WorkspaceContextMenu.CMake.Compile
+OtherContextMenus.WorkspaceContextMenu.CMake.AddTarget
+OtherContextMenus.WorkspaceContextMenu.CMake.RemoveTarget
+OtherContextMenus.WorkspaceContextMenu.CMake.RenameTarget
+OtherContextMenus.WorkspaceContextMenu.CMake.AddReference
+OtherContextMenus.WorkspaceContextMenu.CMake.RemoveReference
+OtherContextMenus.WorkspaceContextMenu.CMake.DeleteItem
+OtherContextMenus.WorkspaceContextMenu.CMake.RemoveItem
+OtherContextMenus.WorkspaceContextMenu.CMake.RenameItem
+OtherContextMenus.WorkspaceContextMenu.Add.CMake.AddTarget
+OtherContextMenus.WorkspaceContextMenu.EBF.Compile
+OtherContextMenus.WorkspaceContextMenu.RunCodeAnalysisonFile
+OtherContextMenus.WorkspaceContextMenu.CMake.BuildAll
+OtherContextMenus.WorkspaceContextMenu.CMake.DebugTarget
+OtherContextMenus.WorkspaceContextMenu.EBF.RunTests
+OtherContextMenus.WorkspaceContextMenu.EBF.CancelRunTests
+OtherContextMenus.WorkspaceContextMenu.RunCodeAnalysisonTarget
+OtherContextMenus.WorkspaceContextMenu.RunCodeAnalysisonProject
+OtherContextMenus.ServerExplorer.AddToDesigner
+DebuggerContextMenus.Breakpoint.InsertTracepoint
+OtherContextMenus.CallHierarchyContextMenu.RemoveRoot
+Graphics.ShowLogicalStateView
+Graphics.ShowAPIInputStateView
+SolutionExplorer.Folder.Forward
+OtherContextMenus.WorkspaceContextMenu.Add.NewFolder
+SolutionExplorer.Folder.Refresh
+TestExplorer.DebugTestsFromCodeLens
+ProjectandSolutionContextMenus.ProjectReference.SetAsEntryPoint
+EditorContextMenus.FileHealthIndicator.ConfigureCodeCleanup
+Analyze.ConfigureCodeCleanup
+OtherContextMenus.TasksWindowShortcutMenu.SwitchToTask
+Debug.ParallelWatch3 | Global::Ctrl+Shift+D, 3
+OtherContextMenus.SolutionFilter.SaveSolutionFilterAs
+OtherContextMenus.SolutionFilter.ShowUnloadedProjects
+OtherContextMenus.SolutionFilter.LoadAllProjects
+OtherContextMenus.SolutionFilter.HideSolutionFilterPanel
+AddQuickFile
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column1
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column2
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column3
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column4
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column5
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column6
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column7
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column8
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column9
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column10
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column11
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column12
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column13
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column14
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column15
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column16
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column17
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column18
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column19
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column20
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column21
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column22
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column23
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column24
+OtherContextMenus.XAMLBindingFailuresContextMenu.Grouping.Column25
+OtherContextMenus.ErrorList.Lockcolumnwidths
+OtherContextMenus.DataSourceContext.Add.DataTable
+DebuggerContextMenus.Breakpoint.InsertTemporaryBreakpoint
+OtherContextMenus.CallHierarchyContextMenu.Refresh
+SolutionExplorer.Folder.Home
+SolutionExplorer.Folder.CollapseAll
+SolutionExplorer.Folder.ShowAllFiles
+OtherContextMenus.WorkspaceContextMenu.Add.ExistingItem
+TestExplorer.SyncTestFromCodeLens
+OtherContextMenus.WorkspaceContextMenu.EBF.CancelBuild
+DebuggerContextMenus.DataTipsContext.Arrange
+OtherContextMenus.TasksWindowShortcutMenu.FreezeAssignedThreads
+Debug.ParallelWatch4 | Global::Ctrl+Shift+D, 4
+Edit.Delete | Dependency Validation Diagram::Shift+Del
+Edit.Delete | Global::Del
+Edit.Delete | Team Explorer::Del
+DebuggerContextMenus.Breakpoint.InsertDependentBreakpoint
+Project.UpdateConnectedService
+OtherContextMenus.WorkspaceContextMenu.Add.ExistingProject
+Edit.Duplicate | Text Editor::Ctrl+D
+Edit.Duplicate | Text Editor::Ctrl+E, V
+Edit.Duplicate | Text Editor::Ctrl+E, Ctrl+V
+Diff.SwitchBetweenLeftAndRight | Text Editor::Ctrl+\, Ctrl+Tab
+OtherContextMenus.DataSourceContext.Add.Relation
+OtherContextMenus.DbTableContext.Configure
+TestExplorer.GoToSearchBar | Test Explorer::Ctrl+I
+TestExplorer.GoToSearchBar | Live Unit Testing Tab::Ctrl+I
+TestExplorer.GoToSearchBar | Test Explorer Playlist Tab::Ctrl+I
+OtherContextMenus.WorkspaceContextMenu.EBF.Install
+ClassViewContextMenus.ClassViewItem.Add.NewEditorConfig
+OtherContextMenus.WorkspaceContextMenu.Add.NewEditorConfig
+OtherContextMenus.WorkspaceContextMenu.Add.SolutionExplorer.Folder.AddReference
+OtherContextMenus.TasksWindowShortcutMenu.ThawAssignedThreads
+OtherContextMenus.TasksWindowShortcutMenu.FlagAssignedThreads
+OtherContextMenus.DbTableContext.Add.Key
+OtherContextMenus.TasksWindowShortcutMenu.UnflagAssignedThreads
+OtherContextMenus.DbTableContext.Add.Column | DataSet Editor::Ctrl+L
+OtherContextMenus.ColumnContext.SetPrimaryKey
+OtherContextMenus.ColumnContext.InsertColumn | DataSet Editor::Ins
+View.Autosize
+OtherContextMenus.DataSourceContext.ShowRelationLabels
+DebuggerContextMenus.WatchItemContext.AddExpression
+DebuggerContextMenus.WatchItemContext.RemoveExpression
+Help.DownloadFutureBootstrapper
+Help.ExecuteFutureBootstrapper
+Project.AddInstallationConfiguration
+Setup.LaunchUpdateDialogViaToast
+Setup.ExecuteUpdateViaToast
+Setup.UpdateOnCloseViaToast
+Setup.OpenProductUpdateOptions
+DebuggerContextMenus.AutosWindow.AlwaysLoadAutomatically
+ShowConnectedServiceProvider
+Debug.ExportDataTips
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Folder.RemoveProject
+Debug.ImportDataTips
+ProjectandSolutionContextMenus.Project.OpeninTerminal
+ProjectandSolutionContextMenus.WebProjectFolder.OpeninTerminal
+Debug.StartupProjectProperties
+Edit.ShowClipboardHistory | Text Editor::Ctrl+Shift+V
+Edit.ShowClipboardHistory | Text Editor::Ctrl+Shift+Ins
+Help.StartGuide
+Help.ShowWelcomePage
+Edit.ExpandSelection | Text Editor::Shift+Alt+=
+Edit.ContractSelection | Text Editor::Shift+Alt+-
+Project.SearchLiveTelemetry
+Project.SearchDebugSessionTelemetry
+Project.ChooseTelemetrySource
+ArchitectureDesigner.ArchitectTools.Add.Line
+ArchitectureDesigner.ArchitectTools.Add.Ellipse
+ArchitectureDesigner.ArchitectTools.Add.Rectangle
+ArchitectureDesigner.ZoomIn
+ArchitectureDesigner.ZoomOut
+ArchitectureDesigner.Layer.GenerateDependencies
+ArchitectureDesigner.Layer.Group
+ArchitectureDesigner.Layer.ViewLinks
+Build.BuildPage
+Build.BuildRuntimeLicenses
+File.CloneRepository
+File.StartWindow
+File.NewRepository
+File.BatchNewTeamProject
+File.OpenFolder | Global::Ctrl+Shift+Alt+O
+File.OpenWorkspace
+File.OpenWebSite | Global::Shift+Alt+O
+File.AddExistingWebSite
+Edit.AddRow
+Edit.RemoveRow | Managed Resources Editor::Ctrl+Del
+Edit.RemoveRow | Settings Designer::Ctrl+Del
+Edit.InsertGuid | Global::Ctrl+K, Ctrl+Space
+Edit.SelectNone
+Edit.GoToBase | Text Editor::Alt+Home
+Edit.GoToImplementation | C# Editor::Ctrl+F12
+Edit.GoToImplementation | C# Editor with Encoding::Ctrl+F12
+Edit.GoToImplementation | Visual Basic Editor::Ctrl+F12
+Edit.GoToImplementation | Visual Basic Editor with Encoding::Ctrl+F12
+Edit.ShowValueTracking
+Edit.EditCell | Managed Resources Editor::F2
+Edit.EditCell | Settings Designer::F2
+Edit.PasteJSONAsClasses
+Edit.PasteXMLAsClasses
+View.ViewDataGrid
+View.XMLSchemaExplorer
+View.Branch | Global::Ctrl+Alt+F3
+View.ShowTaskStatusCenter
+View.Repository | Global::Ctrl+Alt+F4
+View.ShowTask
+View.PendingChanges
+View.UnpublishedCommits | Global::Ctrl+E, Ctrl+C
+View.Publish | Global::Ctrl+Alt+F9
+Project.AddApplicationInsightsTelemetry
+Project.ConfigureApplicationInsights
+Project.AddAnalyzer
+Project.UpdateReference
+Project.RemoveWebReference
+Project.ExportTemplate
+Project.ManageBowerPackages
+Project.NewVirtualDirectory
+Project.AddNewDataSource
+Tools.ClearMEFComponentCache
+Tools.ShowMEFErrors
+Tools.ExportKeyboardShortcuts
+Tools.Settings
+Tools.RebuildImageCache
+Tools.ManagePreviewFeatures
+Help.ReadAppPublishingGuide
+Help.CheckServiceStatus
+Help.VisualStudioPerformanceManager
+Help.DiagnosticsCenterDisablethisextension
+Help.DiagnosticsCenterDonotshownotificationagain
+Help.DiagnosticsCenterDisableSyncAutoload
+Help.DiagnosticsCenterEnableSyncAutoload
+View.DataSources | Global::Shift+Alt+D
+View.SyntaxVisualizer
+View.ApplicationInsightsSearch
+View.LiveShare
+View.EndpointsExplorer
+View.WebPublishActivity
+View.TaskRunnerExplorer
+View.EntityDataModelMappingDetails | ADO.NET Entity Data Model Designer::Ctrl+2
+View.ShowStackTraceExplorer | Global::Ctrl+E, Ctrl+S
+View.GeometryWatch
+View.GraphicalWatch
+View.PlotWatch
+View.Searchingkeyboardshortcuts
+View.EntityDataModelBrowser | ADO.NET Entity Data Model Designer::Ctrl+1
+View.IntelliCodesuggestions
+View.TfsHistory
+View.TfsPendingChanges
+View.DevTunnels
+View.F#Interactive | Global::Ctrl+Alt+F
+View.C#Interactive
+View.ThemeSwatches
+View.KnownMonikersExplorer
+SolutionExplorer.ToggleSingleClickPreview
+ProjectandSolutionContextMenus.Project.ManageBowerPackages
+ProjectandSolutionContextMenus.Project.ManageUserSecrets
+ClassViewContextMenus.ClassViewProject.Pack
+ClassViewContextMenus.ClassViewProject.ConfigureApplicationInsights
+ProjectandSolutionContextMenus.CrossProjectMultiItem.AddConfigTransform
+ProjectandSolutionContextMenus.CrossProjectMultiItem.PreviewTransform
+Build.Packselection
+ProjectandSolutionContextMenus.CrossProjectMultiItem.SynchronizeToCodeFile
+ProjectandSolutionContextMenus.CrossProjectMultiItem.ConverttoVisualStudioTheme
+ProjectandSolutionContextMenus.CrossProjectMultiItem.DebugT4Template
+ProjectandSolutionContextMenus.Folder.GenerateImageManifest
+ClassViewContextMenus.ClassViewProject.AddAnalyzer
+EditorContextMenus.CodeWindow.ShowinXMLSchemaExplorer
+ProjectandSolutionContextMenus.Project.Add.ConnectedService
+ProjectandSolutionContextMenus.Project.Add.AddAnalyzer
+EditorContextMenus.CodeWindow.ExecuteInInteractive | FSharpEditorFactory::Alt+Enter
+EditorContextMenus.CodeWindow.ExecuteLineInInteractive | FSharpEditorFactory::Alt+'
+EditorContextMenus.CodeWindow.DebugInInteractive
+EditorContextMenus.CodeWindow.RemoveAndSort | Global::Ctrl+R, Ctrl+G
+EditorContextMenus.CodeWindow.RemoveAndSort | Global::Ctrl+R, G
+EditorContextMenus.CodeWindow.RunTests
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.RunCodeAnalysisForProject
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.BuildandSuppressActiveIssues
+ClassViewContextMenus.ClassViewProject.AnalyzeandCodeCleanup.CalculateCodeMetrics
+Project.ManageNuGetPackages
+Tools.ManageNuGetPackagesforSolution
+ProjectandSolutionContextMenus.Solution.RestoreNuGetPackages
+ClassViewContextMenus.ClassViewProject.RemoveUnusedReferences
+ProjectandSolutionContextMenus.Project.SyncNamespaces
+ClassViewContextMenus.ClassViewProject.Migratepackages.configtoPackageReference
+DebuggerContextMenus.ScriptProject.Migratepackages.configtoPackageReference
+Edit.NavigateTo | Global::Ctrl+T
+Edit.NavigateTo | Global::Ctrl+,
+Edit.GoToFile | Global::Ctrl+Shift+T
+Edit.GoToFile | Global::Ctrl+1, Ctrl+F
+Edit.GoToFile | Global::Ctrl+1, F
+Edit.GoToRecentFile | Global::Ctrl+1, Ctrl+R
+Edit.GoToRecentFile | Global::Ctrl+1, R
+Edit.GoToType | Global::Ctrl+1, Ctrl+T
+Edit.GoToType | Global::Ctrl+1, T
+Edit.GoToMember | Global::Alt+\
+Edit.GoToMember | Global::Ctrl+1, Ctrl+M
+Edit.GoToMember | Global::Ctrl+1, M
+Edit.GoToSymbol | Global::Ctrl+1, Ctrl+S
+Edit.GoToSymbol | Global::Ctrl+1, S
+Team.ShowReportSite
+Team.ProjectAlerts
+Team.NewFolder
+Team.TeamProjectSecurity
+Team.TeamProjectGroupMembership
+Team.TfsSourceControl
+Team.WorkItemAreasandIterations
+Team.WorkItemAreas
+Team.WorkItemIterations
+Team.GlobalSecurity
+Team.GlobalGroupMembership
+Team.TfsSourceControlFileTypes
+Team.ProcessTemplateManager
+View.GitWindow | Global::Ctrl+0, Ctrl+G
+View.GitWindow | Global::Ctrl+0, G
+View.GitRepositoryWindow | Global::Ctrl+0, Ctrl+R
+View.GitRepositoryWindow | Global::Ctrl+0, R
+View.Notifications
+View.Terminal | Global::Ctrl+`
+SolutionExplorer.Back
+SolutionExplorer.Forward
+SolutionExplorer.Home
+ProjectandSolutionContextMenus.TransitiveDependencyItem.OpenApplicationInsightsPortal
+SolutionExplorer.PendingChangesFilter | Global::Ctrl+[, P
+SolutionExplorer.PendingChangesFilter | Global::Ctrl+[, Ctrl+P
+SolutionExplorer.OpenFilesFilter | Global::Ctrl+[, O
+SolutionExplorer.OpenFilesFilter | Global::Ctrl+[, Ctrl+O
+OtherContextMenus.DocumentTabWellSettings.ConfigureRegularExpressions
+View.TestResults
+View.LoadTestRuns
+View.LayerExplorer
+View.TfsSourceControlExplorer
+Build.TextTemplating.TransformAll
+TextTransformation.TransformAllTemplates
+ArchitectureDesigner.Layer.GoTo.LayerDiagram
+ArchitectureDesigner.Layer.Add.Layer
+ArchitectureDesigner.Layer.Add.Dependency
+ArchitectureDesigner.Layer.Add.BidirectionalDependency
+ArchitectureDesigner.Layer.Add.Comment
+ArchitectureDesigner.Layer.Add.CommentLink
+DSLTools.DeleteAll
+DSLTools.Validate
+DSLTools.ValidateAll
+DSLTools.Expand
+DSLTools.Edit
+DSLTools.Reroute
+DSLTools.ResetSize
+DSLTools.ResetLocation
+OtherContextMenus.LayerExplorerContextMenu.LayerExplorer.Open
+ProjectandSolutionContextMenus.Project.Add.MachineLearningModel
+SolutionExplorer.SyncWithActiveDocument | Global::Ctrl+[, S
+SolutionExplorer.SyncWithActiveDocument | Global::Ctrl+[, Ctrl+S
+SolutionExplorer.CollapseAll
+Project.ConfigureCodeAnalysisforWebSite
+View.SynchronizeViews | HTML Editor Source View::Ctrl+Shift+Y
+Edit.ShowCodeLensMenu | Text Editor::Ctrl+K, `
+Edit.ShowCodeLensMenu | Text Editor::Ctrl+K, Ctrl+`
+Edit.ShowNavigateMenu | Text Editor::Alt+`
+Edit.ShowStickyScrollingMenu
+Edit.ToggleSpellChecker
+Edit.PreviousSuggestion | Text Editor::Alt+,
+Edit.NextSuggestion | Text Editor::Alt+.
+Edit.ExpandSelectiontoContainingBlock | Text Editor::Shift+Alt+]
+Edit.ToggleLineComment | Text Editor::Ctrl+K, Ctrl+/
+Edit.ToggleBlockComment | Text Editor::Ctrl+Shift+/
+Edit.SortLines | Text Editor::Shift+Alt+L, Shift+Alt+S
+Edit.JoinLines | Text Editor::Shift+Alt+L, Shift+Alt+J
+Edit.NextSubword
+Edit.NextSubwordExtend | Text Editor::Ctrl+Shift+Alt+Right Arrow
+Edit.PreviousSubword
+Edit.PreviousSubwordExtend | Text Editor::Ctrl+Shift+Alt+Left Arrow
+Edit.SubwordTranspose
+Edit.SubwordDeleteToEnd
+Edit.SubwordDeleteToStart
+Edit.SubwordExpandSelection
+Edit.SubwordContractSelection
+Edit.SelectCurrentSubword
+Edit.ExpandSelectionToEntireLine | Text Editor::Shift+Alt+E
+Edit.EditTemplateInstantiation
+Edit.ToggleTemplateBarExpansion
+Edit.SelectTemplateInstantiation | Global::Alt+I
+Edit.SortUsings
+Edit.RemoveAndSort
+ClassViewContextMenus.ClassViewProject.SourceControl.AddSelectedProjectstoSourceControl
+ClassViewContextMenus.ClassViewProject.SourceControl.UndoCheckout
+ClassViewContextMenus.ClassViewItem.Compare
+ClassViewContextMenus.ClassViewProject.SourceControl.ContextGetLatestVersion
+ClassViewContextMenus.ClassViewProject.SourceControl.Get
+ClassViewContextMenus.ClassViewProject.SourceControl.ViewPendingCheckins
+EditorContextMenus.CodeWindow.CheckOutforEdit
+EditorContextMenus.CodeWindow.CheckIn
+OtherContextMenus.PendingCheckinWindowContextMenu.CompareVersions
+OtherContextMenus.PendingCheckinWindowContextMenu.OpenwithEditor
+OtherContextMenus.PendingCheckinWindowContextMenu.UndoCheckout
+OtherContextMenus.GetVersionDialogContextMenu.CompareVersions
+OtherContextMenus.GetVersionDialogContextMenu.Refresh
+File.GetLatestVersion
+File.GetLatestSolutionFiles
+File.Get
+File.CheckOutforEdit
+File.CheckOutSilent
+File.CheckIn
+File.CheckInSilent
+File.UndoCheckout
+File.ViewHistory
+File.ExcludeSelectionfromSourceControl
+File.RefreshStatus
+OtherContextMenus.CheckOutDialogContextMenu.Forceexclusive
+OtherContextMenus.CheckOutDialogContextMenu.CompareVersions
+File.AddSolutiontoSourceControl
+File.AddSelectedProjectstoSourceControl
+OtherContextMenus.CheckinDialogContextMenu.CompareVersions
+View.PendingCheckins
+File.ChangeSourceControl
+GetLatestVersionDynamicSilent
+CheckoutDynamicSilent
+CheckInDynamicSilent
+File.Share
+File.Compare
+File.Properties
+File.SourceControlManager
+File.OpenfromSourceControl
+File.AddProjectfromSourceControl
+Edit.CollapseBlockcurrentblock
+Edit.CollapseAllincurrentblock
+EditorContextMenus.CodeWindow.ToggleHeaderCodeFile | Text Editor::Ctrl+K, Ctrl+O
+EditorContextMenus.CodeWindow.PeekHeaderCodeFile | Text Editor::Ctrl+K, Ctrl+J
+EditorContextMenus.CodeWindow.Rescan.RescanFile
+Edit.SurroundWithBraces
+Edit.SurroundWithParens
+Edit.SurroundWithQuotes
+Edit.SurroundWithCharacterQuotes
+Edit.SurroundWithBrackets
+Edit.SurroundWithAngleBrackets
+Edit.CreateDeclarationDefinition
+Edit.MoveDefinitionLocation
+Edit.ConverttoRawStringLiteral
+Edit.ConverttoWhileLoop
+Edit.ConverttoForLoop
+EditorContextMenus.CodeWindow.Properties
+EditorContextMenus.CodeWindow.GenerateDocumentationComments | Text Editor::Ctrl+/
+Edit.ImplementPureVirtuals
+Debug.DiagnosticTools.Show | Global::Ctrl+Alt+F2
+Debug.StartPerformanceAnalysis
+Debug.StartPerformanceAnalysisPaused
+Debug.StopPerformanceAnalysis
+Debug.DiagnosticsHub.StopCollection
+Debug.DiagnosticsHub.Launch | Global::Alt+F2
+Debug.DiagnosticsHub.Relaunch | Global::Shift+Alt+F2
+Debug.DebugandLaunchSettings
+Help.GettingStarted
+Help.Tutorials
+Help.TipsandTricks
+Help.KeyboardShortcutReference
+Help.Guides
+Help.ShowWhatsNewPage
+Help.ExploreFeatureRequests
+Help.VisualStudioBlog
+Help.Twitter
+Help.YouTube
+Help.Facebook
+Help.Linkedin
+Help.Benefits
+Help.Downloads
+Help.ProductKeys
+Help.SubscriptionDocumentation
+Help.PrivacySettings
+Help.Help.CheckForUpdates
+Help.ReleaseNotes
+Help.Roadmap
+Tools.ConnecttoDatabase
+Tools.ConnecttoServer
+View.CodeMetricsResults
+ProjectandSolutionContextMenus.CrossProjectMultiProject.CalculateCodeMetrics
+OtherContextMenus.CodeMetricsContextMenu.GotoSourceCode
+OtherContextMenus.CodeMetricsContextMenu.Copy
+OtherContextMenus.CodeMetricsContextMenu.OpenSelectioninMicrosoftExcel
+OtherContextMenus.CodeMetricsContextMenu.AddRemoveColumns
+Analyze.CancelCodeMetricsCalculation
+Analyze.ForSolution
+Analyze.ForSelectedProjects
+Analyze.EBF.CancelRunningCodeAnalysis
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.BuildandSuppressActiveIssues
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.CancelCodeMetricsCalculation
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.CalculateCodeMetrics
+Analyze.OnSolution
+Analyze.RunCodeAnalysisonProject
+Analyze.RunCodeAnalysisonTarget
+Analyze.RunCodeAnalysisonFile
+Analyze.ForProject
+Analyze.ForSolution
+Analyze.ForProject
+GitExt.Browse
+GitExt.Clonerepository
+GitExt.Createnewrepository
+GitExt.Commit
+GitExt.Pull
+GitExt.Push
+GitExt.Stash
+GitExt.ResetFileChanges
+GitExt.Manageremotes
+GitExt.Edit.gitignore
+GitExt.Applypatch
+GitExt.Formatpatch
+GitExt.Filehistory
+GitExt.Viewchanges
+GitExt.Blame
+GitExt.Findfile
+GitExt.Checkoutbranch
+GitExt.Createbranch
+GitExt.Merge
+GitExt.Rebase
+GitExt.Solvemergeconflicts
+GitExt.Cherrypick
+GitExt.Gitbash
+GitExt.Settings
+GitExt.AboutGitExtensions
+EditorContextMenus.CodeWindow.GitExtDiff
+GitExt.Filehistory
+GitExt.ResetFileChanges
+ProjectandSolutionContextMenus.Folder.OpenApplicationInsightsPortal
+ProjectandSolutionContextMenus.Folder.ApplicationAnalytics
+ProjectandSolutionContextMenus.Folder.ApplicationMap
+ProjectandSolutionContextMenus.Folder.ConfigureApplicationInsights
+ProjectandSolutionContextMenus.Folder.ChooseTelemetrySource
+ProjectandSolutionContextMenus.Folder.SearchLiveTelemetry
+ClassViewContextMenus.ClassViewProject.ApplicationInsights.ConfigureApplicationInsights
+ProjectandSolutionContextMenus.Item.ChooseTelemetrySource
+ProjectandSolutionContextMenus.Item.ApplicationAnalytics
+ProjectandSolutionContextMenus.Item.ApplicationMap
+ProjectandSolutionContextMenus.Item.SearchLiveTelemetry
+ProjectandSolutionContextMenus.Item.SearchDebugSessionTelemetry
+ClassViewContextMenus.ClassViewProject.ApplicationInsights.OpenApplicationInsightsPortal
+ClassViewContextMenus.ClassViewProject.ApplicationInsights.ApplicationAnalytics
+ClassViewContextMenus.ClassViewProject.ApplicationInsights.ApplicationMap
+Project.ConfigureApplicationInsights
+Project.OpenApplicationInsightsPortal
+Project.ApplicationAnalytics
+Project.ApplicationMap
+ProjectandSolutionContextMenus.Project.Add.ApplicationInsightsTelemetry
+Project.Bin
+Project.App_Code
+Project.App_GlobalResources
+Project.App_LocalResources
+Project.App_WebReferences
+Project.App_Data
+Project.App_Browsers
+Project.Theme
+ProjectandSolutionContextMenus.WebSubWeb.OpenWebSite
+Build.RunCodeAnalysisonWebSite
+ToggleLegend
+SaveAsXPS
+Legend
+Filters
+SkipBuild
+IncludeParents
+TopToBottom
+BottomToTop
+LeftToRight
+RightToLeft
+QuickClusters
+AutomaticLayout
+IncrementalLayout
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category1
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category2
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category3
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category4
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category5
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category6
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category7
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category8
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category9
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Category10
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.OtherFlagColors.Clear
+DirectedGraph.NeighborhoodDistance.1
+DirectedGraph.NeighborhoodDistance.2
+DirectedGraph.NeighborhoodDistance.3
+DirectedGraph.NeighborhoodDistance.4
+DirectedGraph.NeighborhoodDistance.5
+DirectedGraph.NeighborhoodDistance.6
+DirectedGraph.NeighborhoodDistance.7
+DirectedGraph.ToggleNeighborhoodBrowseMode
+DirectedGraph.NeighborhoodDistance.All
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.IncomingDependencies | Graph Document Editor::I
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.OutgoingDependencies | Graph Document Editor::O
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.BothDependencies | Graph Document Editor::B
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.ConnectedSubgraph
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.Children
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.Expand
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.Collapse
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.ExpandAll
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.CollapseAll
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.HideSelected
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.HideUnselected
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.UnhideChildren
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.UnhideAll
+ShowCrossGroupLinks
+HideCrossGroupLinks
+ToggleCrossGroupLinks
+ToggleAllLinks
+BundleCrossGroupLinks
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto2
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto3
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto4
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto5
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto6
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto7
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto8
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto9
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto10
+ArchitectureContextMenus.DirectedGraphContextMenu.GoToReference.Goto1
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.Properties
+ArchitectureContextMenus.DirectedGraphContextMenu.Select.InvertSelection
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.AddParentGroup
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.RemoveGroup
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.RemoveFromParent
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.ConvertToLeaf
+ArchitectureContextMenus.DirectedGraphContextMenu.Group.ConvertToGroup
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupList
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupTopToBottom
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupLeftToRight
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupBottomToTop
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupRightToLeft
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupQuickClusters
+ArchitectureContextMenus.DirectedGraphContextMenu.Layout.GroupGraphDefault
+CircularAnalyzer
+FindHubsAnalyzer
+UnreferencedNodesAnalyzer
+Refresh
+ArchitectureContextMenus.DirectedGraphLegend.Disable
+ArchitectureContextMenus.DirectedGraphLegend.Delete
+ArchitectureContextMenus.DirectedGraphLegend.MoveUp
+ArchitectureContextMenus.DirectedGraphLegend.MoveDown
+ArchitectureContextMenus.DirectedGraphLegend.CopyStyles
+ArchitectureContextMenus.DirectedGraphLegend.SaveTemplate
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.NewComment | Graph Document Editor::Ctrl+Shift+K
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.FlagforFollowUp
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.Rename | Graph Document Editor::F2
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.Remove | Graph Document Editor::Del
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.Add.AddNode | Graph Document Editor::Ins
+ArchitectureContextMenus.DirectedGraphContextMenu.Edit.Add.AddLink
+Edit.CopyImage
+ArchitectureContextMenus.DirectedGraphContextMenu.ToNewDocument
+ProjectandSolutionContextMenus.ConnectedServices.ManageConnectedServices
+ProjectandSolutionContextMenus.ConnectedServices.Refresh
+ProjectandSolutionContextMenus.ConnectedServices.Restoreservicedependencies
+ProjectandSolutionContextMenus.ConnectedServices.Startlocaldependencies
+ProjectandSolutionContextMenus.ConnectedServices.Stoplocaldependencies
+ProjectandSolutionContextMenus.ConnectedServices.Settings
+ProjectandSolutionContextMenus.ConnectedServices.Restore
+ProjectandSolutionContextMenus.ConnectedServices.Manageusersecrets
+ProjectandSolutionContextMenus.ConnectedServices.Edit
+ProjectandSolutionContextMenus.ConnectedServices.Connect
+ProjectandSolutionContextMenus.ConnectedServices.Disconnect
+ProjectandSolutionContextMenus.ConnectedServices.ManageAzureAppServicesettings
+ProjectandSolutionContextMenus.ConnectedServices.OpenAzureStorageExplorer
+ProjectandSolutionContextMenus.ConnectedServices.OpeninAzureportal
+ProjectandSolutionContextMenus.ConnectedServices.OpenDevStudio
+ProjectandSolutionContextMenus.ConnectedServices.OpenPowerApps
+ProjectandSolutionContextMenus.ConnectedServices.OpenPowerPlatformadmincenter
+ProjectandSolutionContextMenus.ConnectedServices.ImporttheSSLcertificate
+ProjectandSolutionContextMenus.ConnectedServices.OpeninAppInsights
+ProjectandSolutionContextMenus.ConnectedServices.Openincontainerswindow
+ProjectandSolutionContextMenus.ConnectedServices.Openinmanagementportal
+ProjectandSolutionContextMenus.ConnectedServices.OpeninSQLServerObjectExplorer
+ProjectandSolutionContextMenus.ConnectedServices.AttachDebugger
+ProjectandSolutionContextMenus.ConnectedServices.StartProfiling
+ProjectandSolutionContextMenus.ConnectedServices.StopProfiling
+ProjectandSolutionContextMenus.ConnectedServices.Viewstreaminglogs
+ProjectandSolutionContextMenus.ConnectedServices.Startapplication
+ProjectandSolutionContextMenus.ConnectedServices.Stopapplication
+ProjectandSolutionContextMenus.ConnectedServices.Downloadpublishprofile
+ProjectandSolutionContextMenus.ConnectedServices.Openfeaturemanager
+ProjectandSolutionContextMenus.ConnectedServices.Usefeaturemanagertomanagefeatureflags
+ProjectandSolutionContextMenus.ConnectedServices.Importexport
+ProjectandSolutionContextMenus.ConnectedServices.Learnmore
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.Provision
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.Refresh
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.Deploy
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.Deprovision
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.CreateEnvironment
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.SelectActiveEnvironment
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.Remove
+ProjectandSolutionContextMenus.AzureDeveloperCLIappmodel.OpenFolderinFileExplorer
+Project.ManageConnectedServices
+Project.Settings
+Project.AzureStorage
+Project.AzureApplicationInsights
+Project.AzureSignalRService
+Project.AzureKeyVault
+Project.AzureAppConfiguration
+Project.SQLServerDatabase
+Project.AzureCacheforRedis
+Project.AzureCosmosDB
+Project.Microsoftidentityplatform
+Project.SQLiteDatabase
+Project.PostgreSQLDatabase
+Project.MongoDBDatabase
+Project.RabbitMQ
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureStorage
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureApplicationInsights
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureSignalRService
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureKeyVault
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureAppConfiguration
+ProjectandSolutionContextMenus.ConnectedServices.Add.SQLServerDatabase
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureCacheforRedis
+ProjectandSolutionContextMenus.ConnectedServices.Add.AzureCosmosDB
+ProjectandSolutionContextMenus.ConnectedServices.Add.Microsoftidentityplatform
+ProjectandSolutionContextMenus.ConnectedServices.Add.SQLiteDatabase
+ProjectandSolutionContextMenus.ConnectedServices.Add.PostgreSQLDatabase
+ProjectandSolutionContextMenus.ConnectedServices.Add.MongoDBDatabase
+ProjectandSolutionContextMenus.ConnectedServices.Add.RabbitMQ
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.SelectAll
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.Copy
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.Expand
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.ExpandAllLevels
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.Collapse
+OtherContextMenus.GraphicsLiveStateWindowContextMenu.CollapseAllLevels
+OtherContextMenus.GraphicsLiveObjectTableContextMenu.Graphics.StateVisualizer
+OtherContextMenus.GraphicsLiveObjectTableContextMenu.Graphics.ResourceVisualizer
+OtherContextMenus.GraphicsLiveObjectTableContextMenu.Graphics.LiveWatchVisualizer
+Debug.Graphics.DirectXControlPanel
+Debug.Graphics.StartGraphicsDebugging | Global::Alt+F5
+Debug.Graphics.StartGraphicsDebuggingAnInstalledAppPackage
+Debug.Graphics.StartDeviceRemovedAnalysis
+Debug.Graphics.StartDeviceRemovedAnalysisForAnInstalledAppPackage
+Debug.Graphics.LiveObjectTable
+Debug.Graphics.CaptureFrame
+OtherContextMenus.IntelliCodecompletions.Showcompletionsforlinesofcode
+OtherContextMenus.IntelliCodecompletions.Waitforpausesintypingbeforeshowinglinecompletions
+OtherContextMenus.IntelliCodecompletions.Showcompletionsonnewlines
+OtherContextMenus.WorkspaceContextMenu.Open
+SolutionExplorer.Folder.FileContextAction
+OtherContextMenus.WorkspaceContextMenu.Open
+OtherContextMenus.WorkspaceContextMenu.Addtofavorites
+Edit.Apply | Text Editor::Ctrl+Alt+.
+Edit.Preview | Text Editor::Ctrl+Alt+/
+Edit.Next | Text Editor::Ctrl+Alt+,
+OtherContextMenus.SuggestionList.Apply | Unknown Editor::Ctrl+Alt+.
+OtherContextMenus.SuggestionList.Applyall
+OtherContextMenus.SuggestionList.Copy | Unknown Editor::Ctrl+C
+OtherContextMenus.SuggestionList.NextSuggestion | Unknown Editor::F8
+OtherContextMenus.SuggestionList.PreviousSuggestion | Unknown Editor::Shift+F8
+OtherContextMenus.SuggestionList.IgnoreSuggestion
+OtherContextMenus.SuggestionList.ForgetSuggestion
+File.LiveShare.StartCollaboration
+File.JoinLiveShareSession
+ProjectandSolutionContextMenus.ProjectReference.NavigatetoProject | Solution Explorer::F12
+ProjectandSolutionContextMenus.Item.AddAbove.AddNewItem
+ProjectandSolutionContextMenus.Item.AddAbove.AddExistingItem
+ProjectandSolutionContextMenus.Item.AddBelow.AddNewItem
+ProjectandSolutionContextMenus.Item.AddBelow.AddExistingItem
+ProjectandSolutionContextMenus.GitHubActionsappmodel.Newworkflow
+OtherContextMenus.TestResultsContextMenu.ViewTestResultsDetails
+OtherContextMenus.TestResultsContextMenu.ViewRun
+OtherContextMenus.TestResultsContextMenu.AddtoWorkItem
+OtherContextMenus.TestListEditorContextMenu.AddRemoveColumns
+OtherContextMenus.TestListEditorContextMenu.OpenTestListEditor
+OtherContextMenus.TestListEditorContextMenu.ExcludefromGroup
+OtherContextMenus.TestListEditorContextMenu.Edit
+OtherContextMenus.TestListEditorContextMenu.AssignasWorkItem
+OtherContextMenus.TestResultsContextMenu.OpenTest
+TestResults.PauseTestRun
+OtherContextMenus.TestResultsContextMenu.TestResults.StopTestRun
+TestResults.RunDetails
+TestListEditor.ImportMetadataFile
+TestResults.ExportTestRunResults
+TestResults.ExportSelectedTestResults
+TestResults.Publish
+TestResults.ImportTestResults
+TestResults.CloseResults
+OtherContextMenus.TestListEditorContextMenu.Delete
+OtherContextMenus.TestListEditorContextMenu.Disable
+OtherContextMenus.TestListEditorContextMenu.Enable
+OtherContextMenus.TestListEditorContextMenu.TestListEditor.RemovefromTestList
+OtherContextMenus.TestListEditorContextMenu.TestListEditor.RemovefromAllTestLists
+OtherContextMenus.ViewContextMenu.NewTest
+OtherContextMenus.TestListContextMenu.Rename
+OtherContextMenus.TestListContextMenu.Edit
+OtherContextMenus.TestListEditorContextMenu.NewTestList
+OtherContextMenus.ViewContextMenu.TestView.CreatePerformanceSession
+TestResults.ViewAllResults
+TestResults.ViewResultsbyResultList
+OtherContextMenus.TestRunContextMenu.TestRun.ResumeTestRun
+OtherContextMenus.TestRunContextMenu.TestRun.PauseTestRun
+OtherContextMenus.TestRunContextMenu.TestRun.StopTestRun
+OtherContextMenus.TestRunContextMenu.DeleteTestRun
+OtherContextMenus.TestRunContextMenu.TestRun.ConnectToTestRun
+OtherContextMenus.TestRunContextMenu.TestRun.DisconnectFromTestRun
+OtherContextMenus.TestRunContextMenu.ViewResults
+TestResults.RunCheckedTests
+TestResults.RunAllTestsInTestResults
+TestResults.RunDeployedCheckedTests
+OtherContextMenus.ViewContextMenu.TestView.RunSelection
+OtherContextMenus.ViewContextMenu.TestView.DebugSelection
+OtherContextMenus.TestListEditorContextMenu.TestListEditor.RunCheckedTests
+OtherContextMenus.TestListEditorContextMenu.TestListEditor.DebugCheckedTests
+OtherContextMenus.TestListEditorContextMenu.Properties
+OtherContextMenus.TestResultsContextMenu.CheckAllItems
+OtherContextMenus.TestResultsContextMenu.UncheckAllItems
+OtherContextMenus.TestResultsContextMenu.SortAscending
+OtherContextMenus.TestResultsContextMenu.SortDescending
+OtherContextMenus.TestResultsContextMenu.AddRemoveColumns
+RunTestsInClass
+DebugTestsInClass
+RunTestsInNamespace
+DebugTestsInNamespace
+RunTestsInCurrentContext
+RunAllTestsInSolution
+DebugTestsInCurrentContext
+DebugAllTestsInSolution
+TestResults.DebugCheckedTests
+TestResults.DebugAllTestsInTestResults
+TestResults.DebugDeployedCheckedTests
+OtherContextMenus.TestListEditorContextMenu.CreateTestCasefromTest
+OtherContextMenus.TestListEditorContextMenu.AssociateTestwithTestCase
+ProjectandSolutionContextMenus.Item.ActiveLoadandWebTestSettings
+RunSelectedLoadTest
+RunAllTestsInSolution
+DebugSelectedLoadTest
+DebugAllTestsInSolution
+LoadTest.ManageTestControllers
+LoadTest.TestRuns
+Project.AddNewTest
+Project.AddUnitTest
+Project.AddLoadTest
+Project.AddWebPerformanceTest
+Project.AddCodedUITest
+Project.AddOrderedTest
+Project.AddGenericTest
+TestExplorer.SavePlaylistAs
+TestExplorer.GroupBy
+TestExplorer.ExpandAllGroups
+TestExplorer.CollapseAllGroups
+TestExplorer.EditPlaylist
+TestExplorer.ClearTestFilters | Test Explorer::Ctrl+D, Ctrl+F
+TestExplorer.ClearTestFilters | Live Unit Testing Tab::Ctrl+D, Ctrl+F
+TestExplorer.ClearTestFilters | Test Explorer Playlist Tab::Ctrl+D, Ctrl+F
+TestExplorer.ToggleShowAllTests
+TestExplorer.ToggleShowPassedTests
+TestExplorer.ToggleShowFailedTests
+TestExplorer.ToggleShowSkippedTests
+TestExplorer.ToggleShowNotRunTests
+TestExplorer.AssociateToTestCase
+TestExplorer.OpenTest | Test Explorer::F12
+TestExplorer.OpenTest | Live Unit Testing Tab::F12
+TestExplorer.OpenTest | Test Explorer Playlist Tab::F12
+TestExplorer.RemoveFromPlaylist
+Test.CMake.RunCTests
+TestExplorer.RunSelectedTests | Test Explorer::Ctrl+R, T
+TestExplorer.RunSelectedTests | Live Unit Testing Tab::Ctrl+R, T
+TestExplorer.RunSelectedTests | Test Explorer Playlist Tab::Ctrl+R, T
+TestExplorer.RunAllTestsInView | Test Explorer::Ctrl+R, V
+TestExplorer.RunAllTestsInView | Live Unit Testing Tab::Ctrl+R, V
+TestExplorer.RunAllTestsInView | Test Explorer Playlist Tab::Ctrl+R, V
+TestExplorer.RunFailedTests | Test Explorer::Ctrl+R, F
+TestExplorer.RunFailedTests | Live Unit Testing Tab::Ctrl+R, F
+TestExplorer.RunFailedTests | Test Explorer Playlist Tab::Ctrl+R, F
+TestExplorer.RunNotRunTests | Test Explorer::Ctrl+R, N
+TestExplorer.RunNotRunTests | Live Unit Testing Tab::Ctrl+R, N
+TestExplorer.RunNotRunTests | Test Explorer Playlist Tab::Ctrl+R, N
+TestExplorer.RunPassedTests | Test Explorer::Ctrl+R, P
+TestExplorer.RunPassedTests | Live Unit Testing Tab::Ctrl+R, P
+TestExplorer.RunPassedTests | Test Explorer Playlist Tab::Ctrl+R, P
+TestExplorer.RepeatLastRun | Global::Ctrl+R, L
+TestExplorer.RunSelectedTestsUntilFailure | Test Explorer::Ctrl+R, U
+TestExplorer.RunSelectedTestsUntilFailure | Test Explorer Playlist Tab::Ctrl+R, U
+TestExplorer.DebugSelectedTests | Test Explorer::Ctrl+R, Ctrl+T
+TestExplorer.DebugSelectedTests | Live Unit Testing Tab::Ctrl+R, Ctrl+T
+TestExplorer.DebugSelectedTests | Test Explorer Playlist Tab::Ctrl+R, Ctrl+T
+TestExplorer.DebugTestsInView | Test Explorer::Ctrl+R, Ctrl+V
+TestExplorer.DebugTestsInView | Live Unit Testing Tab::Ctrl+R, Ctrl+V
+TestExplorer.DebugTestsInView | Test Explorer Playlist Tab::Ctrl+R, Ctrl+V
+TestExplorer.DebugLastRun | Global::Ctrl+R, D
+TestExplorer.ClearResultsForSelectedTests | Test Explorer::Del
+TestExplorer.ClearResultsForSelectedTests | Test Explorer Playlist Tab::Del
+TestExplorer.ClearResultsForTestsInView | Test Explorer::Shift+Del
+TestExplorer.ClearResultsForTestsInView | Test Explorer Playlist Tab::Shift+Del
+Test.CMake.CancelRunningTests
+TestExplorer.OpenPlaylistFile
+TestExplorer.SelectPlaylist
+TestExplorer.OpenToolsOptionsTest
+TestExplorer.ConfigureRemoteTestEnvironments
+TestExplorer.ToggleRunTestsAfterBuild
+TestExplorer.RunTestsInParallel
+TestExplorer.PlayTestRunAudioCue | Global::Ctrl+R, S
+TestExplorer.ExecutionPlatformAuto
+TestExplorer.ExecutionPlatformX86
+TestExplorer.ExecutionPlatformX64
+TestExplorer.ExecutionPlatformARM64
+TestExplorer.CancelTests
+TestExplorer.ExpandAllGroups | Test Explorer::Ctrl+Right Arrow
+TestExplorer.ExpandAllGroups | Live Unit Testing Tab::Ctrl+Right Arrow
+TestExplorer.ExpandAllGroups | Test Explorer Playlist Tab::Ctrl+Right Arrow
+TestExplorer.CollapseAllGroups | Test Explorer::Ctrl+Left Arrow
+TestExplorer.CollapseAllGroups | Live Unit Testing Tab::Ctrl+Left Arrow
+TestExplorer.CollapseAllGroups | Test Explorer Playlist Tab::Ctrl+Left Arrow
+TestExplorer.AddToPlaylist
+TestExplorer.AddToNewPlaylist
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+OtherContextMenus.TableControlHeader.ShowColumn
+TestExplorer.AutoDetectRunSettingsFiles
+TestExplorer.SelectRunSettingsFile
+TestExplorer.SolutionRunSettingsFile
+TestExplorer.LastSelectedRunSettingsFile
+TestExplorer.SecondLastSelectedRunSettingsFile
+TestExplorer.ThirdLastSelectedRunSettingsFile
+TestExplorer.OpenTestLog | Test Explorer::Ctrl+L
+TestExplorer.OpenTestLog | Live Unit Testing Tab::Ctrl+L
+TestExplorer.OpenTestLog | Test Explorer Playlist Tab::Ctrl+L
+TestExplorer.ShowViewSettingsMenu
+TestExplorer.ToggleWrapTestDetail
+TestExplorer.RunAllTestsInContext | Global::Ctrl+R, T
+TestExplorer.DebugAllTestsInContext | Global::Ctrl+R, Ctrl+T
+TestExplorer.SyncTestInContext | Global::Ctrl+E, S
+EditorContextMenus.CodeWindow.CreateUnitTests
+ProjectandSolutionContextMenus.Project.RunTests
+ProjectandSolutionContextMenus.Project.DebugTests
+ProjectandSolutionContextMenus.Project.ShowinTestExplorer
+TestExplorer.ShowTestExplorer
+TestExplorer.PopulateTestSolutionCache
+Image.MiscIcon1
+Image.MiscIcon2
+Image.MiscIcon3
+Image.MiscIcon4
+Image.MiscIcon5
+Image.MiscIcon6
+Image.MiscIcon7
+Image.MiscIcon8
+Image.MiscIcon9
+Image.MoreIcons
+Image.MiscCursor1
+Image.MiscCursor2
+Image.MiscCursor3
+Image.MiscCursor4
+Image.MiscCursor5
+Image.MiscCursor6
+Image.MiscCursor7
+Image.MiscCursor8
+Image.MiscCursor9
+Image.MoreCursors
+Format.NewStyle
+Format.AttachStyleSheet
+Table.RowsorColumns
+Table.ColumntotheLeft | HTML Editor Design View::Ctrl+Alt+Left Arrow
+Table.ColumntotheRight | HTML Editor Design View::Ctrl+Alt+Right Arrow
+Table.RowAbove | HTML Editor Design View::Ctrl+Alt+Up Arrow
+Table.RowBelow | HTML Editor Design View::Ctrl+Alt+Down Arrow
+Table.CelltotheLeft
+Table.CelltotheRight
+Table.Caption
+Table.DeleteTable
+Table.DeleteColumns
+Table.DeleteRows
+Table.DeleteCells
+Table.Table
+Table.Column
+Table.Row
+Table.Cell
+Table.MergeCells
+Table.SplitCells
+Table.SplitTable
+Table.DistributeRowsEvenly
+Table.DistributeColumnsEvenly
+Table.AutofittoContents
+Table.InsertTable
+Format.Absolute
+Format.Relative
+Format.Styles
+Format.Font
+Format.ManageStyleSheetLinks
+Format.Paragraph
+Format.BulletsandNumbering
+Format.BordersandShading
+Format.SharedBorders
+Format.Position
+Format.Properties
+Format.FormatAutoShape
+Format.RemoveFormatting
+View.ShowRuler
+View.ShowGrid
+View.SnapToGrid
+View.SetOriginFromSelection
+View.ResetOrigin
+View.Configure
+View.ShowImage
+View.Configure
+View.Show
+View.BlockSelection
+View.VisibleBorders
+View.EmptyContainers
+View.MarginsandPadding
+View.CSSDisplaynoneElements
+View.CSSVisibilityhiddenElements
+View.ASP.NETNonvisualControls | HTML Editor Design View::Ctrl+Shift+N
+View.TemplateRegionLabels
+View.Show
+View.TagMarks
+View.ParagraphMarks
+View.LineBreaks
+View.Spaces
+View.Comments
+View.ScriptBlocks
+View.PositionedAbsolute
+View.AlignedElements
+View.CSSDisplaynoneElements
+View.HiddenFromFields
+OtherContextMenus.Context.EndTemplateEditing
+OtherContextMenus.ASPXContext.ExtracttoUserControl
+View.CSSProperties
+View.ManageStyles
+View.ApplyStyles
+OtherContextMenus.BrowserLink.RefreshLinkedBrowsers | Global::Ctrl+Alt+Enter
+OtherContextMenus.BrowserLink.EnableBrowserLink
+OtherContextMenus.BrowserLink.EnableCSSHotReload
+ProjectandSolutionContextMenus.Item.ToggleRazorView
+ProjectandSolutionContextMenus.Item.RestorePackage
+ProjectandSolutionContextMenus.Item.ManageBowerPackages
+ProjectandSolutionContextMenus.Item.ManageBowerPackages
+ProjectandSolutionContextMenus.Item.UninstallPackage
+ProjectandSolutionContextMenus.Item.UpdatePackage
+ProjectandSolutionContextMenus.Item.RestorePackages
+ProjectandSolutionContextMenus.Item.RestorePackages
+ProjectandSolutionContextMenus.Item.ConfigureExternalTools
+ProjectandSolutionContextMenus.Item.OpenConfigFile
+ProjectandSolutionContextMenus.Item.OpenInFileExplorer
+Build.EnablelatestC#andVBlanguagefeatures
+Build.OptimizeBuildPerformanceforSolution
+Build.Dontshowmeagain
+Project.EnableMicrosoftAzureAuthentication
+ProjectandSolutionContextMenus.Project.Add.RESTAPIClient
+Project.Publishselectedfiles | Global::Alt+;, Alt+P
+Project.Previewchanges | Global::Alt+;, Alt+C
+Project.Replaceselectedfilesfromserver | Global::Alt+;, Alt+R
+ProjectandSolutionContextMenus.Project.Add.RazorComponent
+ProjectandSolutionContextMenus.Project.Add.NewScaffoldedItem
+OtherContextMenus.Actions.MoveUp
+OtherContextMenus.Actions.MoveDown
+OtherContextMenus.Actions.Delete
+OtherContextMenus.Actions.Run
+OtherContextMenus.Actions.Bindings.BeforeBuild
+OtherContextMenus.Actions.Bindings.AfterBuild
+OtherContextMenus.Actions.Bindings.CleanBuild
+OtherContextMenus.Actions.Bindings.ProjectOpen
+Tools.Searchshortcut | Global::Ctrl+K, P
+QueryDesigner.AddNewDerivedTable
+QueryDesigner.JoinMode | Query Designer::Ctrl+Shift+J
+QueryDesigner.JoinMode | View Designer::Ctrl+Shift+J
+QueryDesigner.CancelRetrievingData | Query Designer::Ctrl+T
+QueryDesigner.CancelRetrievingData | View Designer::Ctrl+T
+TableDesigner.FulltextIndex
+TableDesigner.XMLIndexes
+TableDesigner.SpatialIndexes
+OtherContextMenus.DataSources.AddNewDataSource
+OtherContextMenus.DataSources.EditDataSetwithDesigner
+OtherContextMenus.DataSources.ConfigureDataSourcewithWizard
+OtherContextMenus.DataSources.Refresh
+OtherContextMenus.DataSources.Copy
+OtherContextMenus.DataSources.RemoveObject
+OtherContextMenus.DataSources.RemoveWebReference
+OtherContextMenus.DataSources.PreviewData
+ProjectandSolutionContextMenus.ReferenceItem.Installnewnpmpackages
+OtherContextMenus.ErrorList.RemoveSuppressions
+OtherContextMenus.ErrorList.Suppress.InSource
+OtherContextMenus.ErrorList.Suppress.InSuppressionFile
+Project.Overview
+OtherContextMenus.GridContextMenu.Showinrootsview
+OtherContextMenus.WorkspaceContextMenu.CMakeWorkspaceSettings
+OtherContextMenus.WorkspaceContextMenu.AddConfiguration.
+OtherContextMenus.WorkspaceContextMenu.Placeholder
+OtherContextMenus.WorkspaceContextMenu.AddBuildPreset.
+OtherContextMenus.WorkspaceContextMenu.Deactivatevcpkgenvironment
+OtherContextMenus.WorkspaceContextMenu.AddTestPreset.
+ProjectandSolutionContextMenus.Project.Add.NewEditorConfigIntelliCode
+Project.ConfigureCache
+Project.ConfigureCachewithCMakeDebugging
+Project.CMake.CancelCacheGeneration
+Project.DeleteCacheandReconfigure
+Project.ViewCMakeCache.txt
+Project.CMake.Diagnose
+Project.CMakeSettings
+Project.CMakeWorkspaceSettings
+Help.ReportaProblem
+Help.SuggestaFeature
+Help.MyFeedback
+Help.RestartReportaProblem
+Help.DebugVSFeedbackSettings
+Help.DebugNexuscommand
+Design.ZoomIn | XAML Designer::Ctrl+Alt+=
+Design.ZoomOut | XAML Designer::Ctrl+Alt+-
+Design.FitAll | XAML Designer::Ctrl+0
+Design.FitSelection
+Design.ActualSize
+Design.ShowHandles | XAML Designer::F9
+Design.ShowSelectionPreview
+Design.ShowActiveContainer
+Design.ShowAlignmentAdorners
+Design.ShowObjectBoundaries
+Design.ShowTools
+Design.RunProjectCode | XAML Designer::Ctrl+F9
+Design.RefreshPage | XAML Designer::Ctrl+R
+Format.EditText | XAML Designer::F2
+Format.EditControl
+Format.ResetAll | XAML Designer::Ctrl+Shift+R
+Format.ResetWidth
+Format.ResetHeight
+Format.ResetSize
+Format.ResetMargin
+Format.ResetAlignments
+Format.FillAll
+Format.FillHorizontal
+Format.FillVertical
+Format.Horizontal
+Format.Vertical
+Design.LockSelection
+Design.LockAll
+Design.UnlockAll
+Design.ShowSelection
+Design.ShowAll
+Design.HideSelection
+Design.HideAll
+Team.NewWorkItemBug
+Team.NewWorkItemTask
+Team.NewWorkItemRequirement
+TeamFoundationContextMenus.ViewOptions.Showcompleteditems
+TeamFoundationContextMenus.ViewOptions.Hidecompleteditems
+TeamFoundationContextMenus.ViewOptions.Listview
+TeamFoundationContextMenus.ViewOptions.Detailview
+TeamFoundationContextMenus.WorkItemActions.Open
+TeamFoundationContextMenus.WorkItemActions.Assigntome
+TeamFoundationContextMenus.WorkItemActions.Completeworkitem
+Edit.RefreshWorkItem | Work Item Editor::F5
+Team.GotoPreviousWorkItem | Work Item Results View::Shift+Alt+P
+Team.GotoNextWorkItem | Work Item Results View::Shift+Alt+N
+Team.GotoPreviousModifiedWorkItem
+Team.GotoNextModifiedWorkItem
+View.Open
+Team.Refresh | Work Item Query View::F5
+Team.Refresh | Work Item Results View::F5
+Team.StopRefresh
+Team.WorkItems.NewFolder
+TeamFoundationContextMenus.WorkItems.NewQuery
+Team.NewQuery
+TeamFoundationContextMenus.QueriesSection.Security
+TeamFoundationContextMenus.QueriesSection.AddtoMyFavorites
+TeamFoundationContextMenus.QueriesSection.AddtoTeamFavorites
+TeamFoundationContextMenus.QueriesSection.RemovefromFavorites
+View.ViewResults
+Edit.EditQuery
+View.OpeninMicrosoftExcel
+View.OpeninMicrosoftExcelFlat
+View.OpeninMicrosoftExcelTree
+View.SendtoMicrosoftOutlook
+View.CreateReportinMicrosoftExcel
+View.OpenSelectioninMicrosoftExcel
+View.SendSelectiontoMicrosoftOutlook
+View.OpenWorkIteminMicrosoftExcel
+View.SendWorkItemtoMicrosoftOutlook
+Team.ColumnOptions
+Team.GotoWorkItem
+Edit.CreateCopyofWorkItem | Work Item Query View::Shift+Alt+C
+Edit.CreateCopyofWorkItem | Work Item Results View::Shift+Alt+C
+Edit.CreateCopyofWorkItem | Work Item Editor::Shift+Alt+C
+Team.NewLinkedWorkItem | Work Item Query View::Shift+Alt+L
+Team.NewLinkedWorkItem | Work Item Results View::Shift+Alt+L
+Team.NewLinkedWorkItem | Work Item Editor::Shift+Alt+L
+TeamFoundationContextMenus.ResultsList.LinktoAnExistingItem
+TeamFoundationContextMenus.Commands.GoToWorkItems | Global::Ctrl+0, Ctrl+W
+TeamFoundationContextMenus.Commands.GoToWorkItems | Global::Ctrl+0, W
+Team.GotoWorkItemsHub
+Team.InsertClause
+Team.DeleteClauses
+Team.GroupClauses
+Team.UngroupClauses
+File.PrintSelectionDetails
+TeamFoundationContextMenus.ResultsList.PrintSelectionasList
+View.ExpandSelection
+View.CollapseSelection
+View.ExpandAll
+View.CollapseALL
+Edit.Outdent | Work Item Query View::Shift+Alt+Left Arrow
+Edit.Outdent | Work Item Results View::Shift+Alt+Left Arrow
+Edit.Indent | Work Item Query View::Shift+Alt+Right Arrow
+Edit.Indent | Work Item Results View::Shift+Alt+Right Arrow
+TeamFoundationContextMenus.ResultsListColumnSort.SortAscending
+TeamFoundationContextMenus.ResultsListColumnSort.SortDescending
+Team.ViewAsQuery
+Team.Open
+Team.AddAttachment
+Team.SaveAsLocalCopy
+Team.Delete
+Team.OpenLinkedItem
+Team.Linkto
+Team.EditLink
+Team.DeleteLink
+Team.WorkItems.ColumnOptions
+Window.RestorePanes
+Window.MaximizeResultsPane
+Window.MaximizeWorkItemPreviewPane
+Window.MaximizeQueryBuilderPane
+Window.SplitWindowHorizontally
+Window.SplitWindowVertically
+Window.Toggle | Work Item Query View::Shift+Alt+V
+Window.Toggle | Work Item Results View::Shift+Alt+V
+TeamFoundationContextMenus.WorkItem.TrackWorkItem
+Team.NewWorkItemswithMicrosoftExcel
+Design.DeviceWindow
+Build.EBF.Install
+Build.EBF.Compile
+Diff.SideBySideView | Text Editor::Ctrl+\, Ctrl+2
+Diff.InlineView | Text Editor::Ctrl+\, Ctrl+1
+Diff.LeftOnlyView | Text Editor::Ctrl+\, Ctrl+3
+Diff.RightOnlyView | Text Editor::Ctrl+\, Ctrl+4
+CodeReview.PreviousComment | Difference Viewer::Shift+F7
+CodeReview.NextComment | Difference Viewer::F7
+Diff.PreviousDifference | Text Editor::Ctrl+Shift+F8
+Diff.PreviousDifference | Difference Viewer::Shift+F8
+Diff.NextDifference | Difference Viewer::F8
+Diff.IgnoreTrimWhitespace | Text Editor::Ctrl+\, Ctrl+Space
+Diff.SynchronizeViewToggle | Text Editor::Ctrl+\, Ctrl+Down Arrow
+Tools.DiffFiles
+EditorContextMenus.CodeLens.CodeLensOptions
+Edit.InsertNextMatchingCaret | Text Editor::Shift+Alt+.
+Edit.InsertCaretsatAllMatching | Text Editor::Shift+Alt+;
+Edit.RemoveLastCaret | Text Editor::Shift+Alt+,
+Edit.MoveLastCaretDown | Text Editor::Shift+Alt+/
+Edit.RotatePrimaryCaretDown
+Edit.RotatePrimaryCaretUp
+EditorContextMenus.Navigate.GoToContainingBlock | Text Editor::Shift+Alt+[
+Edit.CRLF
+Edit.LF
+Edit.CR
+Edit.Spaces
+Edit.Tabs
+EditorContextMenus.StickyScroll.StickyScroll
+Edit.GoToNextIssueinFile | Text Editor::Alt+PgDn
+Edit.GoToPreviousIssueinFile | Text Editor::Alt+PgUp
+Edit.GoToLastEditLocation | Global::Ctrl+Shift+Bkspce
+OtherContextMenus.DiscoverServiceReferences.ServicesinSolution
+OtherContextMenus.MicrosoftDataEntityDesignContext.Rename
+OtherContextMenus.MicrosoftDataEntityDesignContext.ConverttoEnum
+OtherContextMenus.MicrosoftDataEntityDesignContext.MovetonewDiagram
+OtherContextMenus.MicrosoftDataEntityDesignContext.RemovefromDiagram | ADO.NET Entity Data Model Designer::Shift+Del
+OtherContextMenus.MicrosoftDataEntityDesignContext.Collapse
+OtherContextMenus.MicrosoftDataEntityDesignContext.Expand
+OtherContextMenus.MicrosoftDataEntityDesignContext.IncludeRelated
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.Entity
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.ScalarProperty
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.NavigationProperty
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.ComplexProperty
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.Association
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.Inheritance
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.FunctionImport
+OtherContextMenus.MicrosoftDataEntityDesignContext.SelectAll
+OtherContextMenus.MicrosoftDataEntityDesignContext.Diagram.LayoutDiagram
+OtherContextMenus.MicrosoftDataEntityDesignContext.Diagram.ExportasImage
+OtherContextMenus.MicrosoftDataEntityDesignContext.Diagram.CollapseAll
+OtherContextMenus.MicrosoftDataEntityDesignContext.Diagram.ExpandAll
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.ZoomIn
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.ZoomOut
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.ZoomtoFit
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.Custom
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.10
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.25
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.33
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.50
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.66
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.75
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.100
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.125
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.150
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.200
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.300
+OtherContextMenus.MicrosoftDataEntityDesignContext.Zoom.400
+OtherContextMenus.MicrosoftDataEntityDesignContext.Grid.ShowGrid
+OtherContextMenus.MicrosoftDataEntityDesignContext.Grid.SnaptoGrid
+OtherContextMenus.MicrosoftDataEntityDesignContext.ScalarPropertyFormat.DisplayName
+OtherContextMenus.MicrosoftDataEntityDesignContext.ScalarPropertyFormat.DisplayNameandType
+OtherContextMenus.MicrosoftDataEntityDesignContext.GoToDefinition
+OtherContextMenus.MicrosoftDataEntityDesignContext.MappingDetails
+OtherContextMenus.MicrosoftDataEntityDesignContext.TableMapping
+OtherContextMenus.MicrosoftDataEntityDesignContext.TableMapping
+OtherContextMenus.MicrosoftDataEntityDesignContext.FunctionImportMapping
+OtherContextMenus.MicrosoftDataEntityDesignContext.ModelBrowser
+OtherContextMenus.MicrosoftDataEntityDesignContext.StoredProcedureMapping
+OtherContextMenus.MicrosoftDataEntityDesignContext.ShowinModelBrowser
+OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.Rename | ADO.NET Entity Data Model Designer::Ctrl+R, R
+OtherContextMenus.MicrosoftDataEntityDesignContext.Refactor.MovetoNewComplexType
+OtherContextMenus.MicrosoftDataEntityDesignContext.EntityKey
+OtherContextMenus.MicrosoftDataEntityDesignContext.Edit
+OtherContextMenus.MicrosoftDataEntityDesignContext.SelectAssociation
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.Entity
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.BaseType
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.Property
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.Subtype
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.Entity
+OtherContextMenus.MicrosoftDataEntityDesignContext.Select.Property
+OtherContextMenus.MicrosoftDataEntityDesignContext.Validate
+OtherContextMenus.MicrosoftDataEntityDesignContext.UpdateModelfromDatabase
+OtherContextMenus.MicrosoftDataEntityDesignContext.GenerateDatabasefromModel
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddCodeGenerationItem
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddFunctionImport
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.ComplexType
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNew.AddEnumType
+OtherContextMenus.MicrosoftDataEntityDesignContext.Add.ComplexProperty.ComplexTypes
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddNewDiagram | Global::Ins
+OtherContextMenus.MicrosoftDataEntityDesignContext.Open
+OtherContextMenus.MicrosoftDataEntityDesignContext.Close
+OtherContextMenus.MicrosoftDataEntityDesignContext.ShowinDiagram
+OtherContextMenus.MicrosoftDataEntityDesignContext.AddtoDiagram
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveDiagramstoSeparateFile
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToTop | ADO.NET Entity Data Model Designer::Alt+Home
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToBottom | ADO.NET Entity Data Model Designer::Alt+End
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up | ADO.NET Entity Data Model Designer::Alt+Up Arrow
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down | ADO.NET Entity Data Model Designer::Alt+Down Arrow
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5 | ADO.NET Entity Data Model Designer::Alt+PgUp
+OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5 | ADO.NET Entity Data Model Designer::Alt+PgDn
+ProjectandSolutionContextMenus.Item.MoveUp | Solution Explorer::Alt+Up Arrow
+ProjectandSolutionContextMenus.Item.MoveDown | Solution Explorer::Alt+Down Arrow
+ProjectandSolutionContextMenus.Item.AddBelow.AddNewItem
+ProjectandSolutionContextMenus.Item.AddBelow.AddExistingItem
+ProjectandSolutionContextMenus.Item.AddBelow.NewFolder
+ProjectandSolutionContextMenus.Item.AddAbove.AddNewItem
+ProjectandSolutionContextMenus.Item.AddAbove.AddExistingItem
+ProjectandSolutionContextMenus.Item.AddAbove.NewFolder
+ProjectandSolutionContextMenus.ReferenceItem.SendtoF#Interactive
+ProjectandSolutionContextMenus.ReferenceRoot.SendReferencestoF#Interactive
+ProjectandSolutionContextMenus.Project.SendProjectOutputtoF#Interactive
+InteractiveConsole.ExecuteOrPasteInput | Interactive Window::Ctrl+Enter
+InteractiveConsole.Reset
+InteractiveConsole.HistoryNext | Interactive Window::Alt+Down Arrow
+InteractiveConsole.HistoryPrevious | Interactive Window::Alt+Up Arrow
+InteractiveConsole.BreakLine | Interactive Window::Shift+Enter
+InteractiveConsole.SearchHistoryNext | Interactive Window::Ctrl+Alt+Down Arrow
+InteractiveConsole.SearchHistoryPrevious | Interactive Window::Ctrl+Alt+Up Arrow
+InteractiveConsole.CopyCode | Interactive Window::Ctrl+Shift+C
+InteractiveConsole.ClearScreen
+InteractiveConsole.ExecuteInInteractive | C# Editor::Ctrl+E, Ctrl+E
+InteractiveConsole.ExecuteInInteractive | C# Editor::Ctrl+E, E
+Tools.PackageManagerSettings
+ProjectandSolutionContextMenus.PackageReferenceGroup.Update
+ProjectandSolutionContextMenus.PackageReference.Update
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Solution.RestoreNuGetPackages
+OtherContextMenus.WorkspaceContextMenu.SolutionExplorer.Project.ManageNuGetPackages
+SolutionExplorer.Folder.ToggleToFolderItem
+SolutionExplorer.Folder.ToggleToView
+SolutionExplorer.Folder.ToggleToSolutionItem
+SolutionExplorer.Folder.ToggleView
+SolutionExplorer.Folder.ToggleToPreviousView
+TeamFoundationContextMenus.Commands.GoToGitNavigation | Git::Alt+Home
+TeamFoundationContextMenus.Commands.GoToGitPageContent | Git::Alt+0
+TeamFoundationContextMenus.Commands.GoToGitPreviousSectionContent | Git::Alt+Up Arrow
+TeamFoundationContextMenus.Commands.GoToGitNextSectionContent | Git::Alt+Down Arrow
+TeamFoundationContextMenus.Commands.GoToGitSection1Content | Git::Alt+1
+TeamFoundationContextMenus.Commands.GoToGitSection2Content | Git::Alt+2
+TeamFoundationContextMenus.Commands.GoToGitSection3Content | Git::Alt+3
+TeamFoundationContextMenus.Commands.GoToGitSection4Content | Git::Alt+4
+TeamFoundationContextMenus.Commands.GoToGitSection5Content | Git::Alt+5
+TeamFoundationContextMenus.Commands.GoToGitSection6Content | Git::Alt+6
+TeamFoundationContextMenus.Commands.GoToGitSection7Content | Git::Alt+7
+TeamFoundationContextMenus.Commands.GoToGitSection8Content | Git::Alt+8
+TeamFoundationContextMenus.Commands.GoToGitSection9Content | Git::Alt+9
+Team.Git.GoToGitActiveRepositories | Global::Ctrl+0, Ctrl+E
+Team.Git.GoToGitActiveRepositories | Global::Ctrl+0, E
+Team.Git.GoToGitSynchronization | Global::Ctrl+0, Ctrl+Y
+Team.Git.GoToGitSynchronization | Global::Ctrl+0, Y
+Team.Git.IgnoreItem
+Team.Git.OpenFromScc
+Team.Git.Share
+Team.Git.ShowAll
+Team.Git.ShowSubset1ItemsOnly
+Team.Git.ShowActivePullRequests
+Team.Git.ShowCompletedPullRequests
+Team.Git.ShowAbandonedPullRequests
+Team.Git.ShowAllMyPullRequests
+Team.Git.ShowTeamPullRequests
+Team.Git.ShowOnlyMyPullRequests
+Team.Git.CommitOrStash
+Team.Git.Undo
+Team.Git.CompareWithUnmodified
+Team.Git.Remove
+Team.Git.CompareWithPrevious
+Team.Git.CompareWithLatest
+Team.Git.ViewCommitDetails
+Team.Git.Checkout
+Team.Git.SwitchViewLayout
+Team.Git.SwitchDefaultAction
+Team.Git.SwitchBranchPublishState
+Team.Git.Merge
+Team.Git.Rename
+Team.Git.IgnoreExtension
+Team.Git.ViewAndCreateBranch
+Team.Git.SwitchViewFilter
+Team.Git.OpenBrowser
+Team.Git.CommitAndPush
+Team.Git.CommitAndSync
+Team.Git.Annotate
+Team.Git.AmendPreviousCommit
+Team.Git.CopyCommitID
+Team.Git.Revert
+Team.Git.FetchSelection
+Team.Git.PullSelection
+Team.Git.PushSelection
+Team.Git.CreateTag
+Team.Git.AddToSourceControl
+Team.Git.ShowBranches
+Team.Git.ShowRemoteBranches
+Team.Git.ShowTags
+Team.Git.ShowGraph
+Team.Git.ShowFullHistory
+Team.Git.ShowFirstParentOnly
+Team.Git.Rebase
+Team.Git.CreatePullRequest
+Team.Git.CherryPick
+Team.Git.GoToParent | Global::Alt+PgDn
+Team.Git.GoToChild | Global::Alt+PgUp
+Team.Git.SubmoduleUpdate
+Team.Git.SwitchSourceAndTarget
+Team.Git.CompareCommits
+Team.Git.UnsetUpstream
+Team.Git.CheckoutSourceBranch
+Team.Git.StashPush
+Team.Git.StashPop
+Team.Git.StashApply
+Team.Git.StashDrop
+Team.Git.StashPushKeepIndex
+Team.Git.ShowStash
+Team.Git.RelateToChanges
+Team.Git.NewBranchFromWorkItem
+Team.Git.StashPopRestoreIndex
+Team.Git.StashApplyRestoreIndex
+Team.Git.AddComment
+Team.Git.CollapseAllComments
+Team.Git.KeepCurrent
+Team.Git.TakeIncoming
+Team.Git.Stage
+Team.Git.Unstage
+Team.Git.IgnoreAll
+Team.Git.CopyCommitDetails
+Team.Git.CheckoutDetachedHead
+Team.Git.NewRepository
+Team.Git.Commit | Git::Ctrl+Enter
+Team.Git.Squash
+Team.Git.PushAllTags
+Team.Git.AddSolutionToSourceControl
+Team.Git.ViewHistory
+Team.Git.Resolve
+Team.Git.ResetMixed
+Team.Git.ResetHard
+Team.Git.Clone
+Team.Git.Publish
+Team.Git.GoToGitChanges
+Team.Git.WriteCommitGraphFile
+Team.Git.Fetch
+Team.Git.Pull
+Team.Git.Push
+Team.Git.Sync
+Team.Git.CreateBranch
+Team.Git.ViewBranchHistory
+Team.Git.ManageBranches
+Team.Git.OpenFileExplorer
+Team.Git.OpenCommandPrompt
+Team.Git.ManageRemotes
+Team.Git.Settings
+Team.Git.StageSelectedRange
+Team.Git.UnstageSelectedRange
+Team.Git.RevertSelectedRange
+Team.Git.CreateNewPullRequest
+Team.Git.ViewPullRequests
+Team.Git.ShowToolbarActions_Fetch
+Team.Git.ShowToolbarActions_Pull
+Team.Git.ShowToolbarActions_Push
+Team.Git.ShowToolbarActions_Sync
+Team.Git.ShowStagingControls
+OtherContextMenus.Module.AddRemoveColumns
+OtherContextMenus.Summary.ShowFunctionsCallingThisFunction
+OtherContextMenus.Summary.ShowFunctionsCalledbyThisFunction
+OtherContextMenus.Summary.ViewSource
+OtherContextMenus.Summary.Copy
+OtherContextMenus.Module.Sort
+OtherContextMenus.Butterfly.SetFunction
+OtherContextMenus.Summary.ShowinFunctionView
+OtherContextMenus.Calltree.SetRoot
+OtherContextMenus.Calltree.ResetRoot
+OtherContextMenus.Module.ExpandAll
+OtherContextMenus.Module.CollapseAll
+OtherContextMenus.Calltree.ExpandSelection
+OtherContextMenus.Calltree.CollapseSelection
+OtherContextMenus.Summary.ShowinModulesView
+OtherContextMenus.Summary.Find
+OtherContextMenus.Summary.ShowinLifetimeView
+OtherContextMenus.Summary.ShowinAllocationView
+OtherContextMenus.Module.ResetColumnstoDefault
+OtherContextMenus.Module.ShowinLineView
+OtherContextMenus.Module.ShowinIPView
+OtherContextMenus.Calltree.ExpandHotPath
+OtherContextMenus.Calltree.ExpandHotPath
+OtherContextMenus.Marks.AddFilteronTimestamps
+OtherContextMenus.Marks.AddFilteronMarks
+OtherContextMenus.Diff.Showmatchingrowinbaselinefile
+OtherContextMenus.Diff.Showmatchingrowincomparisonfile
+OtherContextMenus.Report.SaveAnalyzedReport
+OtherContextMenus.Report.ExportReportData
+OtherContextMenus.Calltree.ExpandFoldedNodes
+OtherContextMenus.Calltree.SelectStack
+OtherContextMenus.Summary.ShowFunctionDetails
+OtherContextMenus.CounterChart.FilterProfilingDatabySelection
+OtherContextMenus.ProcessThreads.AddFilteronProcessesThreads
+OtherContextMenus.ProcessThreads.ShowThreadContentionDetails
+OtherContextMenus.Contention.ShowContentionResourceDetails
+OtherContextMenus.Boundary.ViewDatabaseCommandText
+OtherContextMenus.Views.Summary
+OtherContextMenus.Views.Modules
+OtherContextMenus.Views.Functions
+OtherContextMenus.Views.Lines
+OtherContextMenus.Views.IPs
+OtherContextMenus.Views.CallerCallee
+OtherContextMenus.Views.CallTree
+OtherContextMenus.Views.Allocation
+OtherContextMenus.Views.Lifetime
+OtherContextMenus.Views.Contention
+OtherContextMenus.Views.Marks
+OtherContextMenus.Views.Processes
+OtherContextMenus.Views.Details
+OtherContextMenus.Views.ResourceDetails
+OtherContextMenus.Views.ThreadDetails
+OtherContextMenus.Views.Interactions
+Analyze.LaunchPerformanceWizard
+OtherContextMenus.Session.StartProfiling
+OtherContextMenus.Session.AttachDetach
+OtherContextMenus.Report.Open
+OtherContextMenus.Binaries.AddTargetBinary
+OtherContextMenus.Binaries.AddTargetProject
+OtherContextMenus.Reports.AddReport
+OtherContextMenus.Reports.ShowPerformanceExplorer
+OtherContextMenus.Binary.Instrument
+OtherContextMenus.Binary.SetasLaunch
+OtherContextMenus.Binaries.AddExistingWebSite
+OtherContextMenus.Session.SetasCurrentSession
+OtherContextMenus.Binary.Collectsamples
+OtherContextMenus.Reports.ComparePerformanceReports
+OtherContextMenus.ErrorList.SuppressMessages
+ProjectandSolutionContextMenus.Project.FileNesting.AddSolutionSettings
+ProjectandSolutionContextMenus.Project.FileNesting.EditSolutionSettings
+ProjectandSolutionContextMenus.Project.FileNesting.AddProjectSettings
+ProjectandSolutionContextMenus.Project.FileNesting.EditProjectSettings
+OtherContextMenus.StandardProviderRecentContextMenu.ClearRecentReferences
+OtherContextMenus.StandardProviderRecentContextMenu.RemovefromRecentReferences
+Project.OpenDeveloperAccount
+Project.ReserveAppName
+Project.AcquireDeveloperLicense
+Project.EditAppManifest
+Project.ConvertContentGroupMapFile
+Project.AssociateAppwiththeStore
+Project.CreateAppPackages
+Project.UploadAppPackages
+Tools.AcquireDeveloperLicense
+EditorContextMenus.CodeWindow.RefreshCodeLensTeamIndicators
+EditorContextMenus.CodeWindow.ToggleFileLevelIndicators
+ToggleFileLevelIndicators
+OtherContextMenus.CollaborationContextMenu.Git.Changes.NavigateToDetails
+OtherContextMenus.CollaborationContextMenu.Git.Changes.NavigateToDetails
+OtherContextMenus.CollaborationContextMenu.Git.Changes.IMAuthor
+OtherContextMenus.CollaborationContextMenu.Git.Changes.VideoChat
+OtherContextMenus.CollaborationContextMenu.Git.Changes.EmailAuthor
+OtherContextMenus.CollaborationContextMenu.Git.Changes.ContactCard
+EditorContextMenus.CodeLens.Git.CodeLens.RefreshTeamIndicators
+EditorContextMenus.CodeWindow.Git.CodeLens.RefreshTeamIndicators
+OtherContextMenus.CollaborationContextMenu.Changes.OpenDiffView
+OtherContextMenus.CollaborationContextMenu.Changes.ChangesetDetails
+OtherContextMenus.CollaborationContextMenu.Changes.TrackChangeset
+OtherContextMenus.CollaborationContextMenu.Changes.AddBranchToIgnoreList
+OtherContextMenus.CollaborationContextMenu.Changes.HideCodeFlow
+OtherContextMenus.CollaborationContextMenu.Changes.GetCurrentFile
+OtherContextMenus.CollaborationContextMenu.Changes.IMAuthor
+OtherContextMenus.CollaborationContextMenu.Changes.VideoChat
+OtherContextMenus.CollaborationContextMenu.Changes.EmailAuthor
+OtherContextMenus.CollaborationContextMenu.Changes.ContactCard
+EditorContextMenus.CodeLens.RefreshCodeLensTeamIndicators
+Changes.IgnoredBranch
+Tfs.tfc
+Team.Connect
+Team.ManageConnections
+Team.DisconnectfromServer
+TfsContextHomePageOpenInFileExplorer
+Build.QueueNewBuild
+TeamFoundationContextMenus.BuildQueueExplorer.Stop
+Build.NewBuildDefinition
+TeamFoundationContextMenus.BuildExplorer.EditBuildQuality
+Build.ManageBuildQualities
+Build.ManageBuildControllers
+TeamFoundationContextMenus.BuildExplorer.RetainIndefinitely
+Build.ViewBuilds
+TeamFoundationContextMenus.TeamExplorerBuildDefinition.EditBuildDefinition
+TeamFoundationContextMenus.BuildQueueExplorer.Postpone
+TeamFoundationContextMenus.BuildExplorer.OpenDropFolder
+TeamFoundationContextMenus.BuildExplorer.ReconcileWorkspace
+TeamFoundationContextMenus.TeamExplorerBuilds.Security
+TeamFoundationContextMenus.TeamExplorerBuildDefinition.OpenProcessFileLocation
+TeamFoundationContextMenus.BuildExplorer.UnshelveChanges
+TeamFoundationContextMenus.BuildExplorer.ViewChangeset
+TeamFoundationContextMenus.BuildQueueExplorer.ViewShelveset
+TeamFoundationContextMenus.BuildQueueExplorer.StartNow
+TeamFoundationContextMenus.TeamExplorerBuildsPageBuildDefinition.AddToFavorites
+TeamFoundationContextMenus.BuildExplorer.RetryBuild
+Build.ViewControllerQueue
+TeamFoundationContextMenus.BuildExplorer.OpeninBrowser
+TeamFoundationContextMenus.Commands.GoToBuilds | Global::Ctrl+0, Ctrl+B
+TeamFoundationContextMenus.Commands.GoToBuilds | Global::Ctrl+0, B
+TeamFoundationContextMenus.TeamExplorerBuildsPageMore.ViewBuildsinWeb
+TeamFoundationContextMenus.TeamExplorerBuildDefinition.CloneBuildDefinition
+CodeReview.AddComment | Difference Viewer::Ctrl+Shift+K
+CodeReview.EditLocalFile | Difference Viewer::Ctrl+Shift+P
+View.TfsTeamExplorer | Global::Ctrl+\, Ctrl+M
+TeamFoundationContextMenus.Commands.GoToHome | Global::Ctrl+0, Ctrl+H
+TeamFoundationContextMenus.Commands.GoToHome | Global::Ctrl+0, H
+TeamFoundationContextMenus.Commands.GoToSettings | Global::Ctrl+0, Ctrl+S
+TeamFoundationContextMenus.Commands.GoToSettings | Global::Ctrl+0, S
+TeamFoundationContextMenus.Commands.GoToWebAccess | Global::Ctrl+0, Ctrl+A
+TeamFoundationContextMenus.Commands.GoToWebAccess | Global::Ctrl+0, A
+TeamFoundationContextMenus.Commands.GoToConnect | Global::Ctrl+0, Ctrl+C
+TeamFoundationContextMenus.Commands.GoToConnect | Global::Ctrl+0, C
+TeamFoundationContextMenus.Commands.TeamExplorerNavigateBackward | Team Explorer::Alt+Left Arrow
+TeamFoundationContextMenus.Commands.TeamExplorerNavigateForward | Team Explorer::Alt+Right Arrow
+TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation | Team Explorer::Alt+Home
+TeamFoundationContextMenus.Commands.GoToTeamExplorerPageContent | Team Explorer::Alt+0
+TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent | Team Explorer::Alt+Up Arrow
+TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent | Team Explorer::Alt+Down Arrow
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection1Content | Team Explorer::Alt+1
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection2Content | Team Explorer::Alt+2
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection3Content | Team Explorer::Alt+3
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection4Content | Team Explorer::Alt+4
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection5Content | Team Explorer::Alt+5
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection6Content | Team Explorer::Alt+6
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection7Content | Team Explorer::Alt+7
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection8Content | Team Explorer::Alt+8
+TeamFoundationContextMenus.Commands.GoToTeamExplorerSection9Content | Team Explorer::Alt+9
+Window.TogglePageDocking
+Git.OpenLocalRepository
+TeamFoundationContextMenus.Commands.GoToDocuments | Global::Ctrl+0, Ctrl+D
+TeamFoundationContextMenus.Commands.GoToDocuments | Global::Ctrl+0, D
+Team.NewDocumentLibrary
+Team.UploadDocument
+TeamFoundationContextMenus.Documents.Edit
+TeamFoundationContextMenus.Commands.GoToReports
+TeamFoundationContextMenus.SourceControlExplorerCommandHolder.TfsExplorerSetWorkspace
+TeamFoundationContextMenus.Label.TfsLabelView
+TeamFoundationContextMenus.Label.TfsLabelChangeVersion
+TeamFoundationContextMenus.Label.TfsLabelRemoveFromLabel
+TeamFoundationContextMenus.Label.TfsLabelHistory
+TeamFoundationContextMenus.Label.TfsLabelCompare
+TeamFoundationContextMenus.Label.TfsLabelFolderDiff
+TeamFoundationContextMenus.Label.TfsLabelAnnotate
+TeamFoundationContextMenus.Label.TfsLabelGetThisVersion
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.TfsContextPendingCheckinsPendingCheckinsView
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.TfsContextPendingCheckinsPendingCheckinsUndo
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.TfsContextPendingCheckinsPendingCheckinsProperties
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.Compare.TfsContextPendingCheckinsCompareWithPreviousVersion
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.Compare.TfsContextPendingCheckinsCompareWithWorkspaceVersion
+TeamFoundationContextMenus.SourceControlPendingChangesSourceFiles.Compare.TfsContextPendingCheckinsCompareWithLatestVersion
+TeamFoundationContextMenus.SourceControlPendingChangesWorkItems.TfsContextPendingCheckinsOpen
+TeamFoundationContextMenus.SourceControlPendingChangesWorkItems.TfsContextPendingCheckinsFindNext
+TeamFoundationContextMenus.SourceControlPendingChangesWorkItems.TfsContextPendingCheckinsFindPrevious
+TeamFoundationContextMenus.SourceControlPendingChangesPolicyWarnings.TfsContextPendingCheckinsEvaluate
+TeamFoundationContextMenus.PendingChangesCommandHolder.TfsPendingCheckinsSetWorkspace
+TeamFoundationContextMenus.PendingChangesCommandHolder.TfsPendingCheckinsSetChannelIndex
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryCompare
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryFolderDiff
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryAnnotate
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryTrackChangeset
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryView
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryDetails
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryGetThisVersion
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryRollbackChangesInThisVersion
+TeamFoundationContextMenus.SourceControlHistoryChangesets.TfsContextHistoryRequestReview
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffCompareFiles
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffView
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffAddFiles
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffDelete
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffDeleteLocalFiles
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffGetLatestVersion
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffGetSpecificVersion
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffReconcile
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffRerunCompare
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffHistory
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffProperties
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffCheckOutForEdit
+TeamFoundationContextMenus.FolderDifference.TfsContextFolderDiffUndoPendingChanges
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateViewChangesetDetails
+TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion
+TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion
+TeamFoundationContextMenus.Annotate.TfsAnnotateFireSelectionChanged
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateViewHistory
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateCompareWithPrevious
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateAnnotateThisVersion
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateTrackChangeset
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateGetThisVersion
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateStopAnnotation
+OtherContextMenus.EasyMDIToolWindow.TfsAnnotateCopyFullPath
+EditorContextMenus.CodeWindow.SourceControl.TfsAnnotateAnnotateThisLine
+TeamFoundationContextMenus.Online.TfsContextOnlineView
+TeamFoundationContextMenus.Online.TfsContextOnlineProperties
+TeamFoundationContextMenus.Online.Compare.TfsContextOnlineCompareWithWorkspaceVersion
+TeamFoundationContextMenus.Online.Compare.TfsContextOnlineCompareWithLatestVersion
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsCompare
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsFolderDiff
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsAnnotate
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsTrackChangeset
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsView
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsDetails
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsDeleteLabel
+TeamFoundationContextMenus.SourceControlHistoryLabels.TfsContextHistoryLabelsGetThisVersion
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToServer
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareTargetToSource
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToShelveset
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareShelvesetToDeleted
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareUnshelvedToOriginalWorkspace
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareUnshelvedToDeleted
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToOriginal
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareSourceToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareShelvesetToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareUnshelvedToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareServerToOriginal
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareTargetToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareOriginalWorkspaceToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToDeleted
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareSourceToDeleted
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareDeletedToOriginal
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareDeletedToBase
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareOriginalToServer
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareDeletedToTarget
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.Compare.TfsContextPendingCheckinsConflictCompareLocalToServer
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictHistory
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictSourceHistory
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictTargetHistory
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictAnnotate
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictSourceAnnotate
+TeamFoundationContextMenus.SourceControlPendingChangesConflicts.TfsContextPendingCheckinsConflictTargetAnnotate
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerChangesetDetails
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerOpenInSCE
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerProperties
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerBranch
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerMerge
+TeamFoundationContextMenus.BranchVisualizer.TfsContextBranchVisualizerCompare
+TeamFoundationContextMenus.BranchVisualizerCommandHolder.TfsBranchVisualizerTrackWorkItem
+TeamFoundationContextMenus.Mappings.TfsContextMappingsCopy
+TeamFoundationContextMenus.Mappings.TfsContextMappingsCut
+TeamFoundationContextMenus.Mappings.TfsContextMappingsPaste
+TeamFoundationContextMenus.Mappings.TfsContextMappingsDelete
+TeamFoundationContextMenus.Mappings.TfsContextMappingsSelectAll
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsOriginalFile
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsModifiedFile
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsBaseFile
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsMergedFile
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsCommandLineOption
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsOriginalFileLabel
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsModifiedFileLabel
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsBaseFileLabel
+TeamFoundationContextMenus.ConfigureUserTools.TfsContextConfigureUserToolsMergedFileLabel
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteCopy
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteSelectAll
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsViewInExplorer
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsIgnoreThisItem
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsIgnoreByExtension
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsIgnoreByFileName
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsIgnoreByFolder
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteRename
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteDeletesRestoreThisItem
+TeamFoundationContextMenus.PromoteChanges.TfsContextPromoteAddsDelete
+TeamFoundationContextMenus.MergeContextMenu.AcceptMerge
+TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow | Merge Editor Window::Alt+1
+TeamFoundationContextMenus.MergeContextMenu.SetFocusonResultWindow | Merge Editor Window::Alt+2
+TeamFoundationContextMenus.MergeContextMenu.SetFocusonRightWindow | Merge Editor Window::Alt+3
+TeamFoundationContextMenus.PendingChangesPageChangestoExclude.TfsContextPendingChangesPageIncludeChanges
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageExcludeChanges
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageAnnotate
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageFolderDiff
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageUndo
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageView
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageCompareWithWorkspaceVersion
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageCompareWithLatestVersion
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageCompareWithPreviousVersion
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageHistory
+TeamFoundationContextMenus.PendingChangesPageWorkItems.TfsContextPendingChangesPageRemoveWorkItem
+TeamFoundationContextMenus.PendingChangesPageWorkItems.TfsContextPendingChangesPageOpenWorkItem
+TeamFoundationContextMenus.PendingChangesPageWorkItems.TfsContextPendingChangesPageNewLinkedWorkItem
+TeamFoundationContextMenus.PendingChangesPageWorkItems.TfsContextPendingChangesPageCreateCopyWorkItem
+TeamFoundationContextMenus.PendingChangesPageWorkItems.TfsContextPendingChangesPageExistingLinkWorkItem
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageOpenWorkItem
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageAddWorkItem
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageRemoveWorkItem
+TeamFoundationContextMenus.MyWorkPageMyWorkItems.TfsContextMyWorkPageActivateWorkItem
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageShelveTask
+TeamFoundationContextMenus.MyWorkPageUnfinishedWork.TfsContextMyWorkPageUnshelveTask
+TeamFoundationContextMenus.MyWorkPageUnfinishedWork.TfsContextMyWorkPageUnshelve
+TeamFoundationContextMenus.MyWorkPageUnfinishedWork.TfsContextMyWorkPageViewShelvesetDetails
+TeamFoundationContextMenus.MyWorkPageUnfinishedWork.TfsContextMyWorkPageRequestReview
+TeamFoundationContextMenus.MyWorkPageCodeReviews.TfsContextMyWorkPageOpenCodeReview
+TeamFoundationContextMenus.FindShelvesetsPageResults.TfsContextFindShelvesetsPageViewShelvesetDetails
+TeamFoundationContextMenus.FindShelvesetsPageResults.TfsContextFindShelvesetsPageDeleteShelveset
+TeamFoundationContextMenus.FindShelvesetsPageResults.TfsContextFindShelvesetsPageUnshelve
+TeamFoundationContextMenus.FindShelvesetsPageResults.TfsContextFindShelvesetsRequestReview
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsContextPendingChangesFindShelvesets
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsContextPendingChangesResolveConflicts
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsContextPendingChangesUndoAll
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsContextPendingChangesRequestReview
+TeamFoundationContextMenus.PendingChangesFilterChangesLink.TfsContextPendingChangesFilterNone
+TeamFoundationContextMenus.PendingChangesFilterChangesLink.TfsContextPendingChangesFilterBySolution
+TeamFoundationContextMenus.PendingChangesFilterChangesLink.TfsContextPendingChangesFilterByText
+TeamFoundationContextMenus.WorkItemActionLink.TfsContextPendingChangesPageWorkItemActionLinkAssociate
+TeamFoundationContextMenus.WorkItemActionLink.TfsContextPendingChangesPageWorkItemActionLinkResolve
+TeamFoundationContextMenus.PendingChangesPageChangestoExclude.TfsContextPendingChangesPageIncludeUnselectedChanges
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageExcludeUnselectedChanges
+TeamFoundationContextMenus.PendingChangesPageChangestoInclude.TfsContextPendingChangesPageOpenInSCE
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsContextPendingChangesOpenSCE
+TeamFoundationContextMenus.ChangesetDetailsPageMoreLink.TfsContextChangesetDetailsRequestReview
+TeamFoundationContextMenus.ChangesetDetailsPageMoreLink.TfsContextChangesetDetailsOpenInBrowser
+TeamFoundationContextMenus.ShelvesetDetailsPageMoreLink.TfsContextShelvesetDetailsOpenInBrowser
+TeamFoundationContextMenus.Commands.GoToPendingChanges | Global::Ctrl+0, Ctrl+P
+TeamFoundationContextMenus.Commands.GoToPendingChanges | Global::Ctrl+0, P
+TeamFoundationContextMenus.Commands.GoToMyWork | Global::Ctrl+0, Ctrl+M
+TeamFoundationContextMenus.Commands.GoToMyWork | Global::Ctrl+0, M
+TeamFoundationContextMenus.PendingChangesFilterChangesLink.TfsContextSwitchViewLayout
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageCreateCopyWI | Team Explorer::Shift+Alt+C
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI | Team Explorer::Shift+Alt+L
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageExistingLinkWI
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageViewDetails
+TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPagePrintSelectionDetails
+TeamFoundationContextMenus.MyWorkPageInProgress.AddtoInProgress
+TeamFoundationContextMenus.MyWorkPageInProgress.RemovefromInProgress
+TeamFoundationContextMenus.MyWorkPageInProgress.SendWorkItemtoMicrosoftOutlook
+TeamFoundationContextMenus.MyWorkPageInProgress.CopyDetails
+File.TfsUnshelvePendingChanges
+File.TfsResumeConflictResolution
+File.TfsShelvePendingChanges
+File.TfsMove
+File.TfsView
+File.TfsLock
+File.TfsAddToSourceControl
+File.TfsUndelete
+File.TfsNewFolder
+File.TfsUnlock
+File.TfsAnnotate
+File.TfsFolderDiff
+File.TfsOnline
+File.TfsSetLocalFolder
+File.TfsCloak
+File.TfsUncloak
+File.TfsUnmap
+File.TfsFindChangesets
+File.TfsViewWith
+File.TfsOpenInFileExplorer
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerView
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerLock
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerUnlock
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerDelete
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerUndelete
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerRename
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerAdd
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerShelvePendingChanges
+File.TfsContextExplorerBranch
+File.TfsContextExplorerMerge
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerMove
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerApplyLabel
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerNewFolder
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerProperties
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerAnnotate
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerFolderDiff
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerSetLocalFolder
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerCloak
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerUncloak
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerUnmap
+File.TfsViewBranchHierarchy
+File.TfsConvertFolderToBranch
+File.TfsConvertBranchToFolder
+File.TfsReparentBranch
+TeamFoundationContextMenus.SourceControlExplorer.Advanced.TfsContextExplorerSecurity
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerRollback
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerViewWith
+TeamFoundationContextMenus.SourceControlExplorer.TfsContextExplorerOpenInFileExplorer
+TeamFoundationContextMenus.PendingChangesPageMoreLink.TfsManageWorkspaces
+TfsShellIntegration.OpenFromScc
+TfsShellIntegration.Share
+File.TfsExcludeFromSourceControl
+File.TfsCheckOut
+TfsContextCheckOutForEdit
+File.TfsGetLatestVersion
+File.TfsCheckIn
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextAddSelectedProjectsToSourceControl
+File.TfsWorkspaces
+File.TfsFindLabel
+File.TfsApplyLabel
+File.TfsHistory
+File.TfsRefreshStatus
+File.TfsCheckOutSilent
+File.TfsGetSpecificVersion
+File.TfsCompare
+File.TfsOpenFromSourceControl
+File.TfsAddProjectFromSourceControl
+File.TfsUndoCheckout
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextUndoCheckout
+ClassViewContextMenus.ClassViewItem.TfsContextCompare
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextGetLatestVersion
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextGetSpecificVersion
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextViewPendingChanges
+TfsContextCheckIn
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextCheckOutForEdit
+ClassViewContextMenus.ClassViewProject.SourceControl.TfsContextCheckIn
+TfsOptions
+TfsAdvanced
+OtherContextMenus.PendingCheckinWindowContextMenu.CompareVersions
+OtherContextMenus.PendingCheckinWindowContextMenu.OpenwithEditor
+OtherContextMenus.PendingCheckinWindowContextMenu.UndoCheckout
+OtherContextMenus.GetVersionDialogContextMenu.CompareVersions
+OtherContextMenus.GetVersionDialogContextMenu.Refresh
+File.TfsGetAllFilesInSolution
+OtherContextMenus.CheckOutDialogContextMenu.Forceexclusive
+OtherContextMenus.CheckOutDialogContextMenu.CompareVersions
+File.TfsAddSolutionToSourceControl
+File.TfsAddSelectedProjectsToSourceControl
+File.TfsAddFilesToSourceControl
+OtherContextMenus.CheckinDialogContextMenu.CompareVersions
+File.TfsChangeSourceControl
+TfsGetLatestVersionDynamicSilent
+TfsCheckoutDynamicSilent
+TfsCheckInDynamicSilent
+Terminal.Copy | Terminal::Ctrl+Shift+C
+Terminal.Paste | Terminal::Ctrl+Shift+V
+ProjectandSolutionContextMenus.Project.ResetC#InteractiveFromProject
+ProjectandSolutionContextMenus.Analyzer.RemoveAnalyzer
+ProjectandSolutionContextMenus.Analyzers.AddAnalyzer
+ProjectandSolutionContextMenus.Analyzers.OpenActiveRuleSet
+ProjectandSolutionContextMenus.Diagnostic.ViewHelp
+ProjectandSolutionContextMenus.Item.SetAsActiveRuleSet
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.Default
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.Error
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.Warning
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.Suggestion
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.Silent
+ProjectandSolutionContextMenus.Diagnostic.Setseverity.None
+OtherContextMenus.ErrorList.RemoveSuppressions
+OtherContextMenus.ErrorList.Suppress.AddSuppressionsInSource
+OtherContextMenus.ErrorList.Suppress.AddSuppressionsInSuppressionFile
+OtherContextMenus.ErrorList.Setseverity.Default
+OtherContextMenus.ErrorList.Setseverity.Error
+OtherContextMenus.ErrorList.Setseverity.Warning
+OtherContextMenus.ErrorList.Setseverity.Suggestion
+OtherContextMenus.ErrorList.Setseverity.Silent
+OtherContextMenus.ErrorList.Setseverity.None
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.SetAnalysisScope.Default
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.SetAnalysisScope.CurrentDocument
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.SetAnalysisScope.OpenDocuments
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.SetAnalysisScope.EntireSolution
+ProjectandSolutionContextMenus.Solution.AnalyzeandCodeCleanup.SetAnalysisScope.None
+ResetVisualBasicInteractiveFromProject
+OtherContextMenus.ManagedResourcesEditorContextMenu.ImportFromFile
+OtherContextMenus.ManagedResourcesEditorContextMenu.ExportToFile
+OtherContextMenus.ManagedResourcesEditorContextMenu.Play
+Resources.AddPNGImage
+Resources.AddBMPImage
+Resources.AddGIFImage
+Resources.AddJPEGImage
+Resources.AddTIFFImage
+Resources.Add
+Resources.AddExistingFile
+Resources.AddNewString
+Resources.AddNewIcon
+Resources.AddNewTextFile
+Resources.Strings | Managed Resources Editor::Ctrl+1
+Resources.Images | Managed Resources Editor::Ctrl+2
+Resources.Icons | Managed Resources Editor::Ctrl+3
+Resources.Audio | Managed Resources Editor::Ctrl+4
+Resources.Files | Managed Resources Editor::Ctrl+5
+Resources.Other | Managed Resources Editor::Ctrl+6
+Resources.View
+Resources.ViewInList
+Resources.ViewDetails
+Resources.ViewAsThumbnails
+OtherContextMenus.MyExtensibility.AddExtension
+OtherContextMenus.MyExtensibility.RemoveExtension
+Project.RefreshProjectToolboxItems
+OtherContextMenus.Selection.Properties
+OtherContextMenus.ComponentTray.LineUpIcons
+OtherContextMenus.ComponentTray.ShowLargeIcons
+Debug.LiveVisualTree
+Debug.LivePropertyExplorer
+Debug.XAMLLivePreview
+Debug.XAMLBindingFailures
+Debug.AccessibilityChecker
+LiveVisualTree.ToggleInAppSelection | Global::Ctrl+Shift+K, C
+XamlLivePreview.ToggleInAppSelection | Global::Ctrl+Shift+K, Ctrl+Shift+C
+XamlLivePreview.ShowElementInfoDuringSelection | Global::Ctrl+Shift+K, Ctrl+Shift+I
+XamlLivePreview.JustMyXaml | Global::Ctrl+Shift+K, Ctrl+Shift+X
+XamlLivePreview.SelectRulerColor | Global::Ctrl+Shift+K, Ctrl+Shift+L
+XamlLivePreview.AddVerticalRuler | Global::Ctrl+Shift+K, Ctrl+Shift+V
+XamlLivePreview.AddHorizontalRuler | Global::Ctrl+Shift+K, Ctrl+Shift+H
+XamlLivePreview.RemoveAllRulers | Global::Ctrl+Shift+K, Ctrl+Shift+R
+XamlLivePreview.ToggleRulersVisibility | Global::Ctrl+Shift+K, Ctrl+Shift+O
+XamlLivePreview.SelectBackgroundColor | Global::Ctrl+Shift+K, Ctrl+Shift+B
+OtherContextMenus.XAMLBindingFailuresContextMenu.ClearAllFilters
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyOriginalError
+OtherContextMenus.XAMLBindingFailuresContextMenu.ResetColumns
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyColumn.CopyDataContext
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyColumn.CopyBindingPath
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyColumn.CopyTarget
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyColumn.CopyTargetType
+OtherContextMenus.XAMLBindingFailuresContextMenu.CopyColumn.CopyDescription
+OtherContextMenus.XAMLBindingFailuresContextMenu.ViewSource
+Debug.GPUThreads
+DebuggerContextMenus.GPUThreadsWindowShortcutMenu.GroupBy.None
+Debug.Tasks | Global::Ctrl+Shift+D, K
+Debug.ParallelStacks | Global::Ctrl+Shift+D, S
+Debug.ParallelStacks | Global::Ctrl+Shift+D, Ctrl+Shift+S
+OtherContextMenus.TasksWindowShortcutMenu.ParentChildView
+OtherContextMenus.TasksWindowShortcutMenu.FreezeAllThreadsButThisOne
+OtherContextMenus.TasksWindowShortcutMenu.UnflagAllAssignedThreads
+OtherContextMenus.TasksWindowShortcutMenu.GroupBy.None
+DebuggerContextMenus.StacksWindowShortcutMenu.Flag
+DebuggerContextMenus.StacksWindowShortcutMenu.Unflag
+DebuggerContextMenus.StacksWindowShortcutMenu.Freeze
+DebuggerContextMenus.StacksWindowShortcutMenu.Thaw
+DebuggerContextMenus.StacksWindowShortcutMenu.SwitchToFrame
+DebuggerContextMenus.StacksWindowShortcutMenu.SwitchViewToFrame
+DebuggerContextMenus.StacksWindowShortcutMenu.SelectAllFramesBelow
+OtherContextMenus.ParallelWatchWindowShortcutMenu.EditWatch
+OtherContextMenus.ParallelWatchWindowShortcutMenu.EditValue
+OtherContextMenus.ParallelWatchWindowShortcutMenu.CopyWatchColumn
+OtherContextMenus.ParallelWatchWindowShortcutMenu.DeleteWatch
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ClearAllWatches
+OtherContextMenus.ParallelWatchWindowShortcutMenu.CopyRow
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.Auto
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[Machine]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[Process]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[MPIRank]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[Tile]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[Thread]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[Task]
+OtherContextMenus.ParallelWatchWindowShortcutMenu.ConfigureColumn.[RecursionDepth]
+OtherContextMenus.SolutionFilter.DependenciesSettings.LoadDirectDependencies
+OtherContextMenus.SolutionFilter.DependenciesSettings.LoadAllDependencies
+OtherContextMenus.PropertyBrowser.Reset
+OtherContextMenus.PropertyBrowser.Commands
+OtherContextMenus.PropertyBrowser.Description
+Tools.GetMoreThemes
+Tools.DeveloperCommandPrompt
+Tools.DeveloperPowerShell
+OtherContextMenus.DocumentTabWellSettings.ColorizeDocumentTabsby.NoColoring
+Help.GuidePreviousStep
+Help.GuideNextStep
+Help.GuideHome
+Help.GuideTableOfContents
+Help.RestartGuide
+OtherContextMenus.PublishMenu.Git
+OtherContextMenus.PublishMenu.TeamFoundationVersionControl
+XML.StartXSLTDebugging | XML (Text) Editor::Alt+F5
+XML.StartXSLTWithoutDebugging | XML (Text) Editor::Ctrl+Alt+F5
+XML.StopXSLT
+XML.CreateSchema
+XML.Schemas
+EditorContextMenus.CodeWindow.Properties
+XsdDesigner.ShowStartView | XML Schema Designer::Ctrl+1
+XsdDesigner.ShowContentModelView | XML Schema Designer::Ctrl+2
+XsdDesigner.ShowGraphView | XML Schema Designer::Ctrl+3
+GraphView.LefttoRight | XML Schema Designer::Alt+Right Arrow
+GraphView.RighttoLeft | XML Schema Designer::Alt+Left Arrow
+GraphView.ToptoBottom | XML Schema Designer::Alt+Down Arrow
+GraphView.BottomtoTop | XML Schema Designer::Alt+Up Arrow
+OtherContextMenus.ContentModelView.ShowDocumentation
+OtherContextMenus.GraphView.ClearWorkspace
+OtherContextMenus.GraphView.RemovefromWorkspace | XML Schema Designer::Del
+OtherContextMenus.GraphView.RemoveallbutselectionfromWorkspace
+OtherContextMenus.GraphView.AddTypeDefinition
+OtherContextMenus.GraphView.AddBaseTypeDefinition
+OtherContextMenus.GraphView.AddAllReferences
+OtherContextMenus.GraphView.AddAllDerivedTypes
+OtherContextMenus.GraphView.AddAllAncestors
+OtherContextMenus.GraphView.AddSubstitutionGroupMembers
+OtherContextMenus.GraphView.AddAllMembers
+OtherContextMenus.SchemaExplorer.GoToTypeDefinition
+OtherContextMenus.SchemaExplorer.GoToBaseType
+OtherContextMenus.SchemaExplorer.ShowAllReferences
+OtherContextMenus.SchemaExplorer.GoToReferencedElement
+OtherContextMenus.SchemaExplorer.GoToReferencedAttribute
+OtherContextMenus.SchemaExplorer.GoToReferencedGroup
+OtherContextMenus.SchemaExplorer.GoToReferencedAttributeGroup
+OtherContextMenus.SchemaExplorer.ShowMostLikelyRootElements
+OtherContextMenus.SchemaExplorer.ShowAllInboundReferences
+OtherContextMenus.SchemaExplorer.ShowAllOutboundReferences
+OtherContextMenus.SchemaExplorer.ShowSubstitutionGroupMembers
+OtherContextMenus.SchemaExplorer.ShowAllDerivedTypes
+OtherContextMenus.SchemaExplorer.ShowAllAncestors
+OtherContextMenus.SchemaExplorer.ShowAllMembers
+OtherContextMenus.SchemaExplorer.ShowGlobalTypes
+OtherContextMenus.SchemaExplorer.ShowGlobalElements
+OtherContextMenus.SchemaExplorer.ShowinContentModelView
+OtherContextMenus.SchemaExplorer.ShowinGraphView
+OtherContextMenus.SchemaExplorer.GenerateSampleXML
+OtherContextMenus.ContentModelView.ExportDiagramasImage
+ToggleExtensibilityMargin
+VCmd.Commands
+VCmd.Extensions
+VCmd.CommonCode
+VCmd.Import
+VCmd.Export
+VCmd.ProfessionalEdition
+VCmd.UpdateCommandsStatus
+VCmd.Command01 | Global::Alt+A, Alt+G
+VCmd.Command02
+VCmd.Command03
+VCmd.Command04
+VCmd.Command05
+VCmd.Command06
+VCmd.Command07
+VCmd.Command08
+VCmd.Command09
+VCmd.Command10
+VCmd.Command11
+VCmd.Command12
+VCmd.Command13
+VCmd.Command14
+VCmd.Command15
+VCmd.Command16
+VCmd.Command17
+VCmd.Command18
+VCmd.Command19
+VCmd.Command20
+VCmd.Command21
+VCmd.Command22
+VCmd.Command23
+VCmd.Command24
+VCmd.Command25
+VCmd.Command26
+VCmd.Command27
+VCmd.Command28
+VCmd.Command29
+VCmd.Command30
+VCmd.Command31
+VCmd.Command32
+VCmd.Command33
+VCmd.Command34
+VCmd.Command35
+VCmd.Command36
+VCmd.Command37
+VCmd.Command38
+VCmd.Command39
+VCmd.Command40
+VCmd.Command41
+VCmd.Command42
+VCmd.Command43
+VCmd.Command44
+VCmd.Command45
+VCmd.Command46
+VCmd.Command47
+VCmd.Command48
+VCmd.Command49
+VCmd.Command50
+VCmd.Command51
+VCmd.Command52
+VCmd.Command53
+VCmd.Command54
+VCmd.Command55
+VCmd.Command56
+VCmd.Command57
+VCmd.Command58
+VCmd.Command59
+VCmd.Command60
+VCmd.Command61
+VCmd.Command62
+VCmd.Command63
+VCmd.Command64
+VCmd.Command65
+VCmd.Command66
+VCmd.Command67
+VCmd.Command68
+VCmd.Command69
+VCmd.Command70
+VCmd.Command71
+VCmd.Command72
+VCmd.Command73
+VCmd.Command74
+VCmd.Command75
+VCmd.Command76
+VCmd.Command77
+VCmd.Command78
+VCmd.Command79
+VCmd.Command80
+VCmd.Command81
+VCmd.Command82
+VCmd.Command83
+VCmd.Command84
+VCmd.Command85
+VCmd.Command86
+VCmd.Command87
+VCmd.Command88
+VCmd.Command89
+VCmd.Command90
+VCmd.Command91
+VCmd.Command92
+VCmd.Command93
+VCmd.Command94
+VCmd.Command95
+VCmd.Command96
+VCmd.Command97
+VCmd.Command98
+VCmd.Command99
+VCmd.CommandExamples
+VCmd.ExtensionExamples
+VCmd.RecordMacro | Global::Ctrl+Shift+R
+VCmd.RunMacro
+VCmd.EditMacro
+VCmd.SaveMacroasCommand
+Tools.EntrianInlineWatchToggledisplay | Global::Shift+Alt+W
+Tools.EntrianInlineWatchConfiguration
+VisualAssist.VAViewFIS
+VisualAssist.VAViewSIS
+VisualAssist.VAViewHCB
+VisualAssist.ScopePrevious
+VisualAssist.ScopeNext
+VisualAssist.OpenContextMenuOld
+VisualAssist.ToggleSuggestions
+VisualAssist.ToggleRepairCase
+VisualAssist.ToggleUnderlining
+VisualAssist.ToggleColoring
+VisualAssist.NavigateBack | Text Editor::Alt+Left Arrow
+VisualAssist.NavigateForward
+VisualAssist.ResetEditorZoom
+VisualAssist.VAViewHCBToggleLock
+VisualAssist.VAViewMRU
+VisualAssist.BracesAdd
+VisualAssist.BracesRemove
+VisualAssist.OpenContextMenu
+VisualAssist.OpenFileInSolutionDialog | Text Editor::Shift+Alt+O
+VisualAssist.OpenCorrespondingFile | Text Editor::Alt+O
+VisualAssist.ListMethodsInCurrentFile | Text Editor::Alt+M
+VisualAssist.FindSymbolDialog | Global::Shift+Alt+S
+VisualAssist.FindSymbolDialog | Text Editor::Shift+Alt+S
+VisualAssist.FindReferences | Text Editor::Shift+Alt+F
+VisualAssist.FindReferencesinFile
+VisualAssist.CloneFindReferencesResults
+VisualAssist.FindPreviousbyContext
+VisualAssist.FindNextbyContext
+VisualAssist.FindSelected
+VisualAssist.GotoImplementation | Text Editor::Alt+G
+VisualAssist.GotoRelated | Text Editor::Shift+Alt+G
+VisualAssist.GotoMember
+VisualAssist.Paste
+VisualAssist.VaSnippetInsert
+VisualAssist.SurroundSelectionWithComment
+VisualAssist.SurroundSelectionWithBraces
+VisualAssist.SurroundSelectionWithParentheses
+VisualAssist.SurroundSelectionWithIfdefOrRegion
+VisualAssist.SelectionToggleLineComment
+VisualAssist.SelectionToggleBlockComment
+VisualAssist.SelectionLineComment
+VisualAssist.SelectionLineUncomment
+VisualAssist.SelectionBlockComment
+VisualAssist.SelectionBlockUncomment
+VisualAssist.VAOutline
+VisualAssist.VAView
+VisualAssist.VAHashtags | Global::Shift+Alt+H
+VisualAssist.VAHashtags | Text Editor::Shift+Alt+H
+VisualAssist.FindReferencesResults
+VisualAssist.ListIncludeFiles
+VisualAssist.TraceWindow
+VisualAssist.EnableDisable
+VisualAssist.Options
+VisualAssist.OutlineGoto
+VisualAssist.OutlineSelectInEditor
+VisualAssist.OutlineCut
+VisualAssist.OutlineCopy
+VisualAssist.OutlinePaste
+VisualAssist.OutlineDelete
+VisualAssist.OutlineRefresh
+VisualAssist.OutlineRedo
+VisualAssist.OutlineUndo
+VisualAssist.OutlineToggleAutoUpdate
+VisualAssist.OutlineToggleComments
+VisualAssist.OutlineContextMenu
+VisualAssist.RefResultsNext
+VisualAssist.RefResultsPrevious
+VisualAssist.RefResultsFind
+VisualAssist.RefResultsFindNext
+VisualAssist.RefResultsFindPrevious
+VisualAssist.RefResultsGoto
+VisualAssist.RefResultsDelete
+VisualAssist.RefResultsRefresh
+VisualAssist.RefResultsClearAll
+VisualAssist.RefResultsCancel
+VisualAssist.RefResultsCut
+VisualAssist.RefResultsCopy
+VisualAssist.RefResultsCopyAll
+VisualAssist.RefResultsToggleHighlight
+VisualAssist.RefResultsContextMenu
+VisualAssist.TraceCut
+VisualAssist.TraceCopy
+VisualAssist.TraceDelete
+VisualAssist.TraceDeleteAll
+VisualAssist.TraceToggle
+VisualAssist.RefactorEditSnippets
+VisualAssist.Top10Features
+VisualAssist.KeyboardShortcuts
+VisualAssist.Documentation
+VisualAssist.Forums
+VisualAssist.TechnicalSupport
+VisualAssist.SubmitaRequest
+VisualAssist.RefactorRename | Text Editor::Shift+Alt+R
+VisualAssist.RefactorChangeSignature
+VisualAssist.RefactorEncapsulateField
+VisualAssist.RefactorConvertBetweenPointerAndInstance
+VisualAssist.RefactorConvertUnscopedEnumToScopedEnum
+VisualAssist.RefactorCreateFromUsage | Text Editor::Shift+Alt+C
+VisualAssist.RefactorCreateDeclaration
+VisualAssist.RefactorCreateImplementation
+VisualAssist.RefactorCreateMissingCases
+VisualAssist.RefactorAddMember
+VisualAssist.RefactorAddSimilarMember
+VisualAssist.RefactorAddInclude
+VisualAssist.RefactorAddForwardDeclaration
+VisualAssist.BracesToggle
+VisualAssist.RefactorExtractMethod
+VisualAssist.RefactorIntroduceVariable
+VisualAssist.RefactorImplementInterface
+VisualAssist.RefactorDocumentMethod
+VisualAssist.RefactorSimplifyInstanceDefinition
+VisualAssist.RefactorModifyExpression
+VisualAssist.RefactorCreateFile
+VisualAssist.RefactorMoveSelectionToNewFile
+VisualAssist.RefactorMoveImplementationToSourceFile
+VisualAssist.RefactorMoveImplementationToHeaderFile
+VisualAssist.RefactorRenameFiles
+VisualAssist.RefactorContextMenu | Text Editor::Shift+Alt+Q
+VisualAssist.SkipAllBreakpoints
+VisualAssist.BindBreakpointstoCurrentThread
+VisualAssist.SmartSelectExtend | Global::Alt+]
+VisualAssist.SmartSelectExtend | Global::Ctrl+Shift+Alt+]
+VisualAssist.SmartSelectShrink | Global::Alt+[
+VisualAssist.SmartSelectShrink | Global::Ctrl+Shift+Alt+[
+VisualAssist.SmartSelectExtendBlock | Text Editor::Alt+]
+VisualAssist.SmartSelectShrinkBlock | Text Editor::Alt+[
+VisualAssist.HashtagsNext
+VisualAssist.HashtagsPrevious
+VisualAssist.HashtagsNextInGroup
+VisualAssist.HashtagsPreviousInGroup
+VisualAssist.HashtagsGroupByFile
+VisualAssist.HashtagsSearch
+VisualAssist.EnableCodeInspection
+VisualAssist.ReparseAutomatically
+VisualAssist.VACodeInspectionResults
+VisualAssist.VAStepFilter
+VisualAssist.VAMemoryView
+VisualAssist.AddressResolver
+VisualAssist.PDBExplorer
+VisualAssist.SpellCheck
+VisualAssist.SpellCheckWord
+VisualAssist.SortSelectedLines
+VisualAssist.InsertPath
+VisualAssist.ReparseCurrentFile
+VisualAssist.ReloadSolution
+VisualAssist.VaSnippetEdit
+VisualAssist.VaSnippetCreateFromSelection
+VisualAssist.PurchaseaLicense
+VisualAssist.Register
+VisualAssist.CheckoutLicense
+VisualAssist.CheckinLicense
+VisualAssist.RenewMaintenance
+VisualAssist.WhatsNewinInstalledVersion
+VisualAssist.CheckforNewVersion
+VisualAssist.TipoftheDay
+VisualAssist.AboutVisualAssist
+VisualAssist.ApplyAllQuickFixes
+Tools.ShowDependencyGraph
+Tools.CommandPalette | Global::Ctrl+Shift+P
+Edit.GoToFindCombo | Global::Ctrl+D
+Build.SolutionConfigurations
+View.ObjectBrowsingScope
+Build.SolutionPlatforms
+Debug.StepBy
+Debug.LocationToolbar.ProcessCombo | Global::Ctrl+5
+Debug.LocationToolbar.ThreadCombo | Global::Ctrl+6
+Debug.LocationToolbar.StackFrameCombo | Global::Ctrl+7
+Debug.Autos.SearchDepth
+Debug.Locals.SearchDepth
+Debug.Watch1.SearchDepth
+Debug.Watch2.SearchDepth
+Debug.Watch3.SearchDepth
+Debug.Watch4.SearchDepth
+Debug.DebugType
+ArchitectureDesigner.Zoom
+Debug.StartupProjects
+DirectedGraph.Zoom
+Debug.Graphics.NumFramesToCapture
+Project.TargetSystemSelector
+Project.ProjectSettingsSelector
+Project.BuildPresetSelector
+XamlLivePreview.SelectWindow | Global::Ctrl+Shift+K, Ctrl+Shift+W
