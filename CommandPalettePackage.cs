@@ -27,7 +27,11 @@ namespace CommandPalette
             await this.RegisterCommandsAsync();
 
             _serviceProvider = this;
-            _dte = (DTE2)ServiceProvider.GlobalProvider.GetService(typeof(SDTE));
+            var dte = ServiceProvider.GlobalProvider.GetService(typeof(SDTE));
+            if (dte == null)
+                throw new Exception("Not able to retrieve SDTE");
+
+            _dte = (DTE2)dte;
             if (_dte == null)
             {
                 throw new Exception("Not able to retrieve DTE2");

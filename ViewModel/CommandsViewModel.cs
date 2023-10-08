@@ -1,5 +1,6 @@
 ﻿using EnvDTE;
 using Microsoft.VisualStudio;
+using Newtonsoft.Json.Linq;
 using SearchingKeyboardShortcut;
 using System;
 using System.Collections.Generic;
@@ -19,19 +20,21 @@ namespace CommandPalette.ViewModel
     {
         #region Private fields
 
-        private bool _searchByShortcut = false;
-        private string _searchingString;
-        private EnvDTE80.DTE2 _applicationObject;
+        private bool                            _searchByShortcut = false;
+        private string                          _searchingString = "";
+        private EnvDTE80.DTE2                   _applicationObject;
         private ObservableCollection<VSCommand> _itemsSource;
-        private ICollectionView _commandsView;
-        private Regex _searchPattern;
-        private Action _postRefresh;
+        private ICollectionView                 _commandsView;
+        private Regex                           _searchPattern;
+        private Action                          _postRefresh;
 
         #endregion
 
-        public CommandsViewModel(EnvDTE80.DTE2 dte, Action postRefresh)
+        public CommandsViewModel(EnvDTE80.DTE2 dte, string searchingString, Action postRefresh)
         {
             _applicationObject = dte;
+            _searchingString   = searchingString;
+            _searchPattern = new Regex(Regex.Replace(_searchingString, @"\s+", @".*"), RegexOptions.IgnoreCase);
             _postRefresh = postRefresh;
         }
 
@@ -63,7 +66,7 @@ namespace CommandPalette.ViewModel
             {
                 _searchPattern = new Regex(Regex.Replace(value, @"\s+", @".*"), RegexOptions.IgnoreCase);
                 SetPropertyValue<string>(() => SearchingString, ref _searchingString, value);
-                _commandsView.Refresh();
+                if (_commandsView != null) _commandsView.Refresh();
                 _postRefresh();
             }
         }
@@ -73,7 +76,6 @@ namespace CommandPalette.ViewModel
             bool ret = true;
             var command = item as VSCommand;
 
-            
             if (!string.IsNullOrWhiteSpace(this.SearchingString))
             {
                 if (this.SearchByShortcut)
@@ -117,6 +119,7 @@ namespace CommandPalette.ViewModel
 
         public void LoadCommands()
         {
+#if __CommandPalette
             var ret = new List<VSCommand>();
             List<EnvDTE.Command> commands = GetCommands();
             foreach (EnvDTE.Command command in commands.OrderBy(c => c.Name))
@@ -146,10 +149,29 @@ namespace CommandPalette.ViewModel
             }
 
             _itemsSource = new ObservableCollection<VSCommand>(ret);
+#else
+            var ret = new List<VSCommand>();
+            string vsCommndsFilePath = @"D:\Build\github.com\CommandPalette\CommandPaletteApp\VSCommands.txt";
+            Console.WriteLine("Loading commands from file: {0}", vsCommndsFilePath);
+            string[] lines = System.IO.File.ReadAllLines(vsCommndsFilePath);
+
+            foreach (string line in lines)
+            {
+                var cmd = line.Split("|".ToCharArray());
+                ret.Add(new VSCommand()
+                {
+                    Name = cmd[0],
+                    Shortcut = string.Empty,
+                    Type = string.Empty
+                }); ;
+            }
+            _itemsSource = new ObservableCollection<VSCommand>(ret);
+#endif
         }
 
         private List<EnvDTE.Command> GetCommands()
         {
+            ThreadHelper.ThrowIfNotOnUIThread();
             List<EnvDTE.Command> commands = new List<EnvDTE.Command>();
 
             foreach (EnvDTE.Command command in _applicationObject.Commands)
